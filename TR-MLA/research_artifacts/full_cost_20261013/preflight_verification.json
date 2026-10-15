@@ -1,0 +1,7 @@
+{
+  "status": "passed",
+  "all_original_protected_sources_equal": true,
+  "all_original_dataset_manifests_equal": true,
+  "regression_tests_passed": 21,
+  "test_warning": "pytest temporary garbage cleanup WinError145 only; tests passed"
+}

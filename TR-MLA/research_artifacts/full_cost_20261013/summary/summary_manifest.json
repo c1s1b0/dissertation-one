@@ -1,0 +1,20 @@
+{
+  "status": "complete",
+  "records": 4320,
+  "source_hash": "2fa3c674905a8a043a71da64227f3754370221b532445832c54086defe67d242",
+  "protocol_hash": "9211adcb0eacfc779a46302ac0c821a5a5d44047d9a56a177ff7ab1dc0dc19e4",
+  "output_sha256": {
+    "cross_seed_descriptive.csv": "c5740278c47c0e4fb31ef59b180453c2065b32f8186a737511b37276dcff118d",
+    "episode_metrics.csv": "c2f8e36d7efb491ec73c5f05fbfcfb083701dab667680942ee4a61a8c687a57f",
+    "full_cost_grid.pdf": "0b87d95a7bd1d24006dadf00f07e2e56be9150520dd5b2962f9f0750f2cc4ee7",
+    "full_cost_grid.png": "0844fd4bd0e14261bbffc423221ca246e52efbaee5a14aea36b1c2991e257835",
+    "full_cost_grid_plot_data.csv": "eccbf29f9a19e5a1a7cd4bbe3d6f2eb9c675b95af959f15d7b2ff04de8a3b722",
+    "full_cost_table.tex": "395ab3c5287e84f554b7ffbe2f1b79d9bf08f8c6e49b22b26afe4f23ade3999b",
+    "means.csv": "357436f4c87cacc27797a7cf35cafde620f17ddad90fa3da7e9be3fd0d2e46cf",
+    "paired_comparisons.csv": "6a0fbda204a1059f47900f98fb24b2d01e632ea2c21a009ed996debc7d02ef29",
+    "scientific_interpretation.tex": "369a02aaec29cae3d3633bd3e98b47f86e39498ce1ddcbbdc3f6002831623e3b",
+    "scientific_results.tex": "8d56f80c240894d4ff75155bccb6f04b5db287fc59e484a57f5b8b8abc99afb0",
+    "spec_metrics.csv": "95434c290dc69c34d035e6645d446bab867d290fb1d6daf2e829e2df1488b3a5",
+    "统计说明.md": "456095292e6ae66f48d5359d65b8f568eef1e24ca3676652dfbc32339d54d094"
+  }
+}

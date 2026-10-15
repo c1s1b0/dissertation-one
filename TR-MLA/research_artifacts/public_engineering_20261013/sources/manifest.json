@@ -1,0 +1,24 @@
+[
+  {
+    "id": "postal",
+    "url": "https://www.chinapost.com.cn/cn/report/2607/2069-1.htm",
+    "sha256": "2b0cf085a25159839cbcb4f715105a19a9c88feae88a0ddff3b8641e5baaa8ee",
+    "characters": 30338,
+    "retrieved": "2026-10-13",
+    "decoded_sha256": "bc4d189a6c1b4392a7fd445dd1c48b74d20e0401172395593abf8b6a04cf0c99"
+  },
+  {
+    "id": "buaa",
+    "url": "https://zbcg.buaa.edu.cn/info/1088/60962.htm",
+    "sha256": "ae7dc4e462c94ecb5ac18812d1e3a887d654e3ed6351b43a7cf6a49682bc1c38",
+    "characters": 971,
+    "retrieved": "2026-10-13"
+  },
+  {
+    "id": "tongji",
+    "url": "https://czb.tongji.edu.cn/sggl/cgw/zbggNews.jsp?lmbh_n=JJCGGG&wid=202603120137601826",
+    "sha256": "eaf02b3bb5c97f81edbb39e9f8f42c0e105e8a2f9f4742164453b25068dfa667",
+    "characters": 1013,
+    "retrieved": "2026-10-13"
+  }
+]

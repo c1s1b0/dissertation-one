@@ -1,0 +1,8 @@
+﻿dataset,kind,n,enabled_accepted,disabled_accepted,unknown
+seed20261011,clean,60,60,60,0
+seed20261011,cycle_throughput,60,0,60,0
+seed20261011,domain,60,0,60,0
+seed20261011,geometry,60,0,60,0
+seed20261011,interface,60,0,60,0
+seed20261011,load,60,0,60,0
+seed20261011,mixed,60,0,60,0

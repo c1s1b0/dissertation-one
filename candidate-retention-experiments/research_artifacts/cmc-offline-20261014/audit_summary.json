@@ -1,0 +1,212 @@
+{
+  "strata": [
+    {
+      "scene": "A",
+      "task_type": "configuration",
+      "request_attempts": 313,
+      "task_repeats": 300,
+      "retried_task_repeats": 11,
+      "validation_error_records": 0,
+      "validation_outcomes": 300,
+      "audit_acceptance_rate": 1.0,
+      "internal_retry_attempts": 12,
+      "rerun_task_repeats": 1,
+      "failed_attempts": 13,
+      "non200_or_missing_attempts": 11,
+      "http200_attempts": 302,
+      "accepted_proposals": 300,
+      "rejected_http200": 2,
+      "positive_usage_attempts": 0,
+      "zero_usage_attempts": 300,
+      "missing_usage_attempts": 13,
+      "reported_total_tokens": 0,
+      "reported_prompt_tokens": 0,
+      "reported_completion_tokens": 0,
+      "request_latency_ms_quantiles": [
+        20529.33980000671,
+        34913.2129599806,
+        36828.32161997212
+      ],
+      "error_counts": {
+        "none": 300,
+        "URLError": 8,
+        "ApiRequestError": 3,
+        "RemoteDisconnected": 2
+      },
+      "total_billed_tokens": null,
+      "monetary_cost": null,
+      "final_executions": 300,
+      "final_failed_executions": 0,
+      "final_record_format_failures": 0,
+      "final_elapsed_seconds_quantiles": [
+        21.899111600010656,
+        35.05891256000614,
+        37.28896405499545
+      ]
+    },
+    {
+      "scene": "A",
+      "task_type": "repair",
+      "request_attempts": 620,
+      "task_repeats": 300,
+      "retried_task_repeats": 15,
+      "validation_error_records": 2,
+      "validation_outcomes": 602,
+      "audit_acceptance_rate": 0.9966777408637874,
+      "internal_retry_attempts": 19,
+      "rerun_task_repeats": 1,
+      "failed_attempts": 20,
+      "non200_or_missing_attempts": 20,
+      "http200_attempts": 600,
+      "accepted_proposals": 600,
+      "rejected_http200": 0,
+      "positive_usage_attempts": 7,
+      "zero_usage_attempts": 595,
+      "missing_usage_attempts": 18,
+      "reported_total_tokens": 149418,
+      "reported_prompt_tokens": 145629,
+      "reported_completion_tokens": 3789,
+      "request_latency_ms_quantiles": [
+        18976.08135000337,
+        33181.05904996046,
+        36134.50731502671
+      ],
+      "error_counts": {
+        "none": 600,
+        "ValidationError": 2,
+        "URLError": 11,
+        "RemoteDisconnected": 6,
+        "ApiRequestError": 1
+      },
+      "total_billed_tokens": null,
+      "monetary_cost": null,
+      "final_executions": 300,
+      "final_failed_executions": 0,
+      "final_record_format_failures": 0,
+      "final_elapsed_seconds_quantiles": [
+        41.7634889500041,
+        56.98604260000284,
+        66.5690021249699
+      ]
+    },
+    {
+      "scene": "B",
+      "task_type": "configuration",
+      "request_attempts": 300,
+      "task_repeats": 300,
+      "retried_task_repeats": 0,
+      "validation_error_records": 0,
+      "validation_outcomes": 300,
+      "audit_acceptance_rate": 1.0,
+      "internal_retry_attempts": 0,
+      "rerun_task_repeats": 0,
+      "failed_attempts": 0,
+      "non200_or_missing_attempts": 0,
+      "http200_attempts": 300,
+      "accepted_proposals": 300,
+      "rejected_http200": 0,
+      "positive_usage_attempts": 0,
+      "zero_usage_attempts": 300,
+      "missing_usage_attempts": 0,
+      "reported_total_tokens": 0,
+      "reported_prompt_tokens": 0,
+      "reported_completion_tokens": 0,
+      "request_latency_ms_quantiles": [
+        24763.27384999604,
+        37699.15955998588,
+        42255.71573997149
+      ],
+      "error_counts": {
+        "none": 300
+      },
+      "total_billed_tokens": null,
+      "monetary_cost": null,
+      "final_executions": 300,
+      "final_failed_executions": 0,
+      "final_record_format_failures": 0,
+      "final_elapsed_seconds_quantiles": [
+        24.769419099990046,
+        37.70066295996659,
+        42.258503689995266
+      ]
+    },
+    {
+      "scene": "B",
+      "task_type": "repair",
+      "request_attempts": 607,
+      "task_repeats": 300,
+      "retried_task_repeats": 4,
+      "validation_error_records": 6,
+      "validation_outcomes": 607,
+      "audit_acceptance_rate": 0.9901153212520593,
+      "internal_retry_attempts": 5,
+      "rerun_task_repeats": 1,
+      "failed_attempts": 6,
+      "non200_or_missing_attempts": 6,
+      "http200_attempts": 601,
+      "accepted_proposals": 601,
+      "rejected_http200": 0,
+      "positive_usage_attempts": 1,
+      "zero_usage_attempts": 606,
+      "missing_usage_attempts": 0,
+      "reported_total_tokens": 20811,
+      "reported_prompt_tokens": 20301,
+      "reported_completion_tokens": 510,
+      "request_latency_ms_quantiles": [
+        25394.527999975253,
+        41069.21081999317,
+        45708.165549993275
+      ],
+      "error_counts": {
+        "none": 601,
+        "ValidationError": 6
+      },
+      "total_billed_tokens": null,
+      "monetary_cost": null,
+      "final_executions": 300,
+      "final_failed_executions": 0,
+      "final_record_format_failures": 0,
+      "final_elapsed_seconds_quantiles": [
+        54.74339660000987,
+        71.78028552002507,
+        79.30607683497657
+      ]
+    }
+  ],
+  "overall": {
+    "request_attempts": 1840,
+    "task_repeats": 1200,
+    "retried_task_repeats": 30,
+    "validation_error_records": 8,
+    "validation_outcomes": 1809,
+    "audit_acceptance_rate": 0.9955776672194583,
+    "internal_retry_attempts": 36,
+    "rerun_task_repeats": 3,
+    "failed_attempts": 39,
+    "non200_or_missing_attempts": 37,
+    "http200_attempts": 1803,
+    "accepted_proposals": 1801,
+    "rejected_http200": 2,
+    "positive_usage_attempts": 8,
+    "zero_usage_attempts": 1801,
+    "missing_usage_attempts": 31,
+    "reported_total_tokens": 170229,
+    "reported_prompt_tokens": 165930,
+    "reported_completion_tokens": 4299,
+    "request_latency_ms_quantiles": [
+      23497.546149999835,
+      36287.12562002475,
+      41330.349465008476
+    ],
+    "error_counts": {
+      "none": 1801,
+      "ValidationError": 8,
+      "URLError": 19,
+      "ApiRequestError": 4,
+      "RemoteDisconnected": 8
+    },
+    "total_billed_tokens": null,
+    "monetary_cost": null
+  },
+  "scope": "All retained P request attempts for 1200 task-repeat keys, including superseded task attempts; execution latency uses final selected records only. No failed run absent from this archive can be reconstructed."
+}

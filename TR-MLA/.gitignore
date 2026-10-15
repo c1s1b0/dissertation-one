@@ -1,0 +1,23 @@
+# 本地环境与工作文件
+.venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.pip-cache/
+.tmp/
+.reviewer-portable-tests/
+.env
+.env.*
+!.env.example
+.codex/
+.codegraph/
+AGENTS.md
+Project_Status.md
+**/Project_Status.md
+docs/superpowers/
+*.log
+*.aux
+*.out
+*.synctex.gz
+*.compile.log

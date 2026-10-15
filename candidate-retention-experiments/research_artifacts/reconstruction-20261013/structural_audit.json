@@ -1,0 +1,39 @@
+{
+  "p_replay_mismatches": [],
+  "flagged_no_solution_tasks": 20,
+  "port_profiles": {
+    "A": [
+      [
+        [
+          "mechanical",
+          "in",
+          "N.m"
+        ],
+        [
+          "mechanical",
+          "out",
+          "N.m"
+        ]
+      ]
+    ],
+    "B": [
+      [
+        [
+          "shaft",
+          "in",
+          "mm"
+        ],
+        [
+          "shaft",
+          "out",
+          "mm"
+        ]
+      ]
+    ]
+  },
+  "repair_has_fixed_initial_assignment": false,
+  "historical_primary_test": "Wilcoxon on within-task means; McNemar stored separately",
+  "matched_is_posthoc": true,
+  "random_seed": 20261013,
+  "live_api_calls": 0
+}

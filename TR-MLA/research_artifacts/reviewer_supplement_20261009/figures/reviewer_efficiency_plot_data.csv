@@ -1,0 +1,17 @@
+﻿policy,candidates,n_repetitions,actual_eligible_median,decision_seconds_median,sat_calls_median
+tr_mla,2,9,2.0,0.0061246000695973,24.0
+tr_mla,4,9,4.0,0.0381744999904185,120.0
+tr_mla,8,9,8.0,0.1614365000277757,528.0
+tr_mla,12,9,12.0,0.4276469999458641,1224.0
+typed_relational_myopic,2,9,2.0,0.0015742999967187,6.0
+typed_relational_myopic,4,9,4.0,0.0030276000034064,12.0
+typed_relational_myopic,8,9,8.0,0.0059647001326084,24.0
+typed_relational_myopic,12,9,12.0,0.0098702998366206,36.0
+marginal_lookahead_no_relations,2,9,2.0,0.0062008001841604,24.0
+marginal_lookahead_no_relations,4,9,4.0,0.037912999978289,120.0
+marginal_lookahead_no_relations,8,9,8.0,0.1521608000621199,528.0
+marginal_lookahead_no_relations,12,9,12.0,0.3714821999892592,1224.0
+criticality_greedy,2,9,2.0,2.2799940779805183e-05,0.0
+criticality_greedy,4,9,4.0,2.0900042727589607e-05,0.0
+criticality_greedy,8,9,8.0,2.1399930119514465e-05,0.0
+criticality_greedy,12,9,12.0,2.1700048819184303e-05,0.0

@@ -1,0 +1,194 @@
+[
+  {
+    "scene": "A",
+    "task_type": "configuration",
+    "method": "P",
+    "n": 100,
+    "success": 100,
+    "rate": 1.0
+  },
+  {
+    "scene": "A",
+    "task_type": "configuration",
+    "method": "Random",
+    "n": 100,
+    "success": 95,
+    "rate": 0.95
+  },
+  {
+    "scene": "A",
+    "task_type": "configuration",
+    "method": "Rule",
+    "n": 100,
+    "success": 100,
+    "rate": 1.0
+  },
+  {
+    "scene": "A",
+    "task_type": "configuration",
+    "method": "Lexical",
+    "n": 100,
+    "success": 83,
+    "rate": 0.83
+  },
+  {
+    "scene": "A",
+    "task_type": "configuration",
+    "method": "Support",
+    "n": 100,
+    "success": 100,
+    "rate": 1.0
+  },
+  {
+    "scene": "A",
+    "task_type": "configuration",
+    "method": "Full",
+    "n": 100,
+    "success": 100,
+    "rate": 1.0
+  },
+  {
+    "scene": "A",
+    "task_type": "repair",
+    "method": "P",
+    "n": 100,
+    "success": 90,
+    "rate": 0.9
+  },
+  {
+    "scene": "A",
+    "task_type": "repair",
+    "method": "Random",
+    "n": 100,
+    "success": 84,
+    "rate": 0.84
+  },
+  {
+    "scene": "A",
+    "task_type": "repair",
+    "method": "Rule",
+    "n": 100,
+    "success": 90,
+    "rate": 0.9
+  },
+  {
+    "scene": "A",
+    "task_type": "repair",
+    "method": "Lexical",
+    "n": 100,
+    "success": 71,
+    "rate": 0.71
+  },
+  {
+    "scene": "A",
+    "task_type": "repair",
+    "method": "Support",
+    "n": 100,
+    "success": 90,
+    "rate": 0.9
+  },
+  {
+    "scene": "A",
+    "task_type": "repair",
+    "method": "Full",
+    "n": 100,
+    "success": 90,
+    "rate": 0.9
+  },
+  {
+    "scene": "B",
+    "task_type": "configuration",
+    "method": "P",
+    "n": 100,
+    "success": 92,
+    "rate": 0.92
+  },
+  {
+    "scene": "B",
+    "task_type": "configuration",
+    "method": "Random",
+    "n": 100,
+    "success": 73,
+    "rate": 0.73
+  },
+  {
+    "scene": "B",
+    "task_type": "configuration",
+    "method": "Rule",
+    "n": 100,
+    "success": 91,
+    "rate": 0.91
+  },
+  {
+    "scene": "B",
+    "task_type": "configuration",
+    "method": "Lexical",
+    "n": 100,
+    "success": 78,
+    "rate": 0.78
+  },
+  {
+    "scene": "B",
+    "task_type": "configuration",
+    "method": "Support",
+    "n": 100,
+    "success": 94,
+    "rate": 0.94
+  },
+  {
+    "scene": "B",
+    "task_type": "configuration",
+    "method": "Full",
+    "n": 100,
+    "success": 100,
+    "rate": 1.0
+  },
+  {
+    "scene": "B",
+    "task_type": "repair",
+    "method": "P",
+    "n": 100,
+    "success": 90,
+    "rate": 0.9
+  },
+  {
+    "scene": "B",
+    "task_type": "repair",
+    "method": "Random",
+    "n": 100,
+    "success": 69,
+    "rate": 0.69
+  },
+  {
+    "scene": "B",
+    "task_type": "repair",
+    "method": "Rule",
+    "n": 100,
+    "success": 85,
+    "rate": 0.85
+  },
+  {
+    "scene": "B",
+    "task_type": "repair",
+    "method": "Lexical",
+    "n": 100,
+    "success": 72,
+    "rate": 0.72
+  },
+  {
+    "scene": "B",
+    "task_type": "repair",
+    "method": "Support",
+    "n": 100,
+    "success": 90,
+    "rate": 0.9
+  },
+  {
+    "scene": "B",
+    "task_type": "repair",
+    "method": "Full",
+    "n": 100,
+    "success": 90,
+    "rate": 0.9
+  }
+]

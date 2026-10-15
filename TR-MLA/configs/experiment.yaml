@@ -1,0 +1,16 @@
+seed: 20260731
+budget: 8
+max_numeric_outcomes: 3
+default_weights:
+  domain_reduction: 1.0
+  criticality: 1.0
+  conflict: 2.0
+  graph_degree: 0.5
+  answer_cost: 0.5
+weight_grid:
+  domain_reduction: [0.5, 1.0, 2.0]
+  criticality: [0.5, 1.0, 2.0]
+  conflict: [1.0, 2.0, 4.0]
+  graph_degree: [0.0, 0.5, 1.0]
+  answer_cost: [0.25, 0.5, 1.0]
+selection_metric: critical_requirement_recall_at_8

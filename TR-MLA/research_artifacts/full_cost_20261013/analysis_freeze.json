@@ -1,0 +1,7 @@
+{
+  "analysis_freeze": "2026-10-13; before new result inspection and before full-grid completion",
+  "source_hashes": {
+    "scripts/summarize_full_cost_20261013.py": "2fa3c674905a8a043a71da64227f3754370221b532445832c54086defe67d242",
+    "tests/test_full_cost_20261013.py": "529c85b41e48be16294c066bae75e0073d466c8f91d4701994f41d06e7e6bf7f"
+  }
+}

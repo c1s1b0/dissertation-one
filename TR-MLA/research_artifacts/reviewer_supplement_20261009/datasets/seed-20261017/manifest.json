@@ -1,0 +1,17 @@
+{
+  "files": {
+    "test_complete_specs.jsonl": "cc78dada8ba5846aba397d1c37157bbc61463118b4ef41860356de193973723c",
+    "test_tasks.jsonl": "ae8fae49cc0bb7431e64f31566cd36be63a5a933c78e04ca94b06f7ff70dccac",
+    "train_complete_specs.jsonl": "0b0b00c643df22c0f0eaeec189c7357567ebf8bb87b1d55584b85fe02fb1fc69",
+    "train_tasks.jsonl": "3a3cf3f435d0474e0ece6084043c137f0ecbed776c3477ce2d060e037c9c8cc6",
+    "validation_complete_specs.jsonl": "b254f0862c7d68de395714502e0247afe8c7137f37efdfeaa413cb33e3fd4aed",
+    "validation_tasks.jsonl": "541cb34d66fdc9efe4bb71c77598d28ce8b10bc4361cb83e3aab5dd79de72247"
+  },
+  "protocol_hash": "258b71f217f6522d1b23b17d1ffbf39e3c209b824422c0f7f649761027a5d44f",
+  "seed": 20261017,
+  "split_counts": {
+    "test": 60,
+    "train": 180,
+    "validation": 60
+  }
+}

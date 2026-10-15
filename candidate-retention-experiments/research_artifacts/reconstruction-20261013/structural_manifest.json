@@ -1,0 +1,4809 @@
+{
+  "post_review": true,
+  "model_calls": 0,
+  "cases": [
+    {
+      "case": "S0001",
+      "n_per_role": 20,
+      "roles": 6,
+      "topology": "chain",
+      "compatibility_probability": 0.15,
+      "rare_fraction": 0.05,
+      "rep": 0,
+      "seed": 2501495860941572052
+    },
+    {
+      "case": "S0002",
+      "n_per_role": 20,
+      "roles": 6,
+      "topology": "chain",
+      "compatibility_probability": 0.15,
+      "rare_fraction": 0.05,
+      "rep": 1,
+      "seed": 18292861255923769732
+    },
+    {
+      "case": "S0003",
+      "n_per_role": 20,
+      "roles": 6,
+      "topology": "chain",
+      "compatibility_probability": 0.15,
+      "rare_fraction": 0.05,
+      "rep": 2,
+      "seed": 6824955146706493814
+    },
+    {
+      "case": "S0004",
+      "n_per_role": 20,
+      "roles": 6,
+      "topology": "chain",
+      "compatibility_probability": 0.15,
+      "rare_fraction": 0.05,
+      "rep": 3,
+      "seed": 13236771017846120069
+    },
+    {
+      "case": "S0005",
+      "n_per_role": 20,
+      "roles": 6,
+      "topology": "chain",
+      "compatibility_probability": 0.15,
+      "rare_fraction": 0.05,
+      "rep": 4,
+      "seed": 16412447535132896542
+    },
+    {
+      "case": "S0006",
+      "n_per_role": 20,
+      "roles": 6,
+      "topology": "chain",
+      "compatibility_probability": 0.15,
+      "rare_fraction": 0.05,
+      "rep": 5,
+      "seed": 17021176907269680364
+    },
+    {
+      "case": "S0007",
+      "n_per_role": 20,
+      "roles": 6,
+      "topology": "chain",
+      "compatibility_probability": 0.15,
+      "rare_fraction": 0.05,
+      "rep": 6,
+      "seed": 13226930966401903863
+    },
+    {
+      "case": "S0008",
+      "n_per_role": 20,
+      "roles": 6,
+      "topology": "chain",
+      "compatibility_probability": 0.15,
+      "rare_fraction": 0.05,
+      "rep": 7,
+      "seed": 10353488765239814043
+    },
+    {
+      "case": "S0009",
+      "n_per_role": 20,
+      "roles": 6,
+      "topology": "chain",
+      "compatibility_probability": 0.15,
+      "rare_fraction": 0.05,
+      "rep": 8,
+      "seed": 14963143330318272294
+    },
+    {
+      "case": "S0010",
+      "n_per_role": 20,
+      "roles": 6,
+      "topology": "chain",
+      "compatibility_probability": 0.15,
+      "rare_fraction": 0.05,
+      "rep": 9,
+      "seed": 9366961208855953162
+    },
+    {
+      "case": "S0011",
+      "n_per_role": 20,
+      "roles": 6,
+      "topology": "chain",
+      "compatibility_probability": 0.15,
+      "rare_fraction": 0.25,
+      "rep": 0,
+      "seed": 12087420398257311230
+    },
+    {
+      "case": "S0012",
+      "n_per_role": 20,
+      "roles": 6,
+      "topology": "chain",
+      "compatibility_probability": 0.15,
+      "rare_fraction": 0.25,
+      "rep": 1,
+      "seed": 10535372776888406105
+    },
+    {
+      "case": "S0013",
+      "n_per_role": 20,
+      "roles": 6,
+      "topology": "chain",
+      "compatibility_probability": 0.15,
+      "rare_fraction": 0.25,
+      "rep": 2,
+      "seed": 1157342919104035874
+    },
+    {
+      "case": "S0014",
+      "n_per_role": 20,
+      "roles": 6,
+      "topology": "chain",
+      "compatibility_probability": 0.15,
+      "rare_fraction": 0.25,
+      "rep": 3,
+      "seed": 11598905491377939598
+    },
+    {
+      "case": "S0015",
+      "n_per_role": 20,
+      "roles": 6,
+      "topology": "chain",
+      "compatibility_probability": 0.15,
+      "rare_fraction": 0.25,
+      "rep": 4,
+      "seed": 13807455708111124823
+    },
+    {
+      "case": "S0016",
+      "n_per_role": 20,
+      "roles": 6,
+      "topology": "chain",
+      "compatibility_probability": 0.15,
+      "rare_fraction": 0.25,
+      "rep": 5,
+      "seed": 3458039440830565922
+    },
+    {
+      "case": "S0017",
+      "n_per_role": 20,
+      "roles": 6,
+      "topology": "chain",
+      "compatibility_probability": 0.15,
+      "rare_fraction": 0.25,
+      "rep": 6,
+      "seed": 17047879880314030705
+    },
+    {
+      "case": "S0018",
+      "n_per_role": 20,
+      "roles": 6,
+      "topology": "chain",
+      "compatibility_probability": 0.15,
+      "rare_fraction": 0.25,
+      "rep": 7,
+      "seed": 2685504572609741074
+    },
+    {
+      "case": "S0019",
+      "n_per_role": 20,
+      "roles": 6,
+      "topology": "chain",
+      "compatibility_probability": 0.15,
+      "rare_fraction": 0.25,
+      "rep": 8,
+      "seed": 9704937139072336381
+    },
+    {
+      "case": "S0020",
+      "n_per_role": 20,
+      "roles": 6,
+      "topology": "chain",
+      "compatibility_probability": 0.15,
+      "rare_fraction": 0.25,
+      "rep": 9,
+      "seed": 14294691036464303382
+    },
+    {
+      "case": "S0021",
+      "n_per_role": 20,
+      "roles": 6,
+      "topology": "chain",
+      "compatibility_probability": 0.6,
+      "rare_fraction": 0.05,
+      "rep": 0,
+      "seed": 14256582610384124587
+    },
+    {
+      "case": "S0022",
+      "n_per_role": 20,
+      "roles": 6,
+      "topology": "chain",
+      "compatibility_probability": 0.6,
+      "rare_fraction": 0.05,
+      "rep": 1,
+      "seed": 509902815119427144
+    },
+    {
+      "case": "S0023",
+      "n_per_role": 20,
+      "roles": 6,
+      "topology": "chain",
+      "compatibility_probability": 0.6,
+      "rare_fraction": 0.05,
+      "rep": 2,
+      "seed": 3559627514305205588
+    },
+    {
+      "case": "S0024",
+      "n_per_role": 20,
+      "roles": 6,
+      "topology": "chain",
+      "compatibility_probability": 0.6,
+      "rare_fraction": 0.05,
+      "rep": 3,
+      "seed": 9366023004827304050
+    },
+    {
+      "case": "S0025",
+      "n_per_role": 20,
+      "roles": 6,
+      "topology": "chain",
+      "compatibility_probability": 0.6,
+      "rare_fraction": 0.05,
+      "rep": 4,
+      "seed": 10283022826886103149
+    },
+    {
+      "case": "S0026",
+      "n_per_role": 20,
+      "roles": 6,
+      "topology": "chain",
+      "compatibility_probability": 0.6,
+      "rare_fraction": 0.05,
+      "rep": 5,
+      "seed": 15722482640862461225
+    },
+    {
+      "case": "S0027",
+      "n_per_role": 20,
+      "roles": 6,
+      "topology": "chain",
+      "compatibility_probability": 0.6,
+      "rare_fraction": 0.05,
+      "rep": 6,
+      "seed": 12032199447260118888
+    },
+    {
+      "case": "S0028",
+      "n_per_role": 20,
+      "roles": 6,
+      "topology": "chain",
+      "compatibility_probability": 0.6,
+      "rare_fraction": 0.05,
+      "rep": 7,
+      "seed": 3360538414513571668
+    },
+    {
+      "case": "S0029",
+      "n_per_role": 20,
+      "roles": 6,
+      "topology": "chain",
+      "compatibility_probability": 0.6,
+      "rare_fraction": 0.05,
+      "rep": 8,
+      "seed": 9470877655049357422
+    },
+    {
+      "case": "S0030",
+      "n_per_role": 20,
+      "roles": 6,
+      "topology": "chain",
+      "compatibility_probability": 0.6,
+      "rare_fraction": 0.05,
+      "rep": 9,
+      "seed": 15903709915032849144
+    },
+    {
+      "case": "S0031",
+      "n_per_role": 20,
+      "roles": 6,
+      "topology": "chain",
+      "compatibility_probability": 0.6,
+      "rare_fraction": 0.25,
+      "rep": 0,
+      "seed": 9739151541103081185
+    },
+    {
+      "case": "S0032",
+      "n_per_role": 20,
+      "roles": 6,
+      "topology": "chain",
+      "compatibility_probability": 0.6,
+      "rare_fraction": 0.25,
+      "rep": 1,
+      "seed": 10901808127927179037
+    },
+    {
+      "case": "S0033",
+      "n_per_role": 20,
+      "roles": 6,
+      "topology": "chain",
+      "compatibility_probability": 0.6,
+      "rare_fraction": 0.25,
+      "rep": 2,
+      "seed": 2299872863804185501
+    },
+    {
+      "case": "S0034",
+      "n_per_role": 20,
+      "roles": 6,
+      "topology": "chain",
+      "compatibility_probability": 0.6,
+      "rare_fraction": 0.25,
+      "rep": 3,
+      "seed": 9078212172429647706
+    },
+    {
+      "case": "S0035",
+      "n_per_role": 20,
+      "roles": 6,
+      "topology": "chain",
+      "compatibility_probability": 0.6,
+      "rare_fraction": 0.25,
+      "rep": 4,
+      "seed": 18224395652105530091
+    },
+    {
+      "case": "S0036",
+      "n_per_role": 20,
+      "roles": 6,
+      "topology": "chain",
+      "compatibility_probability": 0.6,
+      "rare_fraction": 0.25,
+      "rep": 5,
+      "seed": 14411706430830381869
+    },
+    {
+      "case": "S0037",
+      "n_per_role": 20,
+      "roles": 6,
+      "topology": "chain",
+      "compatibility_probability": 0.6,
+      "rare_fraction": 0.25,
+      "rep": 6,
+      "seed": 7180322222381609609
+    },
+    {
+      "case": "S0038",
+      "n_per_role": 20,
+      "roles": 6,
+      "topology": "chain",
+      "compatibility_probability": 0.6,
+      "rare_fraction": 0.25,
+      "rep": 7,
+      "seed": 8427023199996530021
+    },
+    {
+      "case": "S0039",
+      "n_per_role": 20,
+      "roles": 6,
+      "topology": "chain",
+      "compatibility_probability": 0.6,
+      "rare_fraction": 0.25,
+      "rep": 8,
+      "seed": 11570290838225685667
+    },
+    {
+      "case": "S0040",
+      "n_per_role": 20,
+      "roles": 6,
+      "topology": "chain",
+      "compatibility_probability": 0.6,
+      "rare_fraction": 0.25,
+      "rep": 9,
+      "seed": 7947351276070552295
+    },
+    {
+      "case": "S0041",
+      "n_per_role": 20,
+      "roles": 6,
+      "topology": "star",
+      "compatibility_probability": 0.15,
+      "rare_fraction": 0.05,
+      "rep": 0,
+      "seed": 11683623691586922266
+    },
+    {
+      "case": "S0042",
+      "n_per_role": 20,
+      "roles": 6,
+      "topology": "star",
+      "compatibility_probability": 0.15,
+      "rare_fraction": 0.05,
+      "rep": 1,
+      "seed": 9538280205850341651
+    },
+    {
+      "case": "S0043",
+      "n_per_role": 20,
+      "roles": 6,
+      "topology": "star",
+      "compatibility_probability": 0.15,
+      "rare_fraction": 0.05,
+      "rep": 2,
+      "seed": 12183546933898529846
+    },
+    {
+      "case": "S0044",
+      "n_per_role": 20,
+      "roles": 6,
+      "topology": "star",
+      "compatibility_probability": 0.15,
+      "rare_fraction": 0.05,
+      "rep": 3,
+      "seed": 9189858024464884372
+    },
+    {
+      "case": "S0045",
+      "n_per_role": 20,
+      "roles": 6,
+      "topology": "star",
+      "compatibility_probability": 0.15,
+      "rare_fraction": 0.05,
+      "rep": 4,
+      "seed": 7301604586988093583
+    },
+    {
+      "case": "S0046",
+      "n_per_role": 20,
+      "roles": 6,
+      "topology": "star",
+      "compatibility_probability": 0.15,
+      "rare_fraction": 0.05,
+      "rep": 5,
+      "seed": 13779134079059615401
+    },
+    {
+      "case": "S0047",
+      "n_per_role": 20,
+      "roles": 6,
+      "topology": "star",
+      "compatibility_probability": 0.15,
+      "rare_fraction": 0.05,
+      "rep": 6,
+      "seed": 10668027630002865212
+    },
+    {
+      "case": "S0048",
+      "n_per_role": 20,
+      "roles": 6,
+      "topology": "star",
+      "compatibility_probability": 0.15,
+      "rare_fraction": 0.05,
+      "rep": 7,
+      "seed": 9167972378179335388
+    },
+    {
+      "case": "S0049",
+      "n_per_role": 20,
+      "roles": 6,
+      "topology": "star",
+      "compatibility_probability": 0.15,
+      "rare_fraction": 0.05,
+      "rep": 8,
+      "seed": 5178519020074760858
+    },
+    {
+      "case": "S0050",
+      "n_per_role": 20,
+      "roles": 6,
+      "topology": "star",
+      "compatibility_probability": 0.15,
+      "rare_fraction": 0.05,
+      "rep": 9,
+      "seed": 5546975960083940945
+    },
+    {
+      "case": "S0051",
+      "n_per_role": 20,
+      "roles": 6,
+      "topology": "star",
+      "compatibility_probability": 0.15,
+      "rare_fraction": 0.25,
+      "rep": 0,
+      "seed": 17135806315612151760
+    },
+    {
+      "case": "S0052",
+      "n_per_role": 20,
+      "roles": 6,
+      "topology": "star",
+      "compatibility_probability": 0.15,
+      "rare_fraction": 0.25,
+      "rep": 1,
+      "seed": 379333974683016670
+    },
+    {
+      "case": "S0053",
+      "n_per_role": 20,
+      "roles": 6,
+      "topology": "star",
+      "compatibility_probability": 0.15,
+      "rare_fraction": 0.25,
+      "rep": 2,
+      "seed": 16401172028238591743
+    },
+    {
+      "case": "S0054",
+      "n_per_role": 20,
+      "roles": 6,
+      "topology": "star",
+      "compatibility_probability": 0.15,
+      "rare_fraction": 0.25,
+      "rep": 3,
+      "seed": 15737854315995383946
+    },
+    {
+      "case": "S0055",
+      "n_per_role": 20,
+      "roles": 6,
+      "topology": "star",
+      "compatibility_probability": 0.15,
+      "rare_fraction": 0.25,
+      "rep": 4,
+      "seed": 3394795739665417453
+    },
+    {
+      "case": "S0056",
+      "n_per_role": 20,
+      "roles": 6,
+      "topology": "star",
+      "compatibility_probability": 0.15,
+      "rare_fraction": 0.25,
+      "rep": 5,
+      "seed": 12376033199946261770
+    },
+    {
+      "case": "S0057",
+      "n_per_role": 20,
+      "roles": 6,
+      "topology": "star",
+      "compatibility_probability": 0.15,
+      "rare_fraction": 0.25,
+      "rep": 6,
+      "seed": 807133932832431500
+    },
+    {
+      "case": "S0058",
+      "n_per_role": 20,
+      "roles": 6,
+      "topology": "star",
+      "compatibility_probability": 0.15,
+      "rare_fraction": 0.25,
+      "rep": 7,
+      "seed": 10867865780167056936
+    },
+    {
+      "case": "S0059",
+      "n_per_role": 20,
+      "roles": 6,
+      "topology": "star",
+      "compatibility_probability": 0.15,
+      "rare_fraction": 0.25,
+      "rep": 8,
+      "seed": 17169746735687014570
+    },
+    {
+      "case": "S0060",
+      "n_per_role": 20,
+      "roles": 6,
+      "topology": "star",
+      "compatibility_probability": 0.15,
+      "rare_fraction": 0.25,
+      "rep": 9,
+      "seed": 7366635094717097484
+    },
+    {
+      "case": "S0061",
+      "n_per_role": 20,
+      "roles": 6,
+      "topology": "star",
+      "compatibility_probability": 0.6,
+      "rare_fraction": 0.05,
+      "rep": 0,
+      "seed": 12426970963828264897
+    },
+    {
+      "case": "S0062",
+      "n_per_role": 20,
+      "roles": 6,
+      "topology": "star",
+      "compatibility_probability": 0.6,
+      "rare_fraction": 0.05,
+      "rep": 1,
+      "seed": 5063928283984012331
+    },
+    {
+      "case": "S0063",
+      "n_per_role": 20,
+      "roles": 6,
+      "topology": "star",
+      "compatibility_probability": 0.6,
+      "rare_fraction": 0.05,
+      "rep": 2,
+      "seed": 10883843349803348382
+    },
+    {
+      "case": "S0064",
+      "n_per_role": 20,
+      "roles": 6,
+      "topology": "star",
+      "compatibility_probability": 0.6,
+      "rare_fraction": 0.05,
+      "rep": 3,
+      "seed": 335260297670185254
+    },
+    {
+      "case": "S0065",
+      "n_per_role": 20,
+      "roles": 6,
+      "topology": "star",
+      "compatibility_probability": 0.6,
+      "rare_fraction": 0.05,
+      "rep": 4,
+      "seed": 978720892161707271
+    },
+    {
+      "case": "S0066",
+      "n_per_role": 20,
+      "roles": 6,
+      "topology": "star",
+      "compatibility_probability": 0.6,
+      "rare_fraction": 0.05,
+      "rep": 5,
+      "seed": 8659327396124299518
+    },
+    {
+      "case": "S0067",
+      "n_per_role": 20,
+      "roles": 6,
+      "topology": "star",
+      "compatibility_probability": 0.6,
+      "rare_fraction": 0.05,
+      "rep": 6,
+      "seed": 1039095369017828535
+    },
+    {
+      "case": "S0068",
+      "n_per_role": 20,
+      "roles": 6,
+      "topology": "star",
+      "compatibility_probability": 0.6,
+      "rare_fraction": 0.05,
+      "rep": 7,
+      "seed": 8541867006990855333
+    },
+    {
+      "case": "S0069",
+      "n_per_role": 20,
+      "roles": 6,
+      "topology": "star",
+      "compatibility_probability": 0.6,
+      "rare_fraction": 0.05,
+      "rep": 8,
+      "seed": 15300799285067685067
+    },
+    {
+      "case": "S0070",
+      "n_per_role": 20,
+      "roles": 6,
+      "topology": "star",
+      "compatibility_probability": 0.6,
+      "rare_fraction": 0.05,
+      "rep": 9,
+      "seed": 4903344194575109806
+    },
+    {
+      "case": "S0071",
+      "n_per_role": 20,
+      "roles": 6,
+      "topology": "star",
+      "compatibility_probability": 0.6,
+      "rare_fraction": 0.25,
+      "rep": 0,
+      "seed": 6335450487021320128
+    },
+    {
+      "case": "S0072",
+      "n_per_role": 20,
+      "roles": 6,
+      "topology": "star",
+      "compatibility_probability": 0.6,
+      "rare_fraction": 0.25,
+      "rep": 1,
+      "seed": 16814690869772959558
+    },
+    {
+      "case": "S0073",
+      "n_per_role": 20,
+      "roles": 6,
+      "topology": "star",
+      "compatibility_probability": 0.6,
+      "rare_fraction": 0.25,
+      "rep": 2,
+      "seed": 10957877439457320600
+    },
+    {
+      "case": "S0074",
+      "n_per_role": 20,
+      "roles": 6,
+      "topology": "star",
+      "compatibility_probability": 0.6,
+      "rare_fraction": 0.25,
+      "rep": 3,
+      "seed": 4563289485842607213
+    },
+    {
+      "case": "S0075",
+      "n_per_role": 20,
+      "roles": 6,
+      "topology": "star",
+      "compatibility_probability": 0.6,
+      "rare_fraction": 0.25,
+      "rep": 4,
+      "seed": 5597624426677651505
+    },
+    {
+      "case": "S0076",
+      "n_per_role": 20,
+      "roles": 6,
+      "topology": "star",
+      "compatibility_probability": 0.6,
+      "rare_fraction": 0.25,
+      "rep": 5,
+      "seed": 12009920111746495684
+    },
+    {
+      "case": "S0077",
+      "n_per_role": 20,
+      "roles": 6,
+      "topology": "star",
+      "compatibility_probability": 0.6,
+      "rare_fraction": 0.25,
+      "rep": 6,
+      "seed": 6394164230283095220
+    },
+    {
+      "case": "S0078",
+      "n_per_role": 20,
+      "roles": 6,
+      "topology": "star",
+      "compatibility_probability": 0.6,
+      "rare_fraction": 0.25,
+      "rep": 7,
+      "seed": 18108008848734930030
+    },
+    {
+      "case": "S0079",
+      "n_per_role": 20,
+      "roles": 6,
+      "topology": "star",
+      "compatibility_probability": 0.6,
+      "rare_fraction": 0.25,
+      "rep": 8,
+      "seed": 10798496147200716817
+    },
+    {
+      "case": "S0080",
+      "n_per_role": 20,
+      "roles": 6,
+      "topology": "star",
+      "compatibility_probability": 0.6,
+      "rare_fraction": 0.25,
+      "rep": 9,
+      "seed": 8826443358098736890
+    },
+    {
+      "case": "S0081",
+      "n_per_role": 20,
+      "roles": 6,
+      "topology": "cycle",
+      "compatibility_probability": 0.15,
+      "rare_fraction": 0.05,
+      "rep": 0,
+      "seed": 11410672834573502978
+    },
+    {
+      "case": "S0082",
+      "n_per_role": 20,
+      "roles": 6,
+      "topology": "cycle",
+      "compatibility_probability": 0.15,
+      "rare_fraction": 0.05,
+      "rep": 1,
+      "seed": 12356503116460984574
+    },
+    {
+      "case": "S0083",
+      "n_per_role": 20,
+      "roles": 6,
+      "topology": "cycle",
+      "compatibility_probability": 0.15,
+      "rare_fraction": 0.05,
+      "rep": 2,
+      "seed": 15875242901424320745
+    },
+    {
+      "case": "S0084",
+      "n_per_role": 20,
+      "roles": 6,
+      "topology": "cycle",
+      "compatibility_probability": 0.15,
+      "rare_fraction": 0.05,
+      "rep": 3,
+      "seed": 14972050112953195804
+    },
+    {
+      "case": "S0085",
+      "n_per_role": 20,
+      "roles": 6,
+      "topology": "cycle",
+      "compatibility_probability": 0.15,
+      "rare_fraction": 0.05,
+      "rep": 4,
+      "seed": 4788432673337985252
+    },
+    {
+      "case": "S0086",
+      "n_per_role": 20,
+      "roles": 6,
+      "topology": "cycle",
+      "compatibility_probability": 0.15,
+      "rare_fraction": 0.05,
+      "rep": 5,
+      "seed": 8809959841950763102
+    },
+    {
+      "case": "S0087",
+      "n_per_role": 20,
+      "roles": 6,
+      "topology": "cycle",
+      "compatibility_probability": 0.15,
+      "rare_fraction": 0.05,
+      "rep": 6,
+      "seed": 3475829276990344151
+    },
+    {
+      "case": "S0088",
+      "n_per_role": 20,
+      "roles": 6,
+      "topology": "cycle",
+      "compatibility_probability": 0.15,
+      "rare_fraction": 0.05,
+      "rep": 7,
+      "seed": 5216846729039911775
+    },
+    {
+      "case": "S0089",
+      "n_per_role": 20,
+      "roles": 6,
+      "topology": "cycle",
+      "compatibility_probability": 0.15,
+      "rare_fraction": 0.05,
+      "rep": 8,
+      "seed": 10208801750453017356
+    },
+    {
+      "case": "S0090",
+      "n_per_role": 20,
+      "roles": 6,
+      "topology": "cycle",
+      "compatibility_probability": 0.15,
+      "rare_fraction": 0.05,
+      "rep": 9,
+      "seed": 7171775913411491244
+    },
+    {
+      "case": "S0091",
+      "n_per_role": 20,
+      "roles": 6,
+      "topology": "cycle",
+      "compatibility_probability": 0.15,
+      "rare_fraction": 0.25,
+      "rep": 0,
+      "seed": 10808337065526045190
+    },
+    {
+      "case": "S0092",
+      "n_per_role": 20,
+      "roles": 6,
+      "topology": "cycle",
+      "compatibility_probability": 0.15,
+      "rare_fraction": 0.25,
+      "rep": 1,
+      "seed": 15949350428165443046
+    },
+    {
+      "case": "S0093",
+      "n_per_role": 20,
+      "roles": 6,
+      "topology": "cycle",
+      "compatibility_probability": 0.15,
+      "rare_fraction": 0.25,
+      "rep": 2,
+      "seed": 3116867897059693924
+    },
+    {
+      "case": "S0094",
+      "n_per_role": 20,
+      "roles": 6,
+      "topology": "cycle",
+      "compatibility_probability": 0.15,
+      "rare_fraction": 0.25,
+      "rep": 3,
+      "seed": 8447207576388156287
+    },
+    {
+      "case": "S0095",
+      "n_per_role": 20,
+      "roles": 6,
+      "topology": "cycle",
+      "compatibility_probability": 0.15,
+      "rare_fraction": 0.25,
+      "rep": 4,
+      "seed": 9456143528855156139
+    },
+    {
+      "case": "S0096",
+      "n_per_role": 20,
+      "roles": 6,
+      "topology": "cycle",
+      "compatibility_probability": 0.15,
+      "rare_fraction": 0.25,
+      "rep": 5,
+      "seed": 15856250746888084692
+    },
+    {
+      "case": "S0097",
+      "n_per_role": 20,
+      "roles": 6,
+      "topology": "cycle",
+      "compatibility_probability": 0.15,
+      "rare_fraction": 0.25,
+      "rep": 6,
+      "seed": 16083858955036878333
+    },
+    {
+      "case": "S0098",
+      "n_per_role": 20,
+      "roles": 6,
+      "topology": "cycle",
+      "compatibility_probability": 0.15,
+      "rare_fraction": 0.25,
+      "rep": 7,
+      "seed": 15751659062027449369
+    },
+    {
+      "case": "S0099",
+      "n_per_role": 20,
+      "roles": 6,
+      "topology": "cycle",
+      "compatibility_probability": 0.15,
+      "rare_fraction": 0.25,
+      "rep": 8,
+      "seed": 7722209300097133581
+    },
+    {
+      "case": "S0100",
+      "n_per_role": 20,
+      "roles": 6,
+      "topology": "cycle",
+      "compatibility_probability": 0.15,
+      "rare_fraction": 0.25,
+      "rep": 9,
+      "seed": 1477200166558793233
+    },
+    {
+      "case": "S0101",
+      "n_per_role": 20,
+      "roles": 6,
+      "topology": "cycle",
+      "compatibility_probability": 0.6,
+      "rare_fraction": 0.05,
+      "rep": 0,
+      "seed": 5635672635215649380
+    },
+    {
+      "case": "S0102",
+      "n_per_role": 20,
+      "roles": 6,
+      "topology": "cycle",
+      "compatibility_probability": 0.6,
+      "rare_fraction": 0.05,
+      "rep": 1,
+      "seed": 12216147461054767790
+    },
+    {
+      "case": "S0103",
+      "n_per_role": 20,
+      "roles": 6,
+      "topology": "cycle",
+      "compatibility_probability": 0.6,
+      "rare_fraction": 0.05,
+      "rep": 2,
+      "seed": 3031065338300386035
+    },
+    {
+      "case": "S0104",
+      "n_per_role": 20,
+      "roles": 6,
+      "topology": "cycle",
+      "compatibility_probability": 0.6,
+      "rare_fraction": 0.05,
+      "rep": 3,
+      "seed": 15493542424613535166
+    },
+    {
+      "case": "S0105",
+      "n_per_role": 20,
+      "roles": 6,
+      "topology": "cycle",
+      "compatibility_probability": 0.6,
+      "rare_fraction": 0.05,
+      "rep": 4,
+      "seed": 11724762968682688100
+    },
+    {
+      "case": "S0106",
+      "n_per_role": 20,
+      "roles": 6,
+      "topology": "cycle",
+      "compatibility_probability": 0.6,
+      "rare_fraction": 0.05,
+      "rep": 5,
+      "seed": 1579162210629193513
+    },
+    {
+      "case": "S0107",
+      "n_per_role": 20,
+      "roles": 6,
+      "topology": "cycle",
+      "compatibility_probability": 0.6,
+      "rare_fraction": 0.05,
+      "rep": 6,
+      "seed": 12659710856540540284
+    },
+    {
+      "case": "S0108",
+      "n_per_role": 20,
+      "roles": 6,
+      "topology": "cycle",
+      "compatibility_probability": 0.6,
+      "rare_fraction": 0.05,
+      "rep": 7,
+      "seed": 13729600869135447288
+    },
+    {
+      "case": "S0109",
+      "n_per_role": 20,
+      "roles": 6,
+      "topology": "cycle",
+      "compatibility_probability": 0.6,
+      "rare_fraction": 0.05,
+      "rep": 8,
+      "seed": 6068221094636208593
+    },
+    {
+      "case": "S0110",
+      "n_per_role": 20,
+      "roles": 6,
+      "topology": "cycle",
+      "compatibility_probability": 0.6,
+      "rare_fraction": 0.05,
+      "rep": 9,
+      "seed": 17053704540470772420
+    },
+    {
+      "case": "S0111",
+      "n_per_role": 20,
+      "roles": 6,
+      "topology": "cycle",
+      "compatibility_probability": 0.6,
+      "rare_fraction": 0.25,
+      "rep": 0,
+      "seed": 9624508803023171983
+    },
+    {
+      "case": "S0112",
+      "n_per_role": 20,
+      "roles": 6,
+      "topology": "cycle",
+      "compatibility_probability": 0.6,
+      "rare_fraction": 0.25,
+      "rep": 1,
+      "seed": 913522479133856656
+    },
+    {
+      "case": "S0113",
+      "n_per_role": 20,
+      "roles": 6,
+      "topology": "cycle",
+      "compatibility_probability": 0.6,
+      "rare_fraction": 0.25,
+      "rep": 2,
+      "seed": 7475996929275624970
+    },
+    {
+      "case": "S0114",
+      "n_per_role": 20,
+      "roles": 6,
+      "topology": "cycle",
+      "compatibility_probability": 0.6,
+      "rare_fraction": 0.25,
+      "rep": 3,
+      "seed": 14205795765125687184
+    },
+    {
+      "case": "S0115",
+      "n_per_role": 20,
+      "roles": 6,
+      "topology": "cycle",
+      "compatibility_probability": 0.6,
+      "rare_fraction": 0.25,
+      "rep": 4,
+      "seed": 6109650076611479582
+    },
+    {
+      "case": "S0116",
+      "n_per_role": 20,
+      "roles": 6,
+      "topology": "cycle",
+      "compatibility_probability": 0.6,
+      "rare_fraction": 0.25,
+      "rep": 5,
+      "seed": 9132423242553981684
+    },
+    {
+      "case": "S0117",
+      "n_per_role": 20,
+      "roles": 6,
+      "topology": "cycle",
+      "compatibility_probability": 0.6,
+      "rare_fraction": 0.25,
+      "rep": 6,
+      "seed": 11746434686726884920
+    },
+    {
+      "case": "S0118",
+      "n_per_role": 20,
+      "roles": 6,
+      "topology": "cycle",
+      "compatibility_probability": 0.6,
+      "rare_fraction": 0.25,
+      "rep": 7,
+      "seed": 4407856744204877739
+    },
+    {
+      "case": "S0119",
+      "n_per_role": 20,
+      "roles": 6,
+      "topology": "cycle",
+      "compatibility_probability": 0.6,
+      "rare_fraction": 0.25,
+      "rep": 8,
+      "seed": 8766278334220295333
+    },
+    {
+      "case": "S0120",
+      "n_per_role": 20,
+      "roles": 6,
+      "topology": "cycle",
+      "compatibility_probability": 0.6,
+      "rare_fraction": 0.25,
+      "rep": 9,
+      "seed": 85891138500993936
+    },
+    {
+      "case": "S0121",
+      "n_per_role": 20,
+      "roles": 6,
+      "topology": "dense",
+      "compatibility_probability": 0.15,
+      "rare_fraction": 0.05,
+      "rep": 0,
+      "seed": 9530201187397569412
+    },
+    {
+      "case": "S0122",
+      "n_per_role": 20,
+      "roles": 6,
+      "topology": "dense",
+      "compatibility_probability": 0.15,
+      "rare_fraction": 0.05,
+      "rep": 1,
+      "seed": 12406526404281677374
+    },
+    {
+      "case": "S0123",
+      "n_per_role": 20,
+      "roles": 6,
+      "topology": "dense",
+      "compatibility_probability": 0.15,
+      "rare_fraction": 0.05,
+      "rep": 2,
+      "seed": 14052565540504711657
+    },
+    {
+      "case": "S0124",
+      "n_per_role": 20,
+      "roles": 6,
+      "topology": "dense",
+      "compatibility_probability": 0.15,
+      "rare_fraction": 0.05,
+      "rep": 3,
+      "seed": 8535428908143255722
+    },
+    {
+      "case": "S0125",
+      "n_per_role": 20,
+      "roles": 6,
+      "topology": "dense",
+      "compatibility_probability": 0.15,
+      "rare_fraction": 0.05,
+      "rep": 4,
+      "seed": 16033895998386042099
+    },
+    {
+      "case": "S0126",
+      "n_per_role": 20,
+      "roles": 6,
+      "topology": "dense",
+      "compatibility_probability": 0.15,
+      "rare_fraction": 0.05,
+      "rep": 5,
+      "seed": 11557275771969561703
+    },
+    {
+      "case": "S0127",
+      "n_per_role": 20,
+      "roles": 6,
+      "topology": "dense",
+      "compatibility_probability": 0.15,
+      "rare_fraction": 0.05,
+      "rep": 6,
+      "seed": 14015934763997921650
+    },
+    {
+      "case": "S0128",
+      "n_per_role": 20,
+      "roles": 6,
+      "topology": "dense",
+      "compatibility_probability": 0.15,
+      "rare_fraction": 0.05,
+      "rep": 7,
+      "seed": 14582966100442203593
+    },
+    {
+      "case": "S0129",
+      "n_per_role": 20,
+      "roles": 6,
+      "topology": "dense",
+      "compatibility_probability": 0.15,
+      "rare_fraction": 0.05,
+      "rep": 8,
+      "seed": 5873725938696612426
+    },
+    {
+      "case": "S0130",
+      "n_per_role": 20,
+      "roles": 6,
+      "topology": "dense",
+      "compatibility_probability": 0.15,
+      "rare_fraction": 0.05,
+      "rep": 9,
+      "seed": 8143758049639924860
+    },
+    {
+      "case": "S0131",
+      "n_per_role": 20,
+      "roles": 6,
+      "topology": "dense",
+      "compatibility_probability": 0.15,
+      "rare_fraction": 0.25,
+      "rep": 0,
+      "seed": 13957868391505134212
+    },
+    {
+      "case": "S0132",
+      "n_per_role": 20,
+      "roles": 6,
+      "topology": "dense",
+      "compatibility_probability": 0.15,
+      "rare_fraction": 0.25,
+      "rep": 1,
+      "seed": 3738509095915661319
+    },
+    {
+      "case": "S0133",
+      "n_per_role": 20,
+      "roles": 6,
+      "topology": "dense",
+      "compatibility_probability": 0.15,
+      "rare_fraction": 0.25,
+      "rep": 2,
+      "seed": 8124309914968473226
+    },
+    {
+      "case": "S0134",
+      "n_per_role": 20,
+      "roles": 6,
+      "topology": "dense",
+      "compatibility_probability": 0.15,
+      "rare_fraction": 0.25,
+      "rep": 3,
+      "seed": 8362890922201303522
+    },
+    {
+      "case": "S0135",
+      "n_per_role": 20,
+      "roles": 6,
+      "topology": "dense",
+      "compatibility_probability": 0.15,
+      "rare_fraction": 0.25,
+      "rep": 4,
+      "seed": 6433141964618115381
+    },
+    {
+      "case": "S0136",
+      "n_per_role": 20,
+      "roles": 6,
+      "topology": "dense",
+      "compatibility_probability": 0.15,
+      "rare_fraction": 0.25,
+      "rep": 5,
+      "seed": 2652872454257721155
+    },
+    {
+      "case": "S0137",
+      "n_per_role": 20,
+      "roles": 6,
+      "topology": "dense",
+      "compatibility_probability": 0.15,
+      "rare_fraction": 0.25,
+      "rep": 6,
+      "seed": 2956396005552219748
+    },
+    {
+      "case": "S0138",
+      "n_per_role": 20,
+      "roles": 6,
+      "topology": "dense",
+      "compatibility_probability": 0.15,
+      "rare_fraction": 0.25,
+      "rep": 7,
+      "seed": 17564717112062697443
+    },
+    {
+      "case": "S0139",
+      "n_per_role": 20,
+      "roles": 6,
+      "topology": "dense",
+      "compatibility_probability": 0.15,
+      "rare_fraction": 0.25,
+      "rep": 8,
+      "seed": 518504431951781008
+    },
+    {
+      "case": "S0140",
+      "n_per_role": 20,
+      "roles": 6,
+      "topology": "dense",
+      "compatibility_probability": 0.15,
+      "rare_fraction": 0.25,
+      "rep": 9,
+      "seed": 141608780804597071
+    },
+    {
+      "case": "S0141",
+      "n_per_role": 20,
+      "roles": 6,
+      "topology": "dense",
+      "compatibility_probability": 0.6,
+      "rare_fraction": 0.05,
+      "rep": 0,
+      "seed": 11827964230092736939
+    },
+    {
+      "case": "S0142",
+      "n_per_role": 20,
+      "roles": 6,
+      "topology": "dense",
+      "compatibility_probability": 0.6,
+      "rare_fraction": 0.05,
+      "rep": 1,
+      "seed": 17518671132488453433
+    },
+    {
+      "case": "S0143",
+      "n_per_role": 20,
+      "roles": 6,
+      "topology": "dense",
+      "compatibility_probability": 0.6,
+      "rare_fraction": 0.05,
+      "rep": 2,
+      "seed": 11302972731182288726
+    },
+    {
+      "case": "S0144",
+      "n_per_role": 20,
+      "roles": 6,
+      "topology": "dense",
+      "compatibility_probability": 0.6,
+      "rare_fraction": 0.05,
+      "rep": 3,
+      "seed": 9632969787077280679
+    },
+    {
+      "case": "S0145",
+      "n_per_role": 20,
+      "roles": 6,
+      "topology": "dense",
+      "compatibility_probability": 0.6,
+      "rare_fraction": 0.05,
+      "rep": 4,
+      "seed": 9433432316294812996
+    },
+    {
+      "case": "S0146",
+      "n_per_role": 20,
+      "roles": 6,
+      "topology": "dense",
+      "compatibility_probability": 0.6,
+      "rare_fraction": 0.05,
+      "rep": 5,
+      "seed": 18228189774858271073
+    },
+    {
+      "case": "S0147",
+      "n_per_role": 20,
+      "roles": 6,
+      "topology": "dense",
+      "compatibility_probability": 0.6,
+      "rare_fraction": 0.05,
+      "rep": 6,
+      "seed": 4216022023762142536
+    },
+    {
+      "case": "S0148",
+      "n_per_role": 20,
+      "roles": 6,
+      "topology": "dense",
+      "compatibility_probability": 0.6,
+      "rare_fraction": 0.05,
+      "rep": 7,
+      "seed": 16273490394818324274
+    },
+    {
+      "case": "S0149",
+      "n_per_role": 20,
+      "roles": 6,
+      "topology": "dense",
+      "compatibility_probability": 0.6,
+      "rare_fraction": 0.05,
+      "rep": 8,
+      "seed": 13403987203305238214
+    },
+    {
+      "case": "S0150",
+      "n_per_role": 20,
+      "roles": 6,
+      "topology": "dense",
+      "compatibility_probability": 0.6,
+      "rare_fraction": 0.05,
+      "rep": 9,
+      "seed": 11964250583431216927
+    },
+    {
+      "case": "S0151",
+      "n_per_role": 20,
+      "roles": 6,
+      "topology": "dense",
+      "compatibility_probability": 0.6,
+      "rare_fraction": 0.25,
+      "rep": 0,
+      "seed": 16601216677924126428
+    },
+    {
+      "case": "S0152",
+      "n_per_role": 20,
+      "roles": 6,
+      "topology": "dense",
+      "compatibility_probability": 0.6,
+      "rare_fraction": 0.25,
+      "rep": 1,
+      "seed": 10482766481039231327
+    },
+    {
+      "case": "S0153",
+      "n_per_role": 20,
+      "roles": 6,
+      "topology": "dense",
+      "compatibility_probability": 0.6,
+      "rare_fraction": 0.25,
+      "rep": 2,
+      "seed": 14900787858934247933
+    },
+    {
+      "case": "S0154",
+      "n_per_role": 20,
+      "roles": 6,
+      "topology": "dense",
+      "compatibility_probability": 0.6,
+      "rare_fraction": 0.25,
+      "rep": 3,
+      "seed": 13294285551736463036
+    },
+    {
+      "case": "S0155",
+      "n_per_role": 20,
+      "roles": 6,
+      "topology": "dense",
+      "compatibility_probability": 0.6,
+      "rare_fraction": 0.25,
+      "rep": 4,
+      "seed": 10105592030773488016
+    },
+    {
+      "case": "S0156",
+      "n_per_role": 20,
+      "roles": 6,
+      "topology": "dense",
+      "compatibility_probability": 0.6,
+      "rare_fraction": 0.25,
+      "rep": 5,
+      "seed": 14074158391671153862
+    },
+    {
+      "case": "S0157",
+      "n_per_role": 20,
+      "roles": 6,
+      "topology": "dense",
+      "compatibility_probability": 0.6,
+      "rare_fraction": 0.25,
+      "rep": 6,
+      "seed": 14905721378894356168
+    },
+    {
+      "case": "S0158",
+      "n_per_role": 20,
+      "roles": 6,
+      "topology": "dense",
+      "compatibility_probability": 0.6,
+      "rare_fraction": 0.25,
+      "rep": 7,
+      "seed": 14034596055505471128
+    },
+    {
+      "case": "S0159",
+      "n_per_role": 20,
+      "roles": 6,
+      "topology": "dense",
+      "compatibility_probability": 0.6,
+      "rare_fraction": 0.25,
+      "rep": 8,
+      "seed": 11626764952952277423
+    },
+    {
+      "case": "S0160",
+      "n_per_role": 20,
+      "roles": 6,
+      "topology": "dense",
+      "compatibility_probability": 0.6,
+      "rare_fraction": 0.25,
+      "rep": 9,
+      "seed": 4349672959236507282
+    },
+    {
+      "case": "S0161",
+      "n_per_role": 40,
+      "roles": 6,
+      "topology": "chain",
+      "compatibility_probability": 0.15,
+      "rare_fraction": 0.05,
+      "rep": 0,
+      "seed": 10547271560609832107
+    },
+    {
+      "case": "S0162",
+      "n_per_role": 40,
+      "roles": 6,
+      "topology": "chain",
+      "compatibility_probability": 0.15,
+      "rare_fraction": 0.05,
+      "rep": 1,
+      "seed": 17387208200987051807
+    },
+    {
+      "case": "S0163",
+      "n_per_role": 40,
+      "roles": 6,
+      "topology": "chain",
+      "compatibility_probability": 0.15,
+      "rare_fraction": 0.05,
+      "rep": 2,
+      "seed": 10342855674837534014
+    },
+    {
+      "case": "S0164",
+      "n_per_role": 40,
+      "roles": 6,
+      "topology": "chain",
+      "compatibility_probability": 0.15,
+      "rare_fraction": 0.05,
+      "rep": 3,
+      "seed": 14012430886332679340
+    },
+    {
+      "case": "S0165",
+      "n_per_role": 40,
+      "roles": 6,
+      "topology": "chain",
+      "compatibility_probability": 0.15,
+      "rare_fraction": 0.05,
+      "rep": 4,
+      "seed": 15340071435820703790
+    },
+    {
+      "case": "S0166",
+      "n_per_role": 40,
+      "roles": 6,
+      "topology": "chain",
+      "compatibility_probability": 0.15,
+      "rare_fraction": 0.05,
+      "rep": 5,
+      "seed": 7745763706258764495
+    },
+    {
+      "case": "S0167",
+      "n_per_role": 40,
+      "roles": 6,
+      "topology": "chain",
+      "compatibility_probability": 0.15,
+      "rare_fraction": 0.05,
+      "rep": 6,
+      "seed": 13582697813217464278
+    },
+    {
+      "case": "S0168",
+      "n_per_role": 40,
+      "roles": 6,
+      "topology": "chain",
+      "compatibility_probability": 0.15,
+      "rare_fraction": 0.05,
+      "rep": 7,
+      "seed": 15216386117632979306
+    },
+    {
+      "case": "S0169",
+      "n_per_role": 40,
+      "roles": 6,
+      "topology": "chain",
+      "compatibility_probability": 0.15,
+      "rare_fraction": 0.05,
+      "rep": 8,
+      "seed": 6644201994095685994
+    },
+    {
+      "case": "S0170",
+      "n_per_role": 40,
+      "roles": 6,
+      "topology": "chain",
+      "compatibility_probability": 0.15,
+      "rare_fraction": 0.05,
+      "rep": 9,
+      "seed": 581564288219433557
+    },
+    {
+      "case": "S0171",
+      "n_per_role": 40,
+      "roles": 6,
+      "topology": "chain",
+      "compatibility_probability": 0.15,
+      "rare_fraction": 0.25,
+      "rep": 0,
+      "seed": 8562186565464685083
+    },
+    {
+      "case": "S0172",
+      "n_per_role": 40,
+      "roles": 6,
+      "topology": "chain",
+      "compatibility_probability": 0.15,
+      "rare_fraction": 0.25,
+      "rep": 1,
+      "seed": 3402465186595867769
+    },
+    {
+      "case": "S0173",
+      "n_per_role": 40,
+      "roles": 6,
+      "topology": "chain",
+      "compatibility_probability": 0.15,
+      "rare_fraction": 0.25,
+      "rep": 2,
+      "seed": 15566629120261676100
+    },
+    {
+      "case": "S0174",
+      "n_per_role": 40,
+      "roles": 6,
+      "topology": "chain",
+      "compatibility_probability": 0.15,
+      "rare_fraction": 0.25,
+      "rep": 3,
+      "seed": 1985398880760007893
+    },
+    {
+      "case": "S0175",
+      "n_per_role": 40,
+      "roles": 6,
+      "topology": "chain",
+      "compatibility_probability": 0.15,
+      "rare_fraction": 0.25,
+      "rep": 4,
+      "seed": 2732876962789587966
+    },
+    {
+      "case": "S0176",
+      "n_per_role": 40,
+      "roles": 6,
+      "topology": "chain",
+      "compatibility_probability": 0.15,
+      "rare_fraction": 0.25,
+      "rep": 5,
+      "seed": 14278744195521393299
+    },
+    {
+      "case": "S0177",
+      "n_per_role": 40,
+      "roles": 6,
+      "topology": "chain",
+      "compatibility_probability": 0.15,
+      "rare_fraction": 0.25,
+      "rep": 6,
+      "seed": 12477112210325917221
+    },
+    {
+      "case": "S0178",
+      "n_per_role": 40,
+      "roles": 6,
+      "topology": "chain",
+      "compatibility_probability": 0.15,
+      "rare_fraction": 0.25,
+      "rep": 7,
+      "seed": 16905002099987758328
+    },
+    {
+      "case": "S0179",
+      "n_per_role": 40,
+      "roles": 6,
+      "topology": "chain",
+      "compatibility_probability": 0.15,
+      "rare_fraction": 0.25,
+      "rep": 8,
+      "seed": 1102125377423626405
+    },
+    {
+      "case": "S0180",
+      "n_per_role": 40,
+      "roles": 6,
+      "topology": "chain",
+      "compatibility_probability": 0.15,
+      "rare_fraction": 0.25,
+      "rep": 9,
+      "seed": 5707285684042207747
+    },
+    {
+      "case": "S0181",
+      "n_per_role": 40,
+      "roles": 6,
+      "topology": "chain",
+      "compatibility_probability": 0.6,
+      "rare_fraction": 0.05,
+      "rep": 0,
+      "seed": 16738019092826833637
+    },
+    {
+      "case": "S0182",
+      "n_per_role": 40,
+      "roles": 6,
+      "topology": "chain",
+      "compatibility_probability": 0.6,
+      "rare_fraction": 0.05,
+      "rep": 1,
+      "seed": 9147203155614807021
+    },
+    {
+      "case": "S0183",
+      "n_per_role": 40,
+      "roles": 6,
+      "topology": "chain",
+      "compatibility_probability": 0.6,
+      "rare_fraction": 0.05,
+      "rep": 2,
+      "seed": 2334890536488933720
+    },
+    {
+      "case": "S0184",
+      "n_per_role": 40,
+      "roles": 6,
+      "topology": "chain",
+      "compatibility_probability": 0.6,
+      "rare_fraction": 0.05,
+      "rep": 3,
+      "seed": 3276611610028041497
+    },
+    {
+      "case": "S0185",
+      "n_per_role": 40,
+      "roles": 6,
+      "topology": "chain",
+      "compatibility_probability": 0.6,
+      "rare_fraction": 0.05,
+      "rep": 4,
+      "seed": 12632177747784106876
+    },
+    {
+      "case": "S0186",
+      "n_per_role": 40,
+      "roles": 6,
+      "topology": "chain",
+      "compatibility_probability": 0.6,
+      "rare_fraction": 0.05,
+      "rep": 5,
+      "seed": 13258465351569861160
+    },
+    {
+      "case": "S0187",
+      "n_per_role": 40,
+      "roles": 6,
+      "topology": "chain",
+      "compatibility_probability": 0.6,
+      "rare_fraction": 0.05,
+      "rep": 6,
+      "seed": 1095336538382929082
+    },
+    {
+      "case": "S0188",
+      "n_per_role": 40,
+      "roles": 6,
+      "topology": "chain",
+      "compatibility_probability": 0.6,
+      "rare_fraction": 0.05,
+      "rep": 7,
+      "seed": 14166369218574693179
+    },
+    {
+      "case": "S0189",
+      "n_per_role": 40,
+      "roles": 6,
+      "topology": "chain",
+      "compatibility_probability": 0.6,
+      "rare_fraction": 0.05,
+      "rep": 8,
+      "seed": 15016245710594778760
+    },
+    {
+      "case": "S0190",
+      "n_per_role": 40,
+      "roles": 6,
+      "topology": "chain",
+      "compatibility_probability": 0.6,
+      "rare_fraction": 0.05,
+      "rep": 9,
+      "seed": 7831191922831385675
+    },
+    {
+      "case": "S0191",
+      "n_per_role": 40,
+      "roles": 6,
+      "topology": "chain",
+      "compatibility_probability": 0.6,
+      "rare_fraction": 0.25,
+      "rep": 0,
+      "seed": 7972605697666174702
+    },
+    {
+      "case": "S0192",
+      "n_per_role": 40,
+      "roles": 6,
+      "topology": "chain",
+      "compatibility_probability": 0.6,
+      "rare_fraction": 0.25,
+      "rep": 1,
+      "seed": 9927201647323875300
+    },
+    {
+      "case": "S0193",
+      "n_per_role": 40,
+      "roles": 6,
+      "topology": "chain",
+      "compatibility_probability": 0.6,
+      "rare_fraction": 0.25,
+      "rep": 2,
+      "seed": 5649371953193347661
+    },
+    {
+      "case": "S0194",
+      "n_per_role": 40,
+      "roles": 6,
+      "topology": "chain",
+      "compatibility_probability": 0.6,
+      "rare_fraction": 0.25,
+      "rep": 3,
+      "seed": 3695776756956409707
+    },
+    {
+      "case": "S0195",
+      "n_per_role": 40,
+      "roles": 6,
+      "topology": "chain",
+      "compatibility_probability": 0.6,
+      "rare_fraction": 0.25,
+      "rep": 4,
+      "seed": 11859557975240064240
+    },
+    {
+      "case": "S0196",
+      "n_per_role": 40,
+      "roles": 6,
+      "topology": "chain",
+      "compatibility_probability": 0.6,
+      "rare_fraction": 0.25,
+      "rep": 5,
+      "seed": 2694091899868172887
+    },
+    {
+      "case": "S0197",
+      "n_per_role": 40,
+      "roles": 6,
+      "topology": "chain",
+      "compatibility_probability": 0.6,
+      "rare_fraction": 0.25,
+      "rep": 6,
+      "seed": 16656394162293644140
+    },
+    {
+      "case": "S0198",
+      "n_per_role": 40,
+      "roles": 6,
+      "topology": "chain",
+      "compatibility_probability": 0.6,
+      "rare_fraction": 0.25,
+      "rep": 7,
+      "seed": 17660091082109210578
+    },
+    {
+      "case": "S0199",
+      "n_per_role": 40,
+      "roles": 6,
+      "topology": "chain",
+      "compatibility_probability": 0.6,
+      "rare_fraction": 0.25,
+      "rep": 8,
+      "seed": 7205688938478848818
+    },
+    {
+      "case": "S0200",
+      "n_per_role": 40,
+      "roles": 6,
+      "topology": "chain",
+      "compatibility_probability": 0.6,
+      "rare_fraction": 0.25,
+      "rep": 9,
+      "seed": 17010356211789817224
+    },
+    {
+      "case": "S0201",
+      "n_per_role": 40,
+      "roles": 6,
+      "topology": "star",
+      "compatibility_probability": 0.15,
+      "rare_fraction": 0.05,
+      "rep": 0,
+      "seed": 2385509511691655981
+    },
+    {
+      "case": "S0202",
+      "n_per_role": 40,
+      "roles": 6,
+      "topology": "star",
+      "compatibility_probability": 0.15,
+      "rare_fraction": 0.05,
+      "rep": 1,
+      "seed": 1998464642472147711
+    },
+    {
+      "case": "S0203",
+      "n_per_role": 40,
+      "roles": 6,
+      "topology": "star",
+      "compatibility_probability": 0.15,
+      "rare_fraction": 0.05,
+      "rep": 2,
+      "seed": 3974017982369126582
+    },
+    {
+      "case": "S0204",
+      "n_per_role": 40,
+      "roles": 6,
+      "topology": "star",
+      "compatibility_probability": 0.15,
+      "rare_fraction": 0.05,
+      "rep": 3,
+      "seed": 5111413916296314249
+    },
+    {
+      "case": "S0205",
+      "n_per_role": 40,
+      "roles": 6,
+      "topology": "star",
+      "compatibility_probability": 0.15,
+      "rare_fraction": 0.05,
+      "rep": 4,
+      "seed": 14829573292262762388
+    },
+    {
+      "case": "S0206",
+      "n_per_role": 40,
+      "roles": 6,
+      "topology": "star",
+      "compatibility_probability": 0.15,
+      "rare_fraction": 0.05,
+      "rep": 5,
+      "seed": 17399279254537063500
+    },
+    {
+      "case": "S0207",
+      "n_per_role": 40,
+      "roles": 6,
+      "topology": "star",
+      "compatibility_probability": 0.15,
+      "rare_fraction": 0.05,
+      "rep": 6,
+      "seed": 1497794214934984194
+    },
+    {
+      "case": "S0208",
+      "n_per_role": 40,
+      "roles": 6,
+      "topology": "star",
+      "compatibility_probability": 0.15,
+      "rare_fraction": 0.05,
+      "rep": 7,
+      "seed": 18043754724120565856
+    },
+    {
+      "case": "S0209",
+      "n_per_role": 40,
+      "roles": 6,
+      "topology": "star",
+      "compatibility_probability": 0.15,
+      "rare_fraction": 0.05,
+      "rep": 8,
+      "seed": 2367096545910240666
+    },
+    {
+      "case": "S0210",
+      "n_per_role": 40,
+      "roles": 6,
+      "topology": "star",
+      "compatibility_probability": 0.15,
+      "rare_fraction": 0.05,
+      "rep": 9,
+      "seed": 11788032306671396545
+    },
+    {
+      "case": "S0211",
+      "n_per_role": 40,
+      "roles": 6,
+      "topology": "star",
+      "compatibility_probability": 0.15,
+      "rare_fraction": 0.25,
+      "rep": 0,
+      "seed": 6988393273237155798
+    },
+    {
+      "case": "S0212",
+      "n_per_role": 40,
+      "roles": 6,
+      "topology": "star",
+      "compatibility_probability": 0.15,
+      "rare_fraction": 0.25,
+      "rep": 1,
+      "seed": 14441560355032726153
+    },
+    {
+      "case": "S0213",
+      "n_per_role": 40,
+      "roles": 6,
+      "topology": "star",
+      "compatibility_probability": 0.15,
+      "rare_fraction": 0.25,
+      "rep": 2,
+      "seed": 2103093767261127048
+    },
+    {
+      "case": "S0214",
+      "n_per_role": 40,
+      "roles": 6,
+      "topology": "star",
+      "compatibility_probability": 0.15,
+      "rare_fraction": 0.25,
+      "rep": 3,
+      "seed": 8785080050367546264
+    },
+    {
+      "case": "S0215",
+      "n_per_role": 40,
+      "roles": 6,
+      "topology": "star",
+      "compatibility_probability": 0.15,
+      "rare_fraction": 0.25,
+      "rep": 4,
+      "seed": 6264545062042215232
+    },
+    {
+      "case": "S0216",
+      "n_per_role": 40,
+      "roles": 6,
+      "topology": "star",
+      "compatibility_probability": 0.15,
+      "rare_fraction": 0.25,
+      "rep": 5,
+      "seed": 103775528812251152
+    },
+    {
+      "case": "S0217",
+      "n_per_role": 40,
+      "roles": 6,
+      "topology": "star",
+      "compatibility_probability": 0.15,
+      "rare_fraction": 0.25,
+      "rep": 6,
+      "seed": 15784255624632007281
+    },
+    {
+      "case": "S0218",
+      "n_per_role": 40,
+      "roles": 6,
+      "topology": "star",
+      "compatibility_probability": 0.15,
+      "rare_fraction": 0.25,
+      "rep": 7,
+      "seed": 1944037066549173365
+    },
+    {
+      "case": "S0219",
+      "n_per_role": 40,
+      "roles": 6,
+      "topology": "star",
+      "compatibility_probability": 0.15,
+      "rare_fraction": 0.25,
+      "rep": 8,
+      "seed": 10124475343468110918
+    },
+    {
+      "case": "S0220",
+      "n_per_role": 40,
+      "roles": 6,
+      "topology": "star",
+      "compatibility_probability": 0.15,
+      "rare_fraction": 0.25,
+      "rep": 9,
+      "seed": 4583577373910229591
+    },
+    {
+      "case": "S0221",
+      "n_per_role": 40,
+      "roles": 6,
+      "topology": "star",
+      "compatibility_probability": 0.6,
+      "rare_fraction": 0.05,
+      "rep": 0,
+      "seed": 17154028946758376905
+    },
+    {
+      "case": "S0222",
+      "n_per_role": 40,
+      "roles": 6,
+      "topology": "star",
+      "compatibility_probability": 0.6,
+      "rare_fraction": 0.05,
+      "rep": 1,
+      "seed": 994176167060756358
+    },
+    {
+      "case": "S0223",
+      "n_per_role": 40,
+      "roles": 6,
+      "topology": "star",
+      "compatibility_probability": 0.6,
+      "rare_fraction": 0.05,
+      "rep": 2,
+      "seed": 8904932398874433869
+    },
+    {
+      "case": "S0224",
+      "n_per_role": 40,
+      "roles": 6,
+      "topology": "star",
+      "compatibility_probability": 0.6,
+      "rare_fraction": 0.05,
+      "rep": 3,
+      "seed": 352322905681108162
+    },
+    {
+      "case": "S0225",
+      "n_per_role": 40,
+      "roles": 6,
+      "topology": "star",
+      "compatibility_probability": 0.6,
+      "rare_fraction": 0.05,
+      "rep": 4,
+      "seed": 5015594228184327902
+    },
+    {
+      "case": "S0226",
+      "n_per_role": 40,
+      "roles": 6,
+      "topology": "star",
+      "compatibility_probability": 0.6,
+      "rare_fraction": 0.05,
+      "rep": 5,
+      "seed": 8660552515182378364
+    },
+    {
+      "case": "S0227",
+      "n_per_role": 40,
+      "roles": 6,
+      "topology": "star",
+      "compatibility_probability": 0.6,
+      "rare_fraction": 0.05,
+      "rep": 6,
+      "seed": 8251174484183979123
+    },
+    {
+      "case": "S0228",
+      "n_per_role": 40,
+      "roles": 6,
+      "topology": "star",
+      "compatibility_probability": 0.6,
+      "rare_fraction": 0.05,
+      "rep": 7,
+      "seed": 2861455109971853556
+    },
+    {
+      "case": "S0229",
+      "n_per_role": 40,
+      "roles": 6,
+      "topology": "star",
+      "compatibility_probability": 0.6,
+      "rare_fraction": 0.05,
+      "rep": 8,
+      "seed": 796436270891909212
+    },
+    {
+      "case": "S0230",
+      "n_per_role": 40,
+      "roles": 6,
+      "topology": "star",
+      "compatibility_probability": 0.6,
+      "rare_fraction": 0.05,
+      "rep": 9,
+      "seed": 6339701196906793147
+    },
+    {
+      "case": "S0231",
+      "n_per_role": 40,
+      "roles": 6,
+      "topology": "star",
+      "compatibility_probability": 0.6,
+      "rare_fraction": 0.25,
+      "rep": 0,
+      "seed": 16701328337189259018
+    },
+    {
+      "case": "S0232",
+      "n_per_role": 40,
+      "roles": 6,
+      "topology": "star",
+      "compatibility_probability": 0.6,
+      "rare_fraction": 0.25,
+      "rep": 1,
+      "seed": 9725744485526280643
+    },
+    {
+      "case": "S0233",
+      "n_per_role": 40,
+      "roles": 6,
+      "topology": "star",
+      "compatibility_probability": 0.6,
+      "rare_fraction": 0.25,
+      "rep": 2,
+      "seed": 15253364829499062345
+    },
+    {
+      "case": "S0234",
+      "n_per_role": 40,
+      "roles": 6,
+      "topology": "star",
+      "compatibility_probability": 0.6,
+      "rare_fraction": 0.25,
+      "rep": 3,
+      "seed": 6442807217083336770
+    },
+    {
+      "case": "S0235",
+      "n_per_role": 40,
+      "roles": 6,
+      "topology": "star",
+      "compatibility_probability": 0.6,
+      "rare_fraction": 0.25,
+      "rep": 4,
+      "seed": 2743751540157474645
+    },
+    {
+      "case": "S0236",
+      "n_per_role": 40,
+      "roles": 6,
+      "topology": "star",
+      "compatibility_probability": 0.6,
+      "rare_fraction": 0.25,
+      "rep": 5,
+      "seed": 18282351494201746185
+    },
+    {
+      "case": "S0237",
+      "n_per_role": 40,
+      "roles": 6,
+      "topology": "star",
+      "compatibility_probability": 0.6,
+      "rare_fraction": 0.25,
+      "rep": 6,
+      "seed": 9068315329381767603
+    },
+    {
+      "case": "S0238",
+      "n_per_role": 40,
+      "roles": 6,
+      "topology": "star",
+      "compatibility_probability": 0.6,
+      "rare_fraction": 0.25,
+      "rep": 7,
+      "seed": 2528606540644835555
+    },
+    {
+      "case": "S0239",
+      "n_per_role": 40,
+      "roles": 6,
+      "topology": "star",
+      "compatibility_probability": 0.6,
+      "rare_fraction": 0.25,
+      "rep": 8,
+      "seed": 8575728853338939708
+    },
+    {
+      "case": "S0240",
+      "n_per_role": 40,
+      "roles": 6,
+      "topology": "star",
+      "compatibility_probability": 0.6,
+      "rare_fraction": 0.25,
+      "rep": 9,
+      "seed": 4209936021216263425
+    },
+    {
+      "case": "S0241",
+      "n_per_role": 40,
+      "roles": 6,
+      "topology": "cycle",
+      "compatibility_probability": 0.15,
+      "rare_fraction": 0.05,
+      "rep": 0,
+      "seed": 17230197051399424265
+    },
+    {
+      "case": "S0242",
+      "n_per_role": 40,
+      "roles": 6,
+      "topology": "cycle",
+      "compatibility_probability": 0.15,
+      "rare_fraction": 0.05,
+      "rep": 1,
+      "seed": 17522328392618249524
+    },
+    {
+      "case": "S0243",
+      "n_per_role": 40,
+      "roles": 6,
+      "topology": "cycle",
+      "compatibility_probability": 0.15,
+      "rare_fraction": 0.05,
+      "rep": 2,
+      "seed": 12339940085018215465
+    },
+    {
+      "case": "S0244",
+      "n_per_role": 40,
+      "roles": 6,
+      "topology": "cycle",
+      "compatibility_probability": 0.15,
+      "rare_fraction": 0.05,
+      "rep": 3,
+      "seed": 18293280227728102453
+    },
+    {
+      "case": "S0245",
+      "n_per_role": 40,
+      "roles": 6,
+      "topology": "cycle",
+      "compatibility_probability": 0.15,
+      "rare_fraction": 0.05,
+      "rep": 4,
+      "seed": 4477823126003884773
+    },
+    {
+      "case": "S0246",
+      "n_per_role": 40,
+      "roles": 6,
+      "topology": "cycle",
+      "compatibility_probability": 0.15,
+      "rare_fraction": 0.05,
+      "rep": 5,
+      "seed": 17989862478220050830
+    },
+    {
+      "case": "S0247",
+      "n_per_role": 40,
+      "roles": 6,
+      "topology": "cycle",
+      "compatibility_probability": 0.15,
+      "rare_fraction": 0.05,
+      "rep": 6,
+      "seed": 4142987631605606288
+    },
+    {
+      "case": "S0248",
+      "n_per_role": 40,
+      "roles": 6,
+      "topology": "cycle",
+      "compatibility_probability": 0.15,
+      "rare_fraction": 0.05,
+      "rep": 7,
+      "seed": 9506336691995457581
+    },
+    {
+      "case": "S0249",
+      "n_per_role": 40,
+      "roles": 6,
+      "topology": "cycle",
+      "compatibility_probability": 0.15,
+      "rare_fraction": 0.05,
+      "rep": 8,
+      "seed": 8274770689487072936
+    },
+    {
+      "case": "S0250",
+      "n_per_role": 40,
+      "roles": 6,
+      "topology": "cycle",
+      "compatibility_probability": 0.15,
+      "rare_fraction": 0.05,
+      "rep": 9,
+      "seed": 11185100667811653552
+    },
+    {
+      "case": "S0251",
+      "n_per_role": 40,
+      "roles": 6,
+      "topology": "cycle",
+      "compatibility_probability": 0.15,
+      "rare_fraction": 0.25,
+      "rep": 0,
+      "seed": 12975387830648003481
+    },
+    {
+      "case": "S0252",
+      "n_per_role": 40,
+      "roles": 6,
+      "topology": "cycle",
+      "compatibility_probability": 0.15,
+      "rare_fraction": 0.25,
+      "rep": 1,
+      "seed": 13625034248936513593
+    },
+    {
+      "case": "S0253",
+      "n_per_role": 40,
+      "roles": 6,
+      "topology": "cycle",
+      "compatibility_probability": 0.15,
+      "rare_fraction": 0.25,
+      "rep": 2,
+      "seed": 9784004840213956557
+    },
+    {
+      "case": "S0254",
+      "n_per_role": 40,
+      "roles": 6,
+      "topology": "cycle",
+      "compatibility_probability": 0.15,
+      "rare_fraction": 0.25,
+      "rep": 3,
+      "seed": 10085627160318726658
+    },
+    {
+      "case": "S0255",
+      "n_per_role": 40,
+      "roles": 6,
+      "topology": "cycle",
+      "compatibility_probability": 0.15,
+      "rare_fraction": 0.25,
+      "rep": 4,
+      "seed": 16913303577887401424
+    },
+    {
+      "case": "S0256",
+      "n_per_role": 40,
+      "roles": 6,
+      "topology": "cycle",
+      "compatibility_probability": 0.15,
+      "rare_fraction": 0.25,
+      "rep": 5,
+      "seed": 16605669063351075186
+    },
+    {
+      "case": "S0257",
+      "n_per_role": 40,
+      "roles": 6,
+      "topology": "cycle",
+      "compatibility_probability": 0.15,
+      "rare_fraction": 0.25,
+      "rep": 6,
+      "seed": 8593219546483829859
+    },
+    {
+      "case": "S0258",
+      "n_per_role": 40,
+      "roles": 6,
+      "topology": "cycle",
+      "compatibility_probability": 0.15,
+      "rare_fraction": 0.25,
+      "rep": 7,
+      "seed": 14952113585648105582
+    },
+    {
+      "case": "S0259",
+      "n_per_role": 40,
+      "roles": 6,
+      "topology": "cycle",
+      "compatibility_probability": 0.15,
+      "rare_fraction": 0.25,
+      "rep": 8,
+      "seed": 1178812268926207171
+    },
+    {
+      "case": "S0260",
+      "n_per_role": 40,
+      "roles": 6,
+      "topology": "cycle",
+      "compatibility_probability": 0.15,
+      "rare_fraction": 0.25,
+      "rep": 9,
+      "seed": 11852087276476875767
+    },
+    {
+      "case": "S0261",
+      "n_per_role": 40,
+      "roles": 6,
+      "topology": "cycle",
+      "compatibility_probability": 0.6,
+      "rare_fraction": 0.05,
+      "rep": 0,
+      "seed": 16009454413955716541
+    },
+    {
+      "case": "S0262",
+      "n_per_role": 40,
+      "roles": 6,
+      "topology": "cycle",
+      "compatibility_probability": 0.6,
+      "rare_fraction": 0.05,
+      "rep": 1,
+      "seed": 3694479097910901560
+    },
+    {
+      "case": "S0263",
+      "n_per_role": 40,
+      "roles": 6,
+      "topology": "cycle",
+      "compatibility_probability": 0.6,
+      "rare_fraction": 0.05,
+      "rep": 2,
+      "seed": 14719493447752492225
+    },
+    {
+      "case": "S0264",
+      "n_per_role": 40,
+      "roles": 6,
+      "topology": "cycle",
+      "compatibility_probability": 0.6,
+      "rare_fraction": 0.05,
+      "rep": 3,
+      "seed": 12975226916169701188
+    },
+    {
+      "case": "S0265",
+      "n_per_role": 40,
+      "roles": 6,
+      "topology": "cycle",
+      "compatibility_probability": 0.6,
+      "rare_fraction": 0.05,
+      "rep": 4,
+      "seed": 15554032980752378868
+    },
+    {
+      "case": "S0266",
+      "n_per_role": 40,
+      "roles": 6,
+      "topology": "cycle",
+      "compatibility_probability": 0.6,
+      "rare_fraction": 0.05,
+      "rep": 5,
+      "seed": 5428689144209969437
+    },
+    {
+      "case": "S0267",
+      "n_per_role": 40,
+      "roles": 6,
+      "topology": "cycle",
+      "compatibility_probability": 0.6,
+      "rare_fraction": 0.05,
+      "rep": 6,
+      "seed": 8509387907383526969
+    },
+    {
+      "case": "S0268",
+      "n_per_role": 40,
+      "roles": 6,
+      "topology": "cycle",
+      "compatibility_probability": 0.6,
+      "rare_fraction": 0.05,
+      "rep": 7,
+      "seed": 8936370299813298320
+    },
+    {
+      "case": "S0269",
+      "n_per_role": 40,
+      "roles": 6,
+      "topology": "cycle",
+      "compatibility_probability": 0.6,
+      "rare_fraction": 0.05,
+      "rep": 8,
+      "seed": 8277416146548169992
+    },
+    {
+      "case": "S0270",
+      "n_per_role": 40,
+      "roles": 6,
+      "topology": "cycle",
+      "compatibility_probability": 0.6,
+      "rare_fraction": 0.05,
+      "rep": 9,
+      "seed": 17275116966975398375
+    },
+    {
+      "case": "S0271",
+      "n_per_role": 40,
+      "roles": 6,
+      "topology": "cycle",
+      "compatibility_probability": 0.6,
+      "rare_fraction": 0.25,
+      "rep": 0,
+      "seed": 12884196532019808776
+    },
+    {
+      "case": "S0272",
+      "n_per_role": 40,
+      "roles": 6,
+      "topology": "cycle",
+      "compatibility_probability": 0.6,
+      "rare_fraction": 0.25,
+      "rep": 1,
+      "seed": 10407075088008329942
+    },
+    {
+      "case": "S0273",
+      "n_per_role": 40,
+      "roles": 6,
+      "topology": "cycle",
+      "compatibility_probability": 0.6,
+      "rare_fraction": 0.25,
+      "rep": 2,
+      "seed": 9190572847538747348
+    },
+    {
+      "case": "S0274",
+      "n_per_role": 40,
+      "roles": 6,
+      "topology": "cycle",
+      "compatibility_probability": 0.6,
+      "rare_fraction": 0.25,
+      "rep": 3,
+      "seed": 2354925207555956411
+    },
+    {
+      "case": "S0275",
+      "n_per_role": 40,
+      "roles": 6,
+      "topology": "cycle",
+      "compatibility_probability": 0.6,
+      "rare_fraction": 0.25,
+      "rep": 4,
+      "seed": 3527061227071559978
+    },
+    {
+      "case": "S0276",
+      "n_per_role": 40,
+      "roles": 6,
+      "topology": "cycle",
+      "compatibility_probability": 0.6,
+      "rare_fraction": 0.25,
+      "rep": 5,
+      "seed": 9907352164987463956
+    },
+    {
+      "case": "S0277",
+      "n_per_role": 40,
+      "roles": 6,
+      "topology": "cycle",
+      "compatibility_probability": 0.6,
+      "rare_fraction": 0.25,
+      "rep": 6,
+      "seed": 16857726092314960669
+    },
+    {
+      "case": "S0278",
+      "n_per_role": 40,
+      "roles": 6,
+      "topology": "cycle",
+      "compatibility_probability": 0.6,
+      "rare_fraction": 0.25,
+      "rep": 7,
+      "seed": 2847024281260570830
+    },
+    {
+      "case": "S0279",
+      "n_per_role": 40,
+      "roles": 6,
+      "topology": "cycle",
+      "compatibility_probability": 0.6,
+      "rare_fraction": 0.25,
+      "rep": 8,
+      "seed": 14190565743878853717
+    },
+    {
+      "case": "S0280",
+      "n_per_role": 40,
+      "roles": 6,
+      "topology": "cycle",
+      "compatibility_probability": 0.6,
+      "rare_fraction": 0.25,
+      "rep": 9,
+      "seed": 246161225436133718
+    },
+    {
+      "case": "S0281",
+      "n_per_role": 40,
+      "roles": 6,
+      "topology": "dense",
+      "compatibility_probability": 0.15,
+      "rare_fraction": 0.05,
+      "rep": 0,
+      "seed": 5497551499678070250
+    },
+    {
+      "case": "S0282",
+      "n_per_role": 40,
+      "roles": 6,
+      "topology": "dense",
+      "compatibility_probability": 0.15,
+      "rare_fraction": 0.05,
+      "rep": 1,
+      "seed": 7154178845034779859
+    },
+    {
+      "case": "S0283",
+      "n_per_role": 40,
+      "roles": 6,
+      "topology": "dense",
+      "compatibility_probability": 0.15,
+      "rare_fraction": 0.05,
+      "rep": 2,
+      "seed": 15072113180759235293
+    },
+    {
+      "case": "S0284",
+      "n_per_role": 40,
+      "roles": 6,
+      "topology": "dense",
+      "compatibility_probability": 0.15,
+      "rare_fraction": 0.05,
+      "rep": 3,
+      "seed": 16411496500417155141
+    },
+    {
+      "case": "S0285",
+      "n_per_role": 40,
+      "roles": 6,
+      "topology": "dense",
+      "compatibility_probability": 0.15,
+      "rare_fraction": 0.05,
+      "rep": 4,
+      "seed": 3838158404705709256
+    },
+    {
+      "case": "S0286",
+      "n_per_role": 40,
+      "roles": 6,
+      "topology": "dense",
+      "compatibility_probability": 0.15,
+      "rare_fraction": 0.05,
+      "rep": 5,
+      "seed": 700795514606123451
+    },
+    {
+      "case": "S0287",
+      "n_per_role": 40,
+      "roles": 6,
+      "topology": "dense",
+      "compatibility_probability": 0.15,
+      "rare_fraction": 0.05,
+      "rep": 6,
+      "seed": 7817717809034363590
+    },
+    {
+      "case": "S0288",
+      "n_per_role": 40,
+      "roles": 6,
+      "topology": "dense",
+      "compatibility_probability": 0.15,
+      "rare_fraction": 0.05,
+      "rep": 7,
+      "seed": 7569425845438647782
+    },
+    {
+      "case": "S0289",
+      "n_per_role": 40,
+      "roles": 6,
+      "topology": "dense",
+      "compatibility_probability": 0.15,
+      "rare_fraction": 0.05,
+      "rep": 8,
+      "seed": 14200256884480843007
+    },
+    {
+      "case": "S0290",
+      "n_per_role": 40,
+      "roles": 6,
+      "topology": "dense",
+      "compatibility_probability": 0.15,
+      "rare_fraction": 0.05,
+      "rep": 9,
+      "seed": 8515528855025833802
+    },
+    {
+      "case": "S0291",
+      "n_per_role": 40,
+      "roles": 6,
+      "topology": "dense",
+      "compatibility_probability": 0.15,
+      "rare_fraction": 0.25,
+      "rep": 0,
+      "seed": 5279684205002165861
+    },
+    {
+      "case": "S0292",
+      "n_per_role": 40,
+      "roles": 6,
+      "topology": "dense",
+      "compatibility_probability": 0.15,
+      "rare_fraction": 0.25,
+      "rep": 1,
+      "seed": 14764972538326000197
+    },
+    {
+      "case": "S0293",
+      "n_per_role": 40,
+      "roles": 6,
+      "topology": "dense",
+      "compatibility_probability": 0.15,
+      "rare_fraction": 0.25,
+      "rep": 2,
+      "seed": 17679888480125932487
+    },
+    {
+      "case": "S0294",
+      "n_per_role": 40,
+      "roles": 6,
+      "topology": "dense",
+      "compatibility_probability": 0.15,
+      "rare_fraction": 0.25,
+      "rep": 3,
+      "seed": 17194418049094419218
+    },
+    {
+      "case": "S0295",
+      "n_per_role": 40,
+      "roles": 6,
+      "topology": "dense",
+      "compatibility_probability": 0.15,
+      "rare_fraction": 0.25,
+      "rep": 4,
+      "seed": 2309764818380989437
+    },
+    {
+      "case": "S0296",
+      "n_per_role": 40,
+      "roles": 6,
+      "topology": "dense",
+      "compatibility_probability": 0.15,
+      "rare_fraction": 0.25,
+      "rep": 5,
+      "seed": 4014529290041886458
+    },
+    {
+      "case": "S0297",
+      "n_per_role": 40,
+      "roles": 6,
+      "topology": "dense",
+      "compatibility_probability": 0.15,
+      "rare_fraction": 0.25,
+      "rep": 6,
+      "seed": 16507929249763684330
+    },
+    {
+      "case": "S0298",
+      "n_per_role": 40,
+      "roles": 6,
+      "topology": "dense",
+      "compatibility_probability": 0.15,
+      "rare_fraction": 0.25,
+      "rep": 7,
+      "seed": 7696557018523493757
+    },
+    {
+      "case": "S0299",
+      "n_per_role": 40,
+      "roles": 6,
+      "topology": "dense",
+      "compatibility_probability": 0.15,
+      "rare_fraction": 0.25,
+      "rep": 8,
+      "seed": 7423410022420098138
+    },
+    {
+      "case": "S0300",
+      "n_per_role": 40,
+      "roles": 6,
+      "topology": "dense",
+      "compatibility_probability": 0.15,
+      "rare_fraction": 0.25,
+      "rep": 9,
+      "seed": 17993003667773984377
+    },
+    {
+      "case": "S0301",
+      "n_per_role": 40,
+      "roles": 6,
+      "topology": "dense",
+      "compatibility_probability": 0.6,
+      "rare_fraction": 0.05,
+      "rep": 0,
+      "seed": 13393821351859483759
+    },
+    {
+      "case": "S0302",
+      "n_per_role": 40,
+      "roles": 6,
+      "topology": "dense",
+      "compatibility_probability": 0.6,
+      "rare_fraction": 0.05,
+      "rep": 1,
+      "seed": 15554352871741323719
+    },
+    {
+      "case": "S0303",
+      "n_per_role": 40,
+      "roles": 6,
+      "topology": "dense",
+      "compatibility_probability": 0.6,
+      "rare_fraction": 0.05,
+      "rep": 2,
+      "seed": 11785274461734156974
+    },
+    {
+      "case": "S0304",
+      "n_per_role": 40,
+      "roles": 6,
+      "topology": "dense",
+      "compatibility_probability": 0.6,
+      "rare_fraction": 0.05,
+      "rep": 3,
+      "seed": 18388325912548036895
+    },
+    {
+      "case": "S0305",
+      "n_per_role": 40,
+      "roles": 6,
+      "topology": "dense",
+      "compatibility_probability": 0.6,
+      "rare_fraction": 0.05,
+      "rep": 4,
+      "seed": 15470941893143768365
+    },
+    {
+      "case": "S0306",
+      "n_per_role": 40,
+      "roles": 6,
+      "topology": "dense",
+      "compatibility_probability": 0.6,
+      "rare_fraction": 0.05,
+      "rep": 5,
+      "seed": 4654792304413023440
+    },
+    {
+      "case": "S0307",
+      "n_per_role": 40,
+      "roles": 6,
+      "topology": "dense",
+      "compatibility_probability": 0.6,
+      "rare_fraction": 0.05,
+      "rep": 6,
+      "seed": 14297691831885456575
+    },
+    {
+      "case": "S0308",
+      "n_per_role": 40,
+      "roles": 6,
+      "topology": "dense",
+      "compatibility_probability": 0.6,
+      "rare_fraction": 0.05,
+      "rep": 7,
+      "seed": 4754194811513382243
+    },
+    {
+      "case": "S0309",
+      "n_per_role": 40,
+      "roles": 6,
+      "topology": "dense",
+      "compatibility_probability": 0.6,
+      "rare_fraction": 0.05,
+      "rep": 8,
+      "seed": 16460768223541020561
+    },
+    {
+      "case": "S0310",
+      "n_per_role": 40,
+      "roles": 6,
+      "topology": "dense",
+      "compatibility_probability": 0.6,
+      "rare_fraction": 0.05,
+      "rep": 9,
+      "seed": 12367120568791217995
+    },
+    {
+      "case": "S0311",
+      "n_per_role": 40,
+      "roles": 6,
+      "topology": "dense",
+      "compatibility_probability": 0.6,
+      "rare_fraction": 0.25,
+      "rep": 0,
+      "seed": 2847410459873373564
+    },
+    {
+      "case": "S0312",
+      "n_per_role": 40,
+      "roles": 6,
+      "topology": "dense",
+      "compatibility_probability": 0.6,
+      "rare_fraction": 0.25,
+      "rep": 1,
+      "seed": 7114399846752465674
+    },
+    {
+      "case": "S0313",
+      "n_per_role": 40,
+      "roles": 6,
+      "topology": "dense",
+      "compatibility_probability": 0.6,
+      "rare_fraction": 0.25,
+      "rep": 2,
+      "seed": 4087479524982996862
+    },
+    {
+      "case": "S0314",
+      "n_per_role": 40,
+      "roles": 6,
+      "topology": "dense",
+      "compatibility_probability": 0.6,
+      "rare_fraction": 0.25,
+      "rep": 3,
+      "seed": 1951323838026239004
+    },
+    {
+      "case": "S0315",
+      "n_per_role": 40,
+      "roles": 6,
+      "topology": "dense",
+      "compatibility_probability": 0.6,
+      "rare_fraction": 0.25,
+      "rep": 4,
+      "seed": 11419525230053616167
+    },
+    {
+      "case": "S0316",
+      "n_per_role": 40,
+      "roles": 6,
+      "topology": "dense",
+      "compatibility_probability": 0.6,
+      "rare_fraction": 0.25,
+      "rep": 5,
+      "seed": 8346635189388533976
+    },
+    {
+      "case": "S0317",
+      "n_per_role": 40,
+      "roles": 6,
+      "topology": "dense",
+      "compatibility_probability": 0.6,
+      "rare_fraction": 0.25,
+      "rep": 6,
+      "seed": 156826798446996116
+    },
+    {
+      "case": "S0318",
+      "n_per_role": 40,
+      "roles": 6,
+      "topology": "dense",
+      "compatibility_probability": 0.6,
+      "rare_fraction": 0.25,
+      "rep": 7,
+      "seed": 13385761582640019804
+    },
+    {
+      "case": "S0319",
+      "n_per_role": 40,
+      "roles": 6,
+      "topology": "dense",
+      "compatibility_probability": 0.6,
+      "rare_fraction": 0.25,
+      "rep": 8,
+      "seed": 17534552818723541071
+    },
+    {
+      "case": "S0320",
+      "n_per_role": 40,
+      "roles": 6,
+      "topology": "dense",
+      "compatibility_probability": 0.6,
+      "rare_fraction": 0.25,
+      "rep": 9,
+      "seed": 8736399497116787477
+    },
+    {
+      "case": "S0321",
+      "n_per_role": 80,
+      "roles": 6,
+      "topology": "chain",
+      "compatibility_probability": 0.15,
+      "rare_fraction": 0.05,
+      "rep": 0,
+      "seed": 4839457922075616247
+    },
+    {
+      "case": "S0322",
+      "n_per_role": 80,
+      "roles": 6,
+      "topology": "chain",
+      "compatibility_probability": 0.15,
+      "rare_fraction": 0.05,
+      "rep": 1,
+      "seed": 10118599964830579336
+    },
+    {
+      "case": "S0323",
+      "n_per_role": 80,
+      "roles": 6,
+      "topology": "chain",
+      "compatibility_probability": 0.15,
+      "rare_fraction": 0.05,
+      "rep": 2,
+      "seed": 6044867534933767436
+    },
+    {
+      "case": "S0324",
+      "n_per_role": 80,
+      "roles": 6,
+      "topology": "chain",
+      "compatibility_probability": 0.15,
+      "rare_fraction": 0.05,
+      "rep": 3,
+      "seed": 14340982347936924410
+    },
+    {
+      "case": "S0325",
+      "n_per_role": 80,
+      "roles": 6,
+      "topology": "chain",
+      "compatibility_probability": 0.15,
+      "rare_fraction": 0.05,
+      "rep": 4,
+      "seed": 3707669005362571128
+    },
+    {
+      "case": "S0326",
+      "n_per_role": 80,
+      "roles": 6,
+      "topology": "chain",
+      "compatibility_probability": 0.15,
+      "rare_fraction": 0.05,
+      "rep": 5,
+      "seed": 8651845860906630620
+    },
+    {
+      "case": "S0327",
+      "n_per_role": 80,
+      "roles": 6,
+      "topology": "chain",
+      "compatibility_probability": 0.15,
+      "rare_fraction": 0.05,
+      "rep": 6,
+      "seed": 10864960985067317592
+    },
+    {
+      "case": "S0328",
+      "n_per_role": 80,
+      "roles": 6,
+      "topology": "chain",
+      "compatibility_probability": 0.15,
+      "rare_fraction": 0.05,
+      "rep": 7,
+      "seed": 15260727828908567639
+    },
+    {
+      "case": "S0329",
+      "n_per_role": 80,
+      "roles": 6,
+      "topology": "chain",
+      "compatibility_probability": 0.15,
+      "rare_fraction": 0.05,
+      "rep": 8,
+      "seed": 15592214830335873301
+    },
+    {
+      "case": "S0330",
+      "n_per_role": 80,
+      "roles": 6,
+      "topology": "chain",
+      "compatibility_probability": 0.15,
+      "rare_fraction": 0.05,
+      "rep": 9,
+      "seed": 15049629100168281107
+    },
+    {
+      "case": "S0331",
+      "n_per_role": 80,
+      "roles": 6,
+      "topology": "chain",
+      "compatibility_probability": 0.15,
+      "rare_fraction": 0.25,
+      "rep": 0,
+      "seed": 4564431118969228864
+    },
+    {
+      "case": "S0332",
+      "n_per_role": 80,
+      "roles": 6,
+      "topology": "chain",
+      "compatibility_probability": 0.15,
+      "rare_fraction": 0.25,
+      "rep": 1,
+      "seed": 8440237215874874067
+    },
+    {
+      "case": "S0333",
+      "n_per_role": 80,
+      "roles": 6,
+      "topology": "chain",
+      "compatibility_probability": 0.15,
+      "rare_fraction": 0.25,
+      "rep": 2,
+      "seed": 8826974917162576017
+    },
+    {
+      "case": "S0334",
+      "n_per_role": 80,
+      "roles": 6,
+      "topology": "chain",
+      "compatibility_probability": 0.15,
+      "rare_fraction": 0.25,
+      "rep": 3,
+      "seed": 7119386656948831513
+    },
+    {
+      "case": "S0335",
+      "n_per_role": 80,
+      "roles": 6,
+      "topology": "chain",
+      "compatibility_probability": 0.15,
+      "rare_fraction": 0.25,
+      "rep": 4,
+      "seed": 15360644625692492783
+    },
+    {
+      "case": "S0336",
+      "n_per_role": 80,
+      "roles": 6,
+      "topology": "chain",
+      "compatibility_probability": 0.15,
+      "rare_fraction": 0.25,
+      "rep": 5,
+      "seed": 8573115038094277738
+    },
+    {
+      "case": "S0337",
+      "n_per_role": 80,
+      "roles": 6,
+      "topology": "chain",
+      "compatibility_probability": 0.15,
+      "rare_fraction": 0.25,
+      "rep": 6,
+      "seed": 3530371447897281119
+    },
+    {
+      "case": "S0338",
+      "n_per_role": 80,
+      "roles": 6,
+      "topology": "chain",
+      "compatibility_probability": 0.15,
+      "rare_fraction": 0.25,
+      "rep": 7,
+      "seed": 8590593845543252027
+    },
+    {
+      "case": "S0339",
+      "n_per_role": 80,
+      "roles": 6,
+      "topology": "chain",
+      "compatibility_probability": 0.15,
+      "rare_fraction": 0.25,
+      "rep": 8,
+      "seed": 11309080198409787581
+    },
+    {
+      "case": "S0340",
+      "n_per_role": 80,
+      "roles": 6,
+      "topology": "chain",
+      "compatibility_probability": 0.15,
+      "rare_fraction": 0.25,
+      "rep": 9,
+      "seed": 13651021559583127147
+    },
+    {
+      "case": "S0341",
+      "n_per_role": 80,
+      "roles": 6,
+      "topology": "chain",
+      "compatibility_probability": 0.6,
+      "rare_fraction": 0.05,
+      "rep": 0,
+      "seed": 6516434137532080972
+    },
+    {
+      "case": "S0342",
+      "n_per_role": 80,
+      "roles": 6,
+      "topology": "chain",
+      "compatibility_probability": 0.6,
+      "rare_fraction": 0.05,
+      "rep": 1,
+      "seed": 5959819069059287327
+    },
+    {
+      "case": "S0343",
+      "n_per_role": 80,
+      "roles": 6,
+      "topology": "chain",
+      "compatibility_probability": 0.6,
+      "rare_fraction": 0.05,
+      "rep": 2,
+      "seed": 375497992567677338
+    },
+    {
+      "case": "S0344",
+      "n_per_role": 80,
+      "roles": 6,
+      "topology": "chain",
+      "compatibility_probability": 0.6,
+      "rare_fraction": 0.05,
+      "rep": 3,
+      "seed": 8742827197356074997
+    },
+    {
+      "case": "S0345",
+      "n_per_role": 80,
+      "roles": 6,
+      "topology": "chain",
+      "compatibility_probability": 0.6,
+      "rare_fraction": 0.05,
+      "rep": 4,
+      "seed": 13509783003225791528
+    },
+    {
+      "case": "S0346",
+      "n_per_role": 80,
+      "roles": 6,
+      "topology": "chain",
+      "compatibility_probability": 0.6,
+      "rare_fraction": 0.05,
+      "rep": 5,
+      "seed": 445688826880920388
+    },
+    {
+      "case": "S0347",
+      "n_per_role": 80,
+      "roles": 6,
+      "topology": "chain",
+      "compatibility_probability": 0.6,
+      "rare_fraction": 0.05,
+      "rep": 6,
+      "seed": 5376913819776812564
+    },
+    {
+      "case": "S0348",
+      "n_per_role": 80,
+      "roles": 6,
+      "topology": "chain",
+      "compatibility_probability": 0.6,
+      "rare_fraction": 0.05,
+      "rep": 7,
+      "seed": 2963274760213409741
+    },
+    {
+      "case": "S0349",
+      "n_per_role": 80,
+      "roles": 6,
+      "topology": "chain",
+      "compatibility_probability": 0.6,
+      "rare_fraction": 0.05,
+      "rep": 8,
+      "seed": 9926914107470519296
+    },
+    {
+      "case": "S0350",
+      "n_per_role": 80,
+      "roles": 6,
+      "topology": "chain",
+      "compatibility_probability": 0.6,
+      "rare_fraction": 0.05,
+      "rep": 9,
+      "seed": 16724133411502788377
+    },
+    {
+      "case": "S0351",
+      "n_per_role": 80,
+      "roles": 6,
+      "topology": "chain",
+      "compatibility_probability": 0.6,
+      "rare_fraction": 0.25,
+      "rep": 0,
+      "seed": 11969011573680321643
+    },
+    {
+      "case": "S0352",
+      "n_per_role": 80,
+      "roles": 6,
+      "topology": "chain",
+      "compatibility_probability": 0.6,
+      "rare_fraction": 0.25,
+      "rep": 1,
+      "seed": 17524248594260429746
+    },
+    {
+      "case": "S0353",
+      "n_per_role": 80,
+      "roles": 6,
+      "topology": "chain",
+      "compatibility_probability": 0.6,
+      "rare_fraction": 0.25,
+      "rep": 2,
+      "seed": 2740522964078920289
+    },
+    {
+      "case": "S0354",
+      "n_per_role": 80,
+      "roles": 6,
+      "topology": "chain",
+      "compatibility_probability": 0.6,
+      "rare_fraction": 0.25,
+      "rep": 3,
+      "seed": 16763882210868801697
+    },
+    {
+      "case": "S0355",
+      "n_per_role": 80,
+      "roles": 6,
+      "topology": "chain",
+      "compatibility_probability": 0.6,
+      "rare_fraction": 0.25,
+      "rep": 4,
+      "seed": 528531776265081486
+    },
+    {
+      "case": "S0356",
+      "n_per_role": 80,
+      "roles": 6,
+      "topology": "chain",
+      "compatibility_probability": 0.6,
+      "rare_fraction": 0.25,
+      "rep": 5,
+      "seed": 14961169866338031674
+    },
+    {
+      "case": "S0357",
+      "n_per_role": 80,
+      "roles": 6,
+      "topology": "chain",
+      "compatibility_probability": 0.6,
+      "rare_fraction": 0.25,
+      "rep": 6,
+      "seed": 10188225084348452176
+    },
+    {
+      "case": "S0358",
+      "n_per_role": 80,
+      "roles": 6,
+      "topology": "chain",
+      "compatibility_probability": 0.6,
+      "rare_fraction": 0.25,
+      "rep": 7,
+      "seed": 14701979865670932706
+    },
+    {
+      "case": "S0359",
+      "n_per_role": 80,
+      "roles": 6,
+      "topology": "chain",
+      "compatibility_probability": 0.6,
+      "rare_fraction": 0.25,
+      "rep": 8,
+      "seed": 12704082051490305671
+    },
+    {
+      "case": "S0360",
+      "n_per_role": 80,
+      "roles": 6,
+      "topology": "chain",
+      "compatibility_probability": 0.6,
+      "rare_fraction": 0.25,
+      "rep": 9,
+      "seed": 11676201164613731185
+    },
+    {
+      "case": "S0361",
+      "n_per_role": 80,
+      "roles": 6,
+      "topology": "star",
+      "compatibility_probability": 0.15,
+      "rare_fraction": 0.05,
+      "rep": 0,
+      "seed": 7341235626177381082
+    },
+    {
+      "case": "S0362",
+      "n_per_role": 80,
+      "roles": 6,
+      "topology": "star",
+      "compatibility_probability": 0.15,
+      "rare_fraction": 0.05,
+      "rep": 1,
+      "seed": 11488550839973429233
+    },
+    {
+      "case": "S0363",
+      "n_per_role": 80,
+      "roles": 6,
+      "topology": "star",
+      "compatibility_probability": 0.15,
+      "rare_fraction": 0.05,
+      "rep": 2,
+      "seed": 3023809893563291322
+    },
+    {
+      "case": "S0364",
+      "n_per_role": 80,
+      "roles": 6,
+      "topology": "star",
+      "compatibility_probability": 0.15,
+      "rare_fraction": 0.05,
+      "rep": 3,
+      "seed": 6936612495772882446
+    },
+    {
+      "case": "S0365",
+      "n_per_role": 80,
+      "roles": 6,
+      "topology": "star",
+      "compatibility_probability": 0.15,
+      "rare_fraction": 0.05,
+      "rep": 4,
+      "seed": 3277008125964179031
+    },
+    {
+      "case": "S0366",
+      "n_per_role": 80,
+      "roles": 6,
+      "topology": "star",
+      "compatibility_probability": 0.15,
+      "rare_fraction": 0.05,
+      "rep": 5,
+      "seed": 7888675840967505414
+    },
+    {
+      "case": "S0367",
+      "n_per_role": 80,
+      "roles": 6,
+      "topology": "star",
+      "compatibility_probability": 0.15,
+      "rare_fraction": 0.05,
+      "rep": 6,
+      "seed": 7194097256533866143
+    },
+    {
+      "case": "S0368",
+      "n_per_role": 80,
+      "roles": 6,
+      "topology": "star",
+      "compatibility_probability": 0.15,
+      "rare_fraction": 0.05,
+      "rep": 7,
+      "seed": 937453798428134677
+    },
+    {
+      "case": "S0369",
+      "n_per_role": 80,
+      "roles": 6,
+      "topology": "star",
+      "compatibility_probability": 0.15,
+      "rare_fraction": 0.05,
+      "rep": 8,
+      "seed": 14800083723036835824
+    },
+    {
+      "case": "S0370",
+      "n_per_role": 80,
+      "roles": 6,
+      "topology": "star",
+      "compatibility_probability": 0.15,
+      "rare_fraction": 0.05,
+      "rep": 9,
+      "seed": 5748023973019331954
+    },
+    {
+      "case": "S0371",
+      "n_per_role": 80,
+      "roles": 6,
+      "topology": "star",
+      "compatibility_probability": 0.15,
+      "rare_fraction": 0.25,
+      "rep": 0,
+      "seed": 2806713255907871063
+    },
+    {
+      "case": "S0372",
+      "n_per_role": 80,
+      "roles": 6,
+      "topology": "star",
+      "compatibility_probability": 0.15,
+      "rare_fraction": 0.25,
+      "rep": 1,
+      "seed": 5932195363496223326
+    },
+    {
+      "case": "S0373",
+      "n_per_role": 80,
+      "roles": 6,
+      "topology": "star",
+      "compatibility_probability": 0.15,
+      "rare_fraction": 0.25,
+      "rep": 2,
+      "seed": 7294108718221066720
+    },
+    {
+      "case": "S0374",
+      "n_per_role": 80,
+      "roles": 6,
+      "topology": "star",
+      "compatibility_probability": 0.15,
+      "rare_fraction": 0.25,
+      "rep": 3,
+      "seed": 2315010355468240111
+    },
+    {
+      "case": "S0375",
+      "n_per_role": 80,
+      "roles": 6,
+      "topology": "star",
+      "compatibility_probability": 0.15,
+      "rare_fraction": 0.25,
+      "rep": 4,
+      "seed": 11119064573578629392
+    },
+    {
+      "case": "S0376",
+      "n_per_role": 80,
+      "roles": 6,
+      "topology": "star",
+      "compatibility_probability": 0.15,
+      "rare_fraction": 0.25,
+      "rep": 5,
+      "seed": 219803874435748376
+    },
+    {
+      "case": "S0377",
+      "n_per_role": 80,
+      "roles": 6,
+      "topology": "star",
+      "compatibility_probability": 0.15,
+      "rare_fraction": 0.25,
+      "rep": 6,
+      "seed": 11703669969252978824
+    },
+    {
+      "case": "S0378",
+      "n_per_role": 80,
+      "roles": 6,
+      "topology": "star",
+      "compatibility_probability": 0.15,
+      "rare_fraction": 0.25,
+      "rep": 7,
+      "seed": 2952060823308346114
+    },
+    {
+      "case": "S0379",
+      "n_per_role": 80,
+      "roles": 6,
+      "topology": "star",
+      "compatibility_probability": 0.15,
+      "rare_fraction": 0.25,
+      "rep": 8,
+      "seed": 1095763758032492756
+    },
+    {
+      "case": "S0380",
+      "n_per_role": 80,
+      "roles": 6,
+      "topology": "star",
+      "compatibility_probability": 0.15,
+      "rare_fraction": 0.25,
+      "rep": 9,
+      "seed": 2638520372590555940
+    },
+    {
+      "case": "S0381",
+      "n_per_role": 80,
+      "roles": 6,
+      "topology": "star",
+      "compatibility_probability": 0.6,
+      "rare_fraction": 0.05,
+      "rep": 0,
+      "seed": 17965074463174029823
+    },
+    {
+      "case": "S0382",
+      "n_per_role": 80,
+      "roles": 6,
+      "topology": "star",
+      "compatibility_probability": 0.6,
+      "rare_fraction": 0.05,
+      "rep": 1,
+      "seed": 4017980484895991780
+    },
+    {
+      "case": "S0383",
+      "n_per_role": 80,
+      "roles": 6,
+      "topology": "star",
+      "compatibility_probability": 0.6,
+      "rare_fraction": 0.05,
+      "rep": 2,
+      "seed": 7516528549005021093
+    },
+    {
+      "case": "S0384",
+      "n_per_role": 80,
+      "roles": 6,
+      "topology": "star",
+      "compatibility_probability": 0.6,
+      "rare_fraction": 0.05,
+      "rep": 3,
+      "seed": 2633436880637292661
+    },
+    {
+      "case": "S0385",
+      "n_per_role": 80,
+      "roles": 6,
+      "topology": "star",
+      "compatibility_probability": 0.6,
+      "rare_fraction": 0.05,
+      "rep": 4,
+      "seed": 8144791107609549196
+    },
+    {
+      "case": "S0386",
+      "n_per_role": 80,
+      "roles": 6,
+      "topology": "star",
+      "compatibility_probability": 0.6,
+      "rare_fraction": 0.05,
+      "rep": 5,
+      "seed": 10246252657591182635
+    },
+    {
+      "case": "S0387",
+      "n_per_role": 80,
+      "roles": 6,
+      "topology": "star",
+      "compatibility_probability": 0.6,
+      "rare_fraction": 0.05,
+      "rep": 6,
+      "seed": 1371483948282224826
+    },
+    {
+      "case": "S0388",
+      "n_per_role": 80,
+      "roles": 6,
+      "topology": "star",
+      "compatibility_probability": 0.6,
+      "rare_fraction": 0.05,
+      "rep": 7,
+      "seed": 7310337794805457850
+    },
+    {
+      "case": "S0389",
+      "n_per_role": 80,
+      "roles": 6,
+      "topology": "star",
+      "compatibility_probability": 0.6,
+      "rare_fraction": 0.05,
+      "rep": 8,
+      "seed": 1853646435791635844
+    },
+    {
+      "case": "S0390",
+      "n_per_role": 80,
+      "roles": 6,
+      "topology": "star",
+      "compatibility_probability": 0.6,
+      "rare_fraction": 0.05,
+      "rep": 9,
+      "seed": 3201460397810474255
+    },
+    {
+      "case": "S0391",
+      "n_per_role": 80,
+      "roles": 6,
+      "topology": "star",
+      "compatibility_probability": 0.6,
+      "rare_fraction": 0.25,
+      "rep": 0,
+      "seed": 6219028674953404895
+    },
+    {
+      "case": "S0392",
+      "n_per_role": 80,
+      "roles": 6,
+      "topology": "star",
+      "compatibility_probability": 0.6,
+      "rare_fraction": 0.25,
+      "rep": 1,
+      "seed": 14329517598163799427
+    },
+    {
+      "case": "S0393",
+      "n_per_role": 80,
+      "roles": 6,
+      "topology": "star",
+      "compatibility_probability": 0.6,
+      "rare_fraction": 0.25,
+      "rep": 2,
+      "seed": 17979493386683208738
+    },
+    {
+      "case": "S0394",
+      "n_per_role": 80,
+      "roles": 6,
+      "topology": "star",
+      "compatibility_probability": 0.6,
+      "rare_fraction": 0.25,
+      "rep": 3,
+      "seed": 14449532348245248102
+    },
+    {
+      "case": "S0395",
+      "n_per_role": 80,
+      "roles": 6,
+      "topology": "star",
+      "compatibility_probability": 0.6,
+      "rare_fraction": 0.25,
+      "rep": 4,
+      "seed": 8109646291871115995
+    },
+    {
+      "case": "S0396",
+      "n_per_role": 80,
+      "roles": 6,
+      "topology": "star",
+      "compatibility_probability": 0.6,
+      "rare_fraction": 0.25,
+      "rep": 5,
+      "seed": 4871190887843620868
+    },
+    {
+      "case": "S0397",
+      "n_per_role": 80,
+      "roles": 6,
+      "topology": "star",
+      "compatibility_probability": 0.6,
+      "rare_fraction": 0.25,
+      "rep": 6,
+      "seed": 12395100081656154872
+    },
+    {
+      "case": "S0398",
+      "n_per_role": 80,
+      "roles": 6,
+      "topology": "star",
+      "compatibility_probability": 0.6,
+      "rare_fraction": 0.25,
+      "rep": 7,
+      "seed": 17981529331794030629
+    },
+    {
+      "case": "S0399",
+      "n_per_role": 80,
+      "roles": 6,
+      "topology": "star",
+      "compatibility_probability": 0.6,
+      "rare_fraction": 0.25,
+      "rep": 8,
+      "seed": 15866798799557224965
+    },
+    {
+      "case": "S0400",
+      "n_per_role": 80,
+      "roles": 6,
+      "topology": "star",
+      "compatibility_probability": 0.6,
+      "rare_fraction": 0.25,
+      "rep": 9,
+      "seed": 10181533841853969025
+    },
+    {
+      "case": "S0401",
+      "n_per_role": 80,
+      "roles": 6,
+      "topology": "cycle",
+      "compatibility_probability": 0.15,
+      "rare_fraction": 0.05,
+      "rep": 0,
+      "seed": 12960605737697614769
+    },
+    {
+      "case": "S0402",
+      "n_per_role": 80,
+      "roles": 6,
+      "topology": "cycle",
+      "compatibility_probability": 0.15,
+      "rare_fraction": 0.05,
+      "rep": 1,
+      "seed": 16032152539528194299
+    },
+    {
+      "case": "S0403",
+      "n_per_role": 80,
+      "roles": 6,
+      "topology": "cycle",
+      "compatibility_probability": 0.15,
+      "rare_fraction": 0.05,
+      "rep": 2,
+      "seed": 17494190235770632846
+    },
+    {
+      "case": "S0404",
+      "n_per_role": 80,
+      "roles": 6,
+      "topology": "cycle",
+      "compatibility_probability": 0.15,
+      "rare_fraction": 0.05,
+      "rep": 3,
+      "seed": 7072081743429410682
+    },
+    {
+      "case": "S0405",
+      "n_per_role": 80,
+      "roles": 6,
+      "topology": "cycle",
+      "compatibility_probability": 0.15,
+      "rare_fraction": 0.05,
+      "rep": 4,
+      "seed": 12143800829197577545
+    },
+    {
+      "case": "S0406",
+      "n_per_role": 80,
+      "roles": 6,
+      "topology": "cycle",
+      "compatibility_probability": 0.15,
+      "rare_fraction": 0.05,
+      "rep": 5,
+      "seed": 6637224004612756212
+    },
+    {
+      "case": "S0407",
+      "n_per_role": 80,
+      "roles": 6,
+      "topology": "cycle",
+      "compatibility_probability": 0.15,
+      "rare_fraction": 0.05,
+      "rep": 6,
+      "seed": 8945530741079021749
+    },
+    {
+      "case": "S0408",
+      "n_per_role": 80,
+      "roles": 6,
+      "topology": "cycle",
+      "compatibility_probability": 0.15,
+      "rare_fraction": 0.05,
+      "rep": 7,
+      "seed": 5641180446306985902
+    },
+    {
+      "case": "S0409",
+      "n_per_role": 80,
+      "roles": 6,
+      "topology": "cycle",
+      "compatibility_probability": 0.15,
+      "rare_fraction": 0.05,
+      "rep": 8,
+      "seed": 16558369388372380515
+    },
+    {
+      "case": "S0410",
+      "n_per_role": 80,
+      "roles": 6,
+      "topology": "cycle",
+      "compatibility_probability": 0.15,
+      "rare_fraction": 0.05,
+      "rep": 9,
+      "seed": 8861956796555833146
+    },
+    {
+      "case": "S0411",
+      "n_per_role": 80,
+      "roles": 6,
+      "topology": "cycle",
+      "compatibility_probability": 0.15,
+      "rare_fraction": 0.25,
+      "rep": 0,
+      "seed": 3598844707733672660
+    },
+    {
+      "case": "S0412",
+      "n_per_role": 80,
+      "roles": 6,
+      "topology": "cycle",
+      "compatibility_probability": 0.15,
+      "rare_fraction": 0.25,
+      "rep": 1,
+      "seed": 17088941097091674918
+    },
+    {
+      "case": "S0413",
+      "n_per_role": 80,
+      "roles": 6,
+      "topology": "cycle",
+      "compatibility_probability": 0.15,
+      "rare_fraction": 0.25,
+      "rep": 2,
+      "seed": 8989830280593429018
+    },
+    {
+      "case": "S0414",
+      "n_per_role": 80,
+      "roles": 6,
+      "topology": "cycle",
+      "compatibility_probability": 0.15,
+      "rare_fraction": 0.25,
+      "rep": 3,
+      "seed": 3134759094969532575
+    },
+    {
+      "case": "S0415",
+      "n_per_role": 80,
+      "roles": 6,
+      "topology": "cycle",
+      "compatibility_probability": 0.15,
+      "rare_fraction": 0.25,
+      "rep": 4,
+      "seed": 12694301330847473411
+    },
+    {
+      "case": "S0416",
+      "n_per_role": 80,
+      "roles": 6,
+      "topology": "cycle",
+      "compatibility_probability": 0.15,
+      "rare_fraction": 0.25,
+      "rep": 5,
+      "seed": 3127179741685417187
+    },
+    {
+      "case": "S0417",
+      "n_per_role": 80,
+      "roles": 6,
+      "topology": "cycle",
+      "compatibility_probability": 0.15,
+      "rare_fraction": 0.25,
+      "rep": 6,
+      "seed": 13028255510369949646
+    },
+    {
+      "case": "S0418",
+      "n_per_role": 80,
+      "roles": 6,
+      "topology": "cycle",
+      "compatibility_probability": 0.15,
+      "rare_fraction": 0.25,
+      "rep": 7,
+      "seed": 11612475218985015043
+    },
+    {
+      "case": "S0419",
+      "n_per_role": 80,
+      "roles": 6,
+      "topology": "cycle",
+      "compatibility_probability": 0.15,
+      "rare_fraction": 0.25,
+      "rep": 8,
+      "seed": 5348581928753478812
+    },
+    {
+      "case": "S0420",
+      "n_per_role": 80,
+      "roles": 6,
+      "topology": "cycle",
+      "compatibility_probability": 0.15,
+      "rare_fraction": 0.25,
+      "rep": 9,
+      "seed": 18340227799973637551
+    },
+    {
+      "case": "S0421",
+      "n_per_role": 80,
+      "roles": 6,
+      "topology": "cycle",
+      "compatibility_probability": 0.6,
+      "rare_fraction": 0.05,
+      "rep": 0,
+      "seed": 148914867654804364
+    },
+    {
+      "case": "S0422",
+      "n_per_role": 80,
+      "roles": 6,
+      "topology": "cycle",
+      "compatibility_probability": 0.6,
+      "rare_fraction": 0.05,
+      "rep": 1,
+      "seed": 10298951275788117106
+    },
+    {
+      "case": "S0423",
+      "n_per_role": 80,
+      "roles": 6,
+      "topology": "cycle",
+      "compatibility_probability": 0.6,
+      "rare_fraction": 0.05,
+      "rep": 2,
+      "seed": 3044175343097022961
+    },
+    {
+      "case": "S0424",
+      "n_per_role": 80,
+      "roles": 6,
+      "topology": "cycle",
+      "compatibility_probability": 0.6,
+      "rare_fraction": 0.05,
+      "rep": 3,
+      "seed": 16829449444059524604
+    },
+    {
+      "case": "S0425",
+      "n_per_role": 80,
+      "roles": 6,
+      "topology": "cycle",
+      "compatibility_probability": 0.6,
+      "rare_fraction": 0.05,
+      "rep": 4,
+      "seed": 13185575875518779817
+    },
+    {
+      "case": "S0426",
+      "n_per_role": 80,
+      "roles": 6,
+      "topology": "cycle",
+      "compatibility_probability": 0.6,
+      "rare_fraction": 0.05,
+      "rep": 5,
+      "seed": 8568081105755322843
+    },
+    {
+      "case": "S0427",
+      "n_per_role": 80,
+      "roles": 6,
+      "topology": "cycle",
+      "compatibility_probability": 0.6,
+      "rare_fraction": 0.05,
+      "rep": 6,
+      "seed": 4506998461360743723
+    },
+    {
+      "case": "S0428",
+      "n_per_role": 80,
+      "roles": 6,
+      "topology": "cycle",
+      "compatibility_probability": 0.6,
+      "rare_fraction": 0.05,
+      "rep": 7,
+      "seed": 14267885770023235095
+    },
+    {
+      "case": "S0429",
+      "n_per_role": 80,
+      "roles": 6,
+      "topology": "cycle",
+      "compatibility_probability": 0.6,
+      "rare_fraction": 0.05,
+      "rep": 8,
+      "seed": 9157212638197127713
+    },
+    {
+      "case": "S0430",
+      "n_per_role": 80,
+      "roles": 6,
+      "topology": "cycle",
+      "compatibility_probability": 0.6,
+      "rare_fraction": 0.05,
+      "rep": 9,
+      "seed": 9693400055714589812
+    },
+    {
+      "case": "S0431",
+      "n_per_role": 80,
+      "roles": 6,
+      "topology": "cycle",
+      "compatibility_probability": 0.6,
+      "rare_fraction": 0.25,
+      "rep": 0,
+      "seed": 10160340568742834550
+    },
+    {
+      "case": "S0432",
+      "n_per_role": 80,
+      "roles": 6,
+      "topology": "cycle",
+      "compatibility_probability": 0.6,
+      "rare_fraction": 0.25,
+      "rep": 1,
+      "seed": 16976827616350872998
+    },
+    {
+      "case": "S0433",
+      "n_per_role": 80,
+      "roles": 6,
+      "topology": "cycle",
+      "compatibility_probability": 0.6,
+      "rare_fraction": 0.25,
+      "rep": 2,
+      "seed": 8169208181961286132
+    },
+    {
+      "case": "S0434",
+      "n_per_role": 80,
+      "roles": 6,
+      "topology": "cycle",
+      "compatibility_probability": 0.6,
+      "rare_fraction": 0.25,
+      "rep": 3,
+      "seed": 11287823196429600364
+    },
+    {
+      "case": "S0435",
+      "n_per_role": 80,
+      "roles": 6,
+      "topology": "cycle",
+      "compatibility_probability": 0.6,
+      "rare_fraction": 0.25,
+      "rep": 4,
+      "seed": 9528490926867628653
+    },
+    {
+      "case": "S0436",
+      "n_per_role": 80,
+      "roles": 6,
+      "topology": "cycle",
+      "compatibility_probability": 0.6,
+      "rare_fraction": 0.25,
+      "rep": 5,
+      "seed": 1202327542594922505
+    },
+    {
+      "case": "S0437",
+      "n_per_role": 80,
+      "roles": 6,
+      "topology": "cycle",
+      "compatibility_probability": 0.6,
+      "rare_fraction": 0.25,
+      "rep": 6,
+      "seed": 15757193987550828018
+    },
+    {
+      "case": "S0438",
+      "n_per_role": 80,
+      "roles": 6,
+      "topology": "cycle",
+      "compatibility_probability": 0.6,
+      "rare_fraction": 0.25,
+      "rep": 7,
+      "seed": 4641766985566235416
+    },
+    {
+      "case": "S0439",
+      "n_per_role": 80,
+      "roles": 6,
+      "topology": "cycle",
+      "compatibility_probability": 0.6,
+      "rare_fraction": 0.25,
+      "rep": 8,
+      "seed": 1037361633404346456
+    },
+    {
+      "case": "S0440",
+      "n_per_role": 80,
+      "roles": 6,
+      "topology": "cycle",
+      "compatibility_probability": 0.6,
+      "rare_fraction": 0.25,
+      "rep": 9,
+      "seed": 17741033463538871514
+    },
+    {
+      "case": "S0441",
+      "n_per_role": 80,
+      "roles": 6,
+      "topology": "dense",
+      "compatibility_probability": 0.15,
+      "rare_fraction": 0.05,
+      "rep": 0,
+      "seed": 13359412210676614950
+    },
+    {
+      "case": "S0442",
+      "n_per_role": 80,
+      "roles": 6,
+      "topology": "dense",
+      "compatibility_probability": 0.15,
+      "rare_fraction": 0.05,
+      "rep": 1,
+      "seed": 13522573697722035968
+    },
+    {
+      "case": "S0443",
+      "n_per_role": 80,
+      "roles": 6,
+      "topology": "dense",
+      "compatibility_probability": 0.15,
+      "rare_fraction": 0.05,
+      "rep": 2,
+      "seed": 12580237012426156187
+    },
+    {
+      "case": "S0444",
+      "n_per_role": 80,
+      "roles": 6,
+      "topology": "dense",
+      "compatibility_probability": 0.15,
+      "rare_fraction": 0.05,
+      "rep": 3,
+      "seed": 10846946125194161053
+    },
+    {
+      "case": "S0445",
+      "n_per_role": 80,
+      "roles": 6,
+      "topology": "dense",
+      "compatibility_probability": 0.15,
+      "rare_fraction": 0.05,
+      "rep": 4,
+      "seed": 387727996894889336
+    },
+    {
+      "case": "S0446",
+      "n_per_role": 80,
+      "roles": 6,
+      "topology": "dense",
+      "compatibility_probability": 0.15,
+      "rare_fraction": 0.05,
+      "rep": 5,
+      "seed": 18090437087030919870
+    },
+    {
+      "case": "S0447",
+      "n_per_role": 80,
+      "roles": 6,
+      "topology": "dense",
+      "compatibility_probability": 0.15,
+      "rare_fraction": 0.05,
+      "rep": 6,
+      "seed": 16848477356262549026
+    },
+    {
+      "case": "S0448",
+      "n_per_role": 80,
+      "roles": 6,
+      "topology": "dense",
+      "compatibility_probability": 0.15,
+      "rare_fraction": 0.05,
+      "rep": 7,
+      "seed": 12410099104206656214
+    },
+    {
+      "case": "S0449",
+      "n_per_role": 80,
+      "roles": 6,
+      "topology": "dense",
+      "compatibility_probability": 0.15,
+      "rare_fraction": 0.05,
+      "rep": 8,
+      "seed": 17281498961371133804
+    },
+    {
+      "case": "S0450",
+      "n_per_role": 80,
+      "roles": 6,
+      "topology": "dense",
+      "compatibility_probability": 0.15,
+      "rare_fraction": 0.05,
+      "rep": 9,
+      "seed": 12504977865848685688
+    },
+    {
+      "case": "S0451",
+      "n_per_role": 80,
+      "roles": 6,
+      "topology": "dense",
+      "compatibility_probability": 0.15,
+      "rare_fraction": 0.25,
+      "rep": 0,
+      "seed": 559528943369625028
+    },
+    {
+      "case": "S0452",
+      "n_per_role": 80,
+      "roles": 6,
+      "topology": "dense",
+      "compatibility_probability": 0.15,
+      "rare_fraction": 0.25,
+      "rep": 1,
+      "seed": 11783288377039739587
+    },
+    {
+      "case": "S0453",
+      "n_per_role": 80,
+      "roles": 6,
+      "topology": "dense",
+      "compatibility_probability": 0.15,
+      "rare_fraction": 0.25,
+      "rep": 2,
+      "seed": 16235917222604027529
+    },
+    {
+      "case": "S0454",
+      "n_per_role": 80,
+      "roles": 6,
+      "topology": "dense",
+      "compatibility_probability": 0.15,
+      "rare_fraction": 0.25,
+      "rep": 3,
+      "seed": 5952063860469931080
+    },
+    {
+      "case": "S0455",
+      "n_per_role": 80,
+      "roles": 6,
+      "topology": "dense",
+      "compatibility_probability": 0.15,
+      "rare_fraction": 0.25,
+      "rep": 4,
+      "seed": 15917115033310792658
+    },
+    {
+      "case": "S0456",
+      "n_per_role": 80,
+      "roles": 6,
+      "topology": "dense",
+      "compatibility_probability": 0.15,
+      "rare_fraction": 0.25,
+      "rep": 5,
+      "seed": 4178640705163166210
+    },
+    {
+      "case": "S0457",
+      "n_per_role": 80,
+      "roles": 6,
+      "topology": "dense",
+      "compatibility_probability": 0.15,
+      "rare_fraction": 0.25,
+      "rep": 6,
+      "seed": 9977326367836588864
+    },
+    {
+      "case": "S0458",
+      "n_per_role": 80,
+      "roles": 6,
+      "topology": "dense",
+      "compatibility_probability": 0.15,
+      "rare_fraction": 0.25,
+      "rep": 7,
+      "seed": 6278687202158151095
+    },
+    {
+      "case": "S0459",
+      "n_per_role": 80,
+      "roles": 6,
+      "topology": "dense",
+      "compatibility_probability": 0.15,
+      "rare_fraction": 0.25,
+      "rep": 8,
+      "seed": 3136871803579199316
+    },
+    {
+      "case": "S0460",
+      "n_per_role": 80,
+      "roles": 6,
+      "topology": "dense",
+      "compatibility_probability": 0.15,
+      "rare_fraction": 0.25,
+      "rep": 9,
+      "seed": 15479243633463779330
+    },
+    {
+      "case": "S0461",
+      "n_per_role": 80,
+      "roles": 6,
+      "topology": "dense",
+      "compatibility_probability": 0.6,
+      "rare_fraction": 0.05,
+      "rep": 0,
+      "seed": 1723171488324175863
+    },
+    {
+      "case": "S0462",
+      "n_per_role": 80,
+      "roles": 6,
+      "topology": "dense",
+      "compatibility_probability": 0.6,
+      "rare_fraction": 0.05,
+      "rep": 1,
+      "seed": 4859036482557555080
+    },
+    {
+      "case": "S0463",
+      "n_per_role": 80,
+      "roles": 6,
+      "topology": "dense",
+      "compatibility_probability": 0.6,
+      "rare_fraction": 0.05,
+      "rep": 2,
+      "seed": 5828417373534663278
+    },
+    {
+      "case": "S0464",
+      "n_per_role": 80,
+      "roles": 6,
+      "topology": "dense",
+      "compatibility_probability": 0.6,
+      "rare_fraction": 0.05,
+      "rep": 3,
+      "seed": 7066079076547080821
+    },
+    {
+      "case": "S0465",
+      "n_per_role": 80,
+      "roles": 6,
+      "topology": "dense",
+      "compatibility_probability": 0.6,
+      "rare_fraction": 0.05,
+      "rep": 4,
+      "seed": 16526883138239810867
+    },
+    {
+      "case": "S0466",
+      "n_per_role": 80,
+      "roles": 6,
+      "topology": "dense",
+      "compatibility_probability": 0.6,
+      "rare_fraction": 0.05,
+      "rep": 5,
+      "seed": 12356120411141315102
+    },
+    {
+      "case": "S0467",
+      "n_per_role": 80,
+      "roles": 6,
+      "topology": "dense",
+      "compatibility_probability": 0.6,
+      "rare_fraction": 0.05,
+      "rep": 6,
+      "seed": 17379832426833191202
+    },
+    {
+      "case": "S0468",
+      "n_per_role": 80,
+      "roles": 6,
+      "topology": "dense",
+      "compatibility_probability": 0.6,
+      "rare_fraction": 0.05,
+      "rep": 7,
+      "seed": 17761003214496869068
+    },
+    {
+      "case": "S0469",
+      "n_per_role": 80,
+      "roles": 6,
+      "topology": "dense",
+      "compatibility_probability": 0.6,
+      "rare_fraction": 0.05,
+      "rep": 8,
+      "seed": 13141635799745363055
+    },
+    {
+      "case": "S0470",
+      "n_per_role": 80,
+      "roles": 6,
+      "topology": "dense",
+      "compatibility_probability": 0.6,
+      "rare_fraction": 0.05,
+      "rep": 9,
+      "seed": 12093264556762113278
+    },
+    {
+      "case": "S0471",
+      "n_per_role": 80,
+      "roles": 6,
+      "topology": "dense",
+      "compatibility_probability": 0.6,
+      "rare_fraction": 0.25,
+      "rep": 0,
+      "seed": 8878696320724081094
+    },
+    {
+      "case": "S0472",
+      "n_per_role": 80,
+      "roles": 6,
+      "topology": "dense",
+      "compatibility_probability": 0.6,
+      "rare_fraction": 0.25,
+      "rep": 1,
+      "seed": 14699955530840726424
+    },
+    {
+      "case": "S0473",
+      "n_per_role": 80,
+      "roles": 6,
+      "topology": "dense",
+      "compatibility_probability": 0.6,
+      "rare_fraction": 0.25,
+      "rep": 2,
+      "seed": 8203695584187975549
+    },
+    {
+      "case": "S0474",
+      "n_per_role": 80,
+      "roles": 6,
+      "topology": "dense",
+      "compatibility_probability": 0.6,
+      "rare_fraction": 0.25,
+      "rep": 3,
+      "seed": 4381212703996863983
+    },
+    {
+      "case": "S0475",
+      "n_per_role": 80,
+      "roles": 6,
+      "topology": "dense",
+      "compatibility_probability": 0.6,
+      "rare_fraction": 0.25,
+      "rep": 4,
+      "seed": 1098599466560665376
+    },
+    {
+      "case": "S0476",
+      "n_per_role": 80,
+      "roles": 6,
+      "topology": "dense",
+      "compatibility_probability": 0.6,
+      "rare_fraction": 0.25,
+      "rep": 5,
+      "seed": 1802918675572565550
+    },
+    {
+      "case": "S0477",
+      "n_per_role": 80,
+      "roles": 6,
+      "topology": "dense",
+      "compatibility_probability": 0.6,
+      "rare_fraction": 0.25,
+      "rep": 6,
+      "seed": 16563088849660296707
+    },
+    {
+      "case": "S0478",
+      "n_per_role": 80,
+      "roles": 6,
+      "topology": "dense",
+      "compatibility_probability": 0.6,
+      "rare_fraction": 0.25,
+      "rep": 7,
+      "seed": 16037260494793967871
+    },
+    {
+      "case": "S0479",
+      "n_per_role": 80,
+      "roles": 6,
+      "topology": "dense",
+      "compatibility_probability": 0.6,
+      "rare_fraction": 0.25,
+      "rep": 8,
+      "seed": 4294684715892420156
+    },
+    {
+      "case": "S0480",
+      "n_per_role": 80,
+      "roles": 6,
+      "topology": "dense",
+      "compatibility_probability": 0.6,
+      "rare_fraction": 0.25,
+      "rep": 9,
+      "seed": 15609559481626829302
+    }
+  ],
+  "all_planted_feasible": true,
+  "solver_node_limit": 100000,
+  "scope": "abstract CSP stress test; no LLM performance, physical validity, optimality or minimum-edit claim"
+}

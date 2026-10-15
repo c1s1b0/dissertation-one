@@ -1,0 +1,48 @@
+{
+  "hardware": {
+    "os": "Windows-11-10.0.22631-SP0",
+    "cpu": "AMD Ryzen 7 7745HX with Radeon Graphics        ",
+    "python": "3.12.7 | packaged by Anaconda, Inc. | (main, Oct  4 2024, 13:17:27) [MSC v.1929 64 bit (AMD64)]",
+    "logical_cpus": 16,
+    "packages": {
+      "numpy": "1.26.4",
+      "pandas": "2.2.3",
+      "scipy": "1.14.1",
+      "pydantic": "2.12.4",
+      "z3-solver": "4.16.0.0",
+      "PyYAML": "6.0.3"
+    },
+    "ram_bytes": 33475293184
+  },
+  "replicates": 3,
+  "selected_specs": {
+    "conditional_tolerance": "v3-test-conditional_tolerance-001",
+    "continuous_clearance": "v3-test-continuous_clearance-001",
+    "interface_compatibility": "v3-test-interface_compatibility-001"
+  },
+  "policies": [
+    "criticality_greedy",
+    "marginal_lookahead_no_relations",
+    "typed_relational_myopic",
+    "tr_mla"
+  ],
+  "candidate_sizes": [
+    2,
+    4,
+    8,
+    12
+  ],
+  "worker_timeout_seconds": 60.0,
+  "timed_window": "policy.select only; fitting, initial feasibility and process startup excluded",
+  "scale_protocol": "artificial all-hidden state; lexicographically first n schema-queryable fields; fixed 24 fields",
+  "input_source_sha256": {
+    "data\\generated\\v3\\train_complete_specs.jsonl": "7c0cbb1c20e91a07fc4dc4934f05f8bb36d6fe67552ba1d3fd7c2e5dde7bc223",
+    "data\\generated\\v3\\test_tasks.jsonl": "497dc6cdf1b32121041f2788210dfa63666a309cc3dc29898e5d225152683f15",
+    "configs\\fields.yaml": "ac3e541b05ada04e8a9c75f046f3d96311307152d12f509809ad025356d17e36",
+    "configs\\v3_relations.yaml": "fcbb0079758192c006b34fe589e48523bf95af536e80ece82d2ce0d2ff371c93",
+    "scripts\\benchmark_reviewer_efficiency.py": "8b50a211f6e4c69b6b750a3cf5d813cf57eb2dafc562c89e1dbdaa12af19c74b",
+    "src\\paper1_active_req\\experiment\\reviewer_efficiency.py": "c3d630d951bed5a7ba6a39832d88327b6d3f609b2a42986c19bf69422b11e086",
+    "src\\paper1_active_req\\policies\\marginal_lookahead.py": "52d8e89813191b7225f2fde9eb1bbc74b2f523a7ee0b4945e4531b1652b6a18e",
+    "src\\paper1_active_req\\solver\\engine.py": "0b88f0f5241e00cdf1676f892f80ef5a16696343792012a7ddda3174d091d6e6"
+  }
+}

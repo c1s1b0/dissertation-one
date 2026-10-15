@@ -1,0 +1,16 @@
+{
+  "analysis_label": "independent_robustness_exploratory",
+  "relation_config_hash": "fcbb0079758192c006b34fe589e48523bf95af536e80ece82d2ce0d2ff371c93",
+  "relation_config_path": "E:\\多智能体\\paper1_experiment\\configs\\v3_relations.yaml",
+  "schema_hash": "ac3e541b05ada04e8a9c75f046f3d96311307152d12f509809ad025356d17e36",
+  "schema_path": "E:\\多智能体\\paper1_experiment\\configs\\fields.yaml",
+  "seed": 20260813,
+  "split_spec_counts": {
+    "train": 180,
+    "validation": 60
+  },
+  "split_task_counts": {
+    "train": 540,
+    "validation": 180
+  }
+}

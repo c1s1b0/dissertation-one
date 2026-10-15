@@ -1,0 +1,14 @@
+master_seed: 20260806
+split:
+  train: 180
+  validation: 60
+  test: 60
+missing_rates: [0.3, 0.5, 0.7]
+budget: 8
+lambda_candidates: [0.0, 0.05, 0.1, 0.2]
+paths:
+  field_schema: configs/fields.yaml
+  relation_config: configs/v3_relations.yaml
+  generated_data: data/generated/v3
+  tuning_results: results/v3/tuning
+  formal_results: results/v3/formal

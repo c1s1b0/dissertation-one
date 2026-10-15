@@ -1,0 +1,77 @@
+{
+  "scope": "Offline replay of archived records and deterministic synthetic experiments",
+  "frozen_benchmark": {
+    "seed": 20260816,
+    "scenes": ["A", "B"],
+    "catalog_records_total": 160,
+    "roles_per_scene": 4,
+    "candidates_per_role": 20,
+    "tasks_per_scene": 200,
+    "configuration_tasks_per_scene": 100,
+    "scope_conditioned_tasks_per_scene": 100,
+    "repeats": 3,
+    "archived_methods": ["B0", "P", "P-LLM", "P-Typed", "P-LLMRepair"],
+    "terminal_records_in_primary_analysis": 6000,
+    "forced_negative_controls": 20
+  },
+  "archived_service": {
+    "route_label": "gpt-5.6-terra",
+    "temperature": 0,
+    "primary_run_prompt_version": "llm-prompt-v5",
+    "primary_run_workers": 8,
+    "primary_run_timeout_seconds": 120.0,
+    "underlying_model_independently_verified": false,
+    "online_regeneration_provided": false
+  },
+  "matched_controls": {
+    "methods": ["Random", "Rule", "Lexical", "Support"],
+    "initial_pool_preserved": true,
+    "quota": "Observed archived P candidate count per role, task and repeat",
+    "random_seed": 20261013,
+    "random_sensitivity_seeds": [20261013,20261014,20261015,20261016,20261017,20261018,20261019,20261020,20261021,20261022],
+    "support_solver_executions": 1200,
+    "support_uses_solution_witnesses_for_ranking": false
+  },
+  "statistics": {
+    "endpoint": "Binary majority across exactly three repeats per task",
+    "bootstrap_draws": 10000,
+    "bootstrap_seed": 20261013,
+    "confidence_level": 0.95,
+    "alpha": 0.05,
+    "paired_test": "Exact two-sided McNemar",
+    "multiple_testing": "Holm; separate 16 historical and 16 current matched contrasts",
+    "retrospective_analysis": true
+  },
+  "structural_experiment": {
+    "roles": 6,
+    "candidates_per_role": [20,40,80],
+    "topologies": ["chain","star","cycle","dense"],
+    "dense_display_name": "complete graph",
+    "compatibility_probabilities": [0.15,0.60],
+    "rare_domain_fractions": [0.05,0.25],
+    "other_domain_fraction": 0.70,
+    "replicates_per_factor_combination": 10,
+    "retained_per_role": [3,6,12],
+    "selectors": ["Random","Unary","Support"],
+    "cases": 480,
+    "restricted_solves": 4320,
+    "solver_node_limit": 100000,
+    "all_full_instances_planted_feasible": true,
+    "instance_seed_rule": "SHA-256-derived seed; explicit seeds in structural_manifest.json",
+    "model_calls": 0
+  },
+  "historical_request_audit": {
+    "request_attempts": 1840,
+    "task_repeat_keys": 1200,
+    "failed_attempts": 39,
+    "retried_task_repeat_keys": 30,
+    "accepted_validation_records": 1801,
+    "validation_outcome_records": 1809,
+    "positive_usage_records": 8,
+    "zero_usage_records": 1801,
+    "missing_usage_records": 31,
+    "reported_positive_token_sum": 170229,
+    "complete_token_total": null,
+    "monetary_cost": null
+  }
+}

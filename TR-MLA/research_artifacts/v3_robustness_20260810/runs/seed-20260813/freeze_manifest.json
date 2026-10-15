@@ -1,0 +1,17 @@
+{
+  "analysis_label": "independent_robustness_exploratory",
+  "budget": 8,
+  "relation_config_hash": "fcbb0079758192c006b34fe589e48523bf95af536e80ece82d2ce0d2ff371c93",
+  "schema_hash": "ac3e541b05ada04e8a9c75f046f3d96311307152d12f509809ad025356d17e36",
+  "seed": 20260813,
+  "selected_lambda": 0.0,
+  "selection_hash": "736fb5145b018d6225c89d3d9cbe490291f800d569bfef8bc44b1db45f1b3bde",
+  "source_hashes": {
+    "E:\\多智能体\\paper1_experiment\\src\\paper1_active_req\\experiment\\v3_robustness.py": "ee6cfbc954d23b3b143a7f9a988d5086306d56ddfac4160c416a0241d5d342f6",
+    "E:\\多智能体\\paper1_experiment\\src\\paper1_active_req\\experiment\\v3_runner.py": "2c24a7b135302006d5ced4159afb26499fc868ac5cdcfe82c630224170fb2849",
+    "E:\\多智能体\\paper1_experiment\\src\\paper1_active_req\\generator\\v3_relational_specs.py": "a92f6d868981a47d7a654ea785c2fd7274a612595bcefe2ff0ea343944cd317c"
+  },
+  "status": "frozen",
+  "training_specs_hash": "066e9886220260131e84af280f82633cbdab76e32fb9947a7dc5964c7512af0c",
+  "validation_tasks_hash": "f7ce051b6a6ae0d1bc0f42bfaaf505f71d1f330c7c942c67bbee488a32ae9b32"
+}

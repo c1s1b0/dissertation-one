@@ -1,0 +1,666 @@
+{
+  "dataset": "seed20261011",
+  "exploratory": true,
+  "train_n": 180,
+  "test_n": 60,
+  "perturbation_seed": 20261009,
+  "confidence_threshold": 0.95,
+  "continuous": {
+    "row_count": 1800,
+    "groups": [
+      {
+        "dataset": "seed20261011",
+        "target": "available_height_mm",
+        "model": "relation",
+        "parent_perturbation": 0.0,
+        "n": 60,
+        "mae": 119.96728179555502,
+        "rmse": 138.6156438614993,
+        "coverage95": 0.9333333333333333,
+        "mean_width_over_tolerance": 46.24937892289968,
+        "reliable_rate": 0.0,
+        "engineering_correct_rate": 0.06666666666666667,
+        "exact_correct_rate": 0.0
+      },
+      {
+        "dataset": "seed20261011",
+        "target": "available_height_mm",
+        "model": "relation",
+        "parent_perturbation": 0.05,
+        "n": 60,
+        "mae": 120.30471279639005,
+        "rmse": 139.24775948984606,
+        "coverage95": 0.9333333333333333,
+        "mean_width_over_tolerance": 46.24937892289968,
+        "reliable_rate": 0.0,
+        "engineering_correct_rate": 0.016666666666666666,
+        "exact_correct_rate": 0.0
+      },
+      {
+        "dataset": "seed20261011",
+        "target": "available_height_mm",
+        "model": "relation",
+        "parent_perturbation": 0.1,
+        "n": 60,
+        "mae": 121.76642513856123,
+        "rmse": 141.77229289398062,
+        "coverage95": 0.9166666666666666,
+        "mean_width_over_tolerance": 46.24937892289968,
+        "reliable_rate": 0.0,
+        "engineering_correct_rate": 0.03333333333333333,
+        "exact_correct_rate": 0.0
+      },
+      {
+        "dataset": "seed20261011",
+        "target": "available_height_mm",
+        "model": "marginal",
+        "parent_perturbation": 0.0,
+        "n": 60,
+        "mae": 151.59982155731578,
+        "rmse": 185.97268394055598,
+        "coverage95": 0.9666666666666667,
+        "mean_width_over_tolerance": 73.32485233662202,
+        "reliable_rate": 0.0,
+        "engineering_correct_rate": 0.13333333333333333,
+        "exact_correct_rate": 0.0
+      },
+      {
+        "dataset": "seed20261011",
+        "target": "available_height_mm",
+        "model": "marginal",
+        "parent_perturbation": 0.05,
+        "n": 60,
+        "mae": 151.59982155731578,
+        "rmse": 185.97268394055598,
+        "coverage95": 0.9666666666666667,
+        "mean_width_over_tolerance": 73.32485233662202,
+        "reliable_rate": 0.0,
+        "engineering_correct_rate": 0.13333333333333333,
+        "exact_correct_rate": 0.0
+      },
+      {
+        "dataset": "seed20261011",
+        "target": "available_height_mm",
+        "model": "marginal",
+        "parent_perturbation": 0.1,
+        "n": 60,
+        "mae": 151.59982155731578,
+        "rmse": 185.97268394055598,
+        "coverage95": 0.9666666666666667,
+        "mean_width_over_tolerance": 73.32485233662202,
+        "reliable_rate": 0.0,
+        "engineering_correct_rate": 0.13333333333333333,
+        "exact_correct_rate": 0.0
+      },
+      {
+        "dataset": "seed20261011",
+        "target": "available_length_mm",
+        "model": "relation",
+        "parent_perturbation": 0.0,
+        "n": 60,
+        "mae": 1359.7675927149385,
+        "rmse": 1548.6763366366165,
+        "coverage95": 0.9166666666666666,
+        "mean_width_over_tolerance": 445.7089110171776,
+        "reliable_rate": 0.0,
+        "engineering_correct_rate": 0.0,
+        "exact_correct_rate": 0.0
+      },
+      {
+        "dataset": "seed20261011",
+        "target": "available_length_mm",
+        "model": "relation",
+        "parent_perturbation": 0.05,
+        "n": 60,
+        "mae": 1367.0164362319458,
+        "rmse": 1553.5938391661136,
+        "coverage95": 0.9166666666666666,
+        "mean_width_over_tolerance": 445.7089110171776,
+        "reliable_rate": 0.0,
+        "engineering_correct_rate": 0.0,
+        "exact_correct_rate": 0.0
+      },
+      {
+        "dataset": "seed20261011",
+        "target": "available_length_mm",
+        "model": "relation",
+        "parent_perturbation": 0.1,
+        "n": 60,
+        "mae": 1374.2652797489534,
+        "rmse": 1559.2225437825239,
+        "coverage95": 0.9333333333333333,
+        "mean_width_over_tolerance": 445.7089110171776,
+        "reliable_rate": 0.0,
+        "engineering_correct_rate": 0.0,
+        "exact_correct_rate": 0.0
+      },
+      {
+        "dataset": "seed20261011",
+        "target": "available_length_mm",
+        "model": "marginal",
+        "parent_perturbation": 0.0,
+        "n": 60,
+        "mae": 1393.0191537467024,
+        "rmse": 1603.7970573680864,
+        "coverage95": 0.9,
+        "mean_width_over_tolerance": 483.10299482178306,
+        "reliable_rate": 0.0,
+        "engineering_correct_rate": 0.0,
+        "exact_correct_rate": 0.0
+      },
+      {
+        "dataset": "seed20261011",
+        "target": "available_length_mm",
+        "model": "marginal",
+        "parent_perturbation": 0.05,
+        "n": 60,
+        "mae": 1393.0191537467024,
+        "rmse": 1603.7970573680864,
+        "coverage95": 0.9,
+        "mean_width_over_tolerance": 483.10299482178306,
+        "reliable_rate": 0.0,
+        "engineering_correct_rate": 0.0,
+        "exact_correct_rate": 0.0
+      },
+      {
+        "dataset": "seed20261011",
+        "target": "available_length_mm",
+        "model": "marginal",
+        "parent_perturbation": 0.1,
+        "n": 60,
+        "mae": 1393.0191537467024,
+        "rmse": 1603.7970573680864,
+        "coverage95": 0.9,
+        "mean_width_over_tolerance": 483.10299482178306,
+        "reliable_rate": 0.0,
+        "engineering_correct_rate": 0.0,
+        "exact_correct_rate": 0.0
+      },
+      {
+        "dataset": "seed20261011",
+        "target": "available_width_mm",
+        "model": "relation",
+        "parent_perturbation": 0.0,
+        "n": 60,
+        "mae": 97.29093607105126,
+        "rmse": 121.63629994179037,
+        "coverage95": 0.9166666666666666,
+        "mean_width_over_tolerance": 35.744413124034196,
+        "reliable_rate": 0.0,
+        "engineering_correct_rate": 0.05,
+        "exact_correct_rate": 0.0
+      },
+      {
+        "dataset": "seed20261011",
+        "target": "available_width_mm",
+        "model": "relation",
+        "parent_perturbation": 0.05,
+        "n": 60,
+        "mae": 101.65251312308094,
+        "rmse": 122.35133979598042,
+        "coverage95": 0.9333333333333333,
+        "mean_width_over_tolerance": 35.744413124034196,
+        "reliable_rate": 0.0,
+        "engineering_correct_rate": 0.05,
+        "exact_correct_rate": 0.0
+      },
+      {
+        "dataset": "seed20261011",
+        "target": "available_width_mm",
+        "model": "relation",
+        "parent_perturbation": 0.1,
+        "n": 60,
+        "mae": 110.17721679890455,
+        "rmse": 128.6244820232897,
+        "coverage95": 0.9333333333333333,
+        "mean_width_over_tolerance": 35.744413124034196,
+        "reliable_rate": 0.0,
+        "engineering_correct_rate": 0.03333333333333333,
+        "exact_correct_rate": 0.0
+      },
+      {
+        "dataset": "seed20261011",
+        "target": "available_width_mm",
+        "model": "marginal",
+        "parent_perturbation": 0.0,
+        "n": 60,
+        "mae": 155.9165241084666,
+        "rmse": 184.24450270710022,
+        "coverage95": 0.95,
+        "mean_width_over_tolerance": 67.76387582361046,
+        "reliable_rate": 0.0,
+        "engineering_correct_rate": 0.03333333333333333,
+        "exact_correct_rate": 0.0
+      },
+      {
+        "dataset": "seed20261011",
+        "target": "available_width_mm",
+        "model": "marginal",
+        "parent_perturbation": 0.05,
+        "n": 60,
+        "mae": 155.9165241084666,
+        "rmse": 184.24450270710022,
+        "coverage95": 0.95,
+        "mean_width_over_tolerance": 67.76387582361046,
+        "reliable_rate": 0.0,
+        "engineering_correct_rate": 0.03333333333333333,
+        "exact_correct_rate": 0.0
+      },
+      {
+        "dataset": "seed20261011",
+        "target": "available_width_mm",
+        "model": "marginal",
+        "parent_perturbation": 0.1,
+        "n": 60,
+        "mae": 155.9165241084666,
+        "rmse": 184.24450270710022,
+        "coverage95": 0.95,
+        "mean_width_over_tolerance": 67.76387582361046,
+        "reliable_rate": 0.0,
+        "engineering_correct_rate": 0.03333333333333333,
+        "exact_correct_rate": 0.0
+      },
+      {
+        "dataset": "seed20261011",
+        "target": "positioning_accuracy_mm",
+        "model": "relation",
+        "parent_perturbation": 0.0,
+        "n": 60,
+        "mae": 1.4982427171303272,
+        "rmse": 1.704033361420131,
+        "coverage95": 0.9,
+        "mean_width_over_tolerance": 64.3822359565675,
+        "reliable_rate": 0.0,
+        "engineering_correct_rate": 0.0,
+        "exact_correct_rate": 0.0
+      },
+      {
+        "dataset": "seed20261011",
+        "target": "positioning_accuracy_mm",
+        "model": "relation",
+        "parent_perturbation": 0.05,
+        "n": 60,
+        "mae": 1.503661613216775,
+        "rmse": 1.7105575559973336,
+        "coverage95": 0.8833333333333333,
+        "mean_width_over_tolerance": 64.3822359565675,
+        "reliable_rate": 0.0,
+        "engineering_correct_rate": 0.03333333333333333,
+        "exact_correct_rate": 0.0
+      },
+      {
+        "dataset": "seed20261011",
+        "target": "positioning_accuracy_mm",
+        "model": "relation",
+        "parent_perturbation": 0.1,
+        "n": 60,
+        "mae": 1.5133371336551698,
+        "rmse": 1.7198353481975288,
+        "coverage95": 0.9,
+        "mean_width_over_tolerance": 64.3822359565675,
+        "reliable_rate": 0.0,
+        "engineering_correct_rate": 0.016666666666666666,
+        "exact_correct_rate": 0.0
+      },
+      {
+        "dataset": "seed20261011",
+        "target": "positioning_accuracy_mm",
+        "model": "marginal",
+        "parent_perturbation": 0.0,
+        "n": 60,
+        "mae": 1.1384546711263537,
+        "rmse": 1.3586282339431852,
+        "coverage95": 0.9,
+        "mean_width_over_tolerance": 88.4799801055477,
+        "reliable_rate": 0.0,
+        "engineering_correct_rate": 0.03333333333333333,
+        "exact_correct_rate": 0.0
+      },
+      {
+        "dataset": "seed20261011",
+        "target": "positioning_accuracy_mm",
+        "model": "marginal",
+        "parent_perturbation": 0.05,
+        "n": 60,
+        "mae": 1.1384546711263537,
+        "rmse": 1.3586282339431852,
+        "coverage95": 0.9,
+        "mean_width_over_tolerance": 88.4799801055477,
+        "reliable_rate": 0.0,
+        "engineering_correct_rate": 0.03333333333333333,
+        "exact_correct_rate": 0.0
+      },
+      {
+        "dataset": "seed20261011",
+        "target": "positioning_accuracy_mm",
+        "model": "marginal",
+        "parent_perturbation": 0.1,
+        "n": 60,
+        "mae": 1.1384546711263537,
+        "rmse": 1.3586282339431852,
+        "coverage95": 0.9,
+        "mean_width_over_tolerance": 88.4799801055477,
+        "reliable_rate": 0.0,
+        "engineering_correct_rate": 0.03333333333333333,
+        "exact_correct_rate": 0.0
+      },
+      {
+        "dataset": "seed20261011",
+        "target": "transfer_time_s",
+        "model": "relation",
+        "parent_perturbation": 0.0,
+        "n": 60,
+        "mae": 7.868151078929902,
+        "rmse": 8.592860287616416,
+        "coverage95": 0.9,
+        "mean_width_over_tolerance": 38.955626167860665,
+        "reliable_rate": 0.0,
+        "engineering_correct_rate": 0.03333333333333333,
+        "exact_correct_rate": 0.0
+      },
+      {
+        "dataset": "seed20261011",
+        "target": "transfer_time_s",
+        "model": "relation",
+        "parent_perturbation": 0.05,
+        "n": 60,
+        "mae": 7.886930616423213,
+        "rmse": 8.607893086359548,
+        "coverage95": 0.9,
+        "mean_width_over_tolerance": 38.955626167860665,
+        "reliable_rate": 0.0,
+        "engineering_correct_rate": 0.03333333333333333,
+        "exact_correct_rate": 0.0
+      },
+      {
+        "dataset": "seed20261011",
+        "target": "transfer_time_s",
+        "model": "relation",
+        "parent_perturbation": 0.1,
+        "n": 60,
+        "mae": 7.915502581152279,
+        "rmse": 8.638636450897655,
+        "coverage95": 0.9166666666666666,
+        "mean_width_over_tolerance": 38.955626167860665,
+        "reliable_rate": 0.0,
+        "engineering_correct_rate": 0.05,
+        "exact_correct_rate": 0.0
+      },
+      {
+        "dataset": "seed20261011",
+        "target": "transfer_time_s",
+        "model": "marginal",
+        "parent_perturbation": 0.0,
+        "n": 60,
+        "mae": 8.76912696444472,
+        "rmse": 9.504490795468577,
+        "coverage95": 0.9333333333333333,
+        "mean_width_over_tolerance": 43.350757012805396,
+        "reliable_rate": 0.0,
+        "engineering_correct_rate": 0.016666666666666666,
+        "exact_correct_rate": 0.0
+      },
+      {
+        "dataset": "seed20261011",
+        "target": "transfer_time_s",
+        "model": "marginal",
+        "parent_perturbation": 0.05,
+        "n": 60,
+        "mae": 8.76912696444472,
+        "rmse": 9.504490795468577,
+        "coverage95": 0.9333333333333333,
+        "mean_width_over_tolerance": 43.350757012805396,
+        "reliable_rate": 0.0,
+        "engineering_correct_rate": 0.016666666666666666,
+        "exact_correct_rate": 0.0
+      },
+      {
+        "dataset": "seed20261011",
+        "target": "transfer_time_s",
+        "model": "marginal",
+        "parent_perturbation": 0.1,
+        "n": 60,
+        "mae": 8.76912696444472,
+        "rmse": 9.504490795468577,
+        "coverage95": 0.9333333333333333,
+        "mean_width_over_tolerance": 43.350757012805396,
+        "reliable_rate": 0.0,
+        "engineering_correct_rate": 0.016666666666666666,
+        "exact_correct_rate": 0.0
+      }
+    ]
+  },
+  "stress": {
+    "clean_n": 60,
+    "perturbed_n": 360,
+    "enabled": {
+      "false_accept": 0,
+      "clean_false_reject": 0,
+      "unknown": 0,
+      "false_accept_rate": 0.0,
+      "clean_false_reject_rate": 0.0
+    },
+    "disabled": {
+      "false_accept": 360,
+      "clean_false_reject": 0,
+      "unknown": 0,
+      "false_accept_rate": 1.0,
+      "clean_false_reject_rate": 0.0
+    },
+    "by_kind": [
+      {
+        "dataset": "seed20261011",
+        "kind": "clean",
+        "n": 60,
+        "enabled_accepted": 60,
+        "disabled_accepted": 60,
+        "unknown": 0
+      },
+      {
+        "dataset": "seed20261011",
+        "kind": "cycle_throughput",
+        "n": 60,
+        "enabled_accepted": 0,
+        "disabled_accepted": 60,
+        "unknown": 0
+      },
+      {
+        "dataset": "seed20261011",
+        "kind": "domain",
+        "n": 60,
+        "enabled_accepted": 0,
+        "disabled_accepted": 60,
+        "unknown": 0
+      },
+      {
+        "dataset": "seed20261011",
+        "kind": "geometry",
+        "n": 60,
+        "enabled_accepted": 0,
+        "disabled_accepted": 60,
+        "unknown": 0
+      },
+      {
+        "dataset": "seed20261011",
+        "kind": "interface",
+        "n": 60,
+        "enabled_accepted": 0,
+        "disabled_accepted": 60,
+        "unknown": 0
+      },
+      {
+        "dataset": "seed20261011",
+        "kind": "load",
+        "n": 60,
+        "enabled_accepted": 0,
+        "disabled_accepted": 60,
+        "unknown": 0
+      },
+      {
+        "dataset": "seed20261011",
+        "kind": "mixed",
+        "n": 60,
+        "enabled_accepted": 0,
+        "disabled_accepted": 60,
+        "unknown": 0
+      }
+    ]
+  },
+  "parent_availability": [
+    {
+      "dataset": "seed20261011",
+      "target": "available_height_mm",
+      "missing_rate": 0.3,
+      "n": 60,
+      "all_parents_available_rate": 0.7666666666666667,
+      "parents_and_gate_available_rate": 0.7666666666666667
+    },
+    {
+      "dataset": "seed20261011",
+      "target": "available_height_mm",
+      "missing_rate": 0.5,
+      "n": 60,
+      "all_parents_available_rate": 0.5666666666666667,
+      "parents_and_gate_available_rate": 0.5666666666666667
+    },
+    {
+      "dataset": "seed20261011",
+      "target": "available_height_mm",
+      "missing_rate": 0.7,
+      "n": 60,
+      "all_parents_available_rate": 0.4166666666666667,
+      "parents_and_gate_available_rate": 0.4166666666666667
+    },
+    {
+      "dataset": "seed20261011",
+      "target": "available_length_mm",
+      "missing_rate": 0.3,
+      "n": 60,
+      "all_parents_available_rate": 0.7166666666666667,
+      "parents_and_gate_available_rate": 0.7166666666666667
+    },
+    {
+      "dataset": "seed20261011",
+      "target": "available_length_mm",
+      "missing_rate": 0.5,
+      "n": 60,
+      "all_parents_available_rate": 0.6166666666666667,
+      "parents_and_gate_available_rate": 0.6166666666666667
+    },
+    {
+      "dataset": "seed20261011",
+      "target": "available_length_mm",
+      "missing_rate": 0.7,
+      "n": 60,
+      "all_parents_available_rate": 0.43333333333333335,
+      "parents_and_gate_available_rate": 0.43333333333333335
+    },
+    {
+      "dataset": "seed20261011",
+      "target": "available_width_mm",
+      "missing_rate": 0.3,
+      "n": 60,
+      "all_parents_available_rate": 0.8333333333333334,
+      "parents_and_gate_available_rate": 0.8333333333333334
+    },
+    {
+      "dataset": "seed20261011",
+      "target": "available_width_mm",
+      "missing_rate": 0.5,
+      "n": 60,
+      "all_parents_available_rate": 0.5333333333333333,
+      "parents_and_gate_available_rate": 0.5333333333333333
+    },
+    {
+      "dataset": "seed20261011",
+      "target": "available_width_mm",
+      "missing_rate": 0.7,
+      "n": 60,
+      "all_parents_available_rate": 0.3,
+      "parents_and_gate_available_rate": 0.3
+    },
+    {
+      "dataset": "seed20261011",
+      "target": "positioning_accuracy_mm",
+      "missing_rate": 0.3,
+      "n": 60,
+      "all_parents_available_rate": 0.55,
+      "parents_and_gate_available_rate": 0.36666666666666664
+    },
+    {
+      "dataset": "seed20261011",
+      "target": "positioning_accuracy_mm",
+      "missing_rate": 0.5,
+      "n": 60,
+      "all_parents_available_rate": 0.38333333333333336,
+      "parents_and_gate_available_rate": 0.23333333333333334
+    },
+    {
+      "dataset": "seed20261011",
+      "target": "positioning_accuracy_mm",
+      "missing_rate": 0.7,
+      "n": 60,
+      "all_parents_available_rate": 0.25,
+      "parents_and_gate_available_rate": 0.08333333333333333
+    },
+    {
+      "dataset": "seed20261011",
+      "target": "transfer_time_s",
+      "missing_rate": 0.3,
+      "n": 60,
+      "all_parents_available_rate": 0.5166666666666667,
+      "parents_and_gate_available_rate": 0.5166666666666667
+    },
+    {
+      "dataset": "seed20261011",
+      "target": "transfer_time_s",
+      "missing_rate": 0.5,
+      "n": 60,
+      "all_parents_available_rate": 0.26666666666666666,
+      "parents_and_gate_available_rate": 0.26666666666666666
+    },
+    {
+      "dataset": "seed20261011",
+      "target": "transfer_time_s",
+      "missing_rate": 0.7,
+      "n": 60,
+      "all_parents_available_rate": 0.05,
+      "parents_and_gate_available_rate": 0.05
+    }
+  ],
+  "input_hashes": {
+    "train": {
+      "path": "E:\\多智能体\\paper1_experiment\\research_artifacts\\reviewer_supplement_20261009\\datasets\\seed-20261011\\train_complete_specs.jsonl",
+      "sha256": "34584bf055683cd9137521411c79b0f9d808c81c20be75c5c48dca2d16d08d3b"
+    },
+    "test": {
+      "path": "E:\\多智能体\\paper1_experiment\\research_artifacts\\reviewer_supplement_20261009\\datasets\\seed-20261011\\test_complete_specs.jsonl",
+      "sha256": "25f36df1fd0cb313fbf0af46fda98ec3bceda913e89b62c6ae2ccaea1d5c8d6d"
+    },
+    "tasks": {
+      "path": "E:\\多智能体\\paper1_experiment\\research_artifacts\\reviewer_supplement_20261009\\datasets\\seed-20261011\\test_tasks.jsonl",
+      "sha256": "ff9d1ba1e47e921438157cb0f63ffa34c1f81124df4f40264afb83670aadf33b"
+    },
+    "schema": {
+      "path": "E:\\多智能体\\paper1_experiment\\configs\\fields.yaml",
+      "sha256": "ac3e541b05ada04e8a9c75f046f3d96311307152d12f509809ad025356d17e36"
+    },
+    "relations": {
+      "path": "E:\\多智能体\\paper1_experiment\\configs\\v3_relations.yaml",
+      "sha256": "fcbb0079758192c006b34fe589e48523bf95af536e80ece82d2ce0d2ff371c93"
+    }
+  },
+  "source_hashes": {
+    "src\\paper1_active_req\\experiment\\reviewer_diagnostics.py": "5b41503fdf017eef82bab641b2762c9519fc3ff534229a6d6e8210d154505cdb",
+    "src\\paper1_active_req\\solver\\rules.py": "2773dbbcda9b773a9d5b03f29493e35a75fbf8d45c06802d84d83f127f7e7383",
+    "src\\paper1_active_req\\relations\\model.py": "506e9fe199a9b4c29711a34ecb9566cd88afd6b3f83c5ac3da1a785fe91876ed",
+    "src\\paper1_active_req\\relations\\continuous.py": "03d19f3c6eb6b15f41aa36fcc97e829a058f7e064bd64dae6b31cd720c6cfd28"
+  },
+  "limitations": [
+    "合成基准校准，不构成工业验证",
+    "外层拒绝并要求确认是新增保护，不是原算法纠错",
+    "非法输入标签来自预定义注入，不以求解器结果定义真值",
+    "95%区间来自训练残差分位数，未再校准",
+    "未知求解状态保留，不记为确认误拒绝"
+  ]
+}

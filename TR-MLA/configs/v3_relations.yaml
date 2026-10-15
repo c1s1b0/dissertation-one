@@ -1,0 +1,44 @@
+field_schema_path: fields.yaml
+confidence_threshold: 0.95
+continuous_quantiles: [0.1, 0.5, 0.9]
+continuous_interval_quantiles: [0.025, 0.975]
+engineering_tolerances:
+  available_length_mm: 10.0
+  available_width_mm: 10.0
+  available_height_mm: 10.0
+  transfer_time_s: 0.5
+  positioning_accuracy_mm: 0.05
+relations:
+  - relation_id: upstream_to_station_input_interface
+    family: discrete_cpt
+    target_field_id: station_input_interface
+    parent_field_ids: [upstream_output_interface]
+  - relation_id: station_input_to_station_output_interface
+    family: discrete_cpt
+    target_field_id: station_output_interface
+    parent_field_ids: [station_input_interface]
+  - relation_id: station_to_downstream_input_interface
+    family: discrete_cpt
+    target_field_id: downstream_input_interface
+    parent_field_ids: [station_output_interface]
+  - relation_id: length_clearance
+    family: affine
+    target_field_id: available_length_mm
+    parent_field_ids: [workpiece_length_mm]
+  - relation_id: width_clearance
+    family: affine
+    target_field_id: available_width_mm
+    parent_field_ids: [workpiece_width_mm]
+  - relation_id: height_clearance
+    family: affine
+    target_field_id: available_height_mm
+    parent_field_ids: [workpiece_height_mm]
+  - relation_id: travel_speed_time
+    family: inverse_time
+    target_field_id: transfer_time_s
+    parent_field_ids: [travel_distance_mm, conveyor_speed_mm_s]
+  - relation_id: fragile_positioning
+    family: gated_affine
+    target_field_id: positioning_accuracy_mm
+    parent_field_ids: [repeatability_mm]
+    gate_field_id: workpiece_fragile

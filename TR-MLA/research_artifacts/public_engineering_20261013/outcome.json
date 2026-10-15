@@ -1,0 +1,211 @@
+{
+  "protocol_hash": "cea5a94bbcd4cdb30029fd3b2cca8f20ee6422b1b3fb0f0dbe88e0e7efc83295",
+  "completed_utc": "2026-10-13T03:20:42.067665+00:00",
+  "project_count": 1,
+  "subsystem_count": 2,
+  "episode_count": 360,
+  "snapshot_count": 1800,
+  "step_count": 768,
+  "complete_source_relation_chains": 0,
+  "relation_factor_uses": 0,
+  "summary": [
+    {
+      "policy": "tr_mla",
+      "budget": 0,
+      "direct_weighted_coverage_mean": 0.0,
+      "answer_cost_mean": 0,
+      "query_count_mean": 0,
+      "descriptive_replay_count": 90,
+      "project_count": 1
+    },
+    {
+      "policy": "tr_mla",
+      "budget": 1,
+      "direct_weighted_coverage_mean": 0.5750079221041109,
+      "answer_cost_mean": 0.2511111111111111,
+      "query_count_mean": 1,
+      "descriptive_replay_count": 90,
+      "project_count": 1
+    },
+    {
+      "policy": "tr_mla",
+      "budget": 2,
+      "direct_weighted_coverage_mean": 0.8793377120963328,
+      "answer_cost_mean": 0.52,
+      "query_count_mean": 1.7333333333333334,
+      "descriptive_replay_count": 90,
+      "project_count": 1
+    },
+    {
+      "policy": "tr_mla",
+      "budget": 3,
+      "direct_weighted_coverage_mean": 0.9842105263157894,
+      "answer_cost_mean": 0.66,
+      "query_count_mean": 2.066666666666667,
+      "descriptive_replay_count": 90,
+      "project_count": 1
+    },
+    {
+      "policy": "tr_mla",
+      "budget": 4,
+      "direct_weighted_coverage_mean": 1.0,
+      "answer_cost_mean": 0.6933333333333334,
+      "query_count_mean": 2.1333333333333333,
+      "descriptive_replay_count": 90,
+      "project_count": 1
+    },
+    {
+      "policy": "typed_relational_myopic",
+      "budget": 0,
+      "direct_weighted_coverage_mean": 0.0,
+      "answer_cost_mean": 0,
+      "query_count_mean": 0,
+      "descriptive_replay_count": 90,
+      "project_count": 1
+    },
+    {
+      "policy": "typed_relational_myopic",
+      "budget": 1,
+      "direct_weighted_coverage_mean": 0.5848241292887391,
+      "answer_cost_mean": 0.2777777777777778,
+      "query_count_mean": 1,
+      "descriptive_replay_count": 90,
+      "project_count": 1
+    },
+    {
+      "policy": "typed_relational_myopic",
+      "budget": 2,
+      "direct_weighted_coverage_mean": 0.8841845994296085,
+      "answer_cost_mean": 0.5466666666666667,
+      "query_count_mean": 1.7333333333333334,
+      "descriptive_replay_count": 90,
+      "project_count": 1
+    },
+    {
+      "policy": "typed_relational_myopic",
+      "budget": 3,
+      "direct_weighted_coverage_mean": 0.9842105263157894,
+      "answer_cost_mean": 0.6666666666666667,
+      "query_count_mean": 2.066666666666667,
+      "descriptive_replay_count": 90,
+      "project_count": 1
+    },
+    {
+      "policy": "typed_relational_myopic",
+      "budget": 4,
+      "direct_weighted_coverage_mean": 1.0,
+      "answer_cost_mean": 0.6933333333333334,
+      "query_count_mean": 2.1333333333333333,
+      "descriptive_replay_count": 90,
+      "project_count": 1
+    },
+    {
+      "policy": "criticality_greedy",
+      "budget": 0,
+      "direct_weighted_coverage_mean": 0.0,
+      "answer_cost_mean": 0,
+      "query_count_mean": 0,
+      "descriptive_replay_count": 90,
+      "project_count": 1
+    },
+    {
+      "policy": "criticality_greedy",
+      "budget": 1,
+      "direct_weighted_coverage_mean": 0.5848241292887391,
+      "answer_cost_mean": 0.3466666666666667,
+      "query_count_mean": 1,
+      "descriptive_replay_count": 90,
+      "project_count": 1
+    },
+    {
+      "policy": "criticality_greedy",
+      "budget": 2,
+      "direct_weighted_coverage_mean": 0.8841845994296085,
+      "answer_cost_mean": 0.5733333333333334,
+      "query_count_mean": 1.7333333333333334,
+      "descriptive_replay_count": 90,
+      "project_count": 1
+    },
+    {
+      "policy": "criticality_greedy",
+      "budget": 3,
+      "direct_weighted_coverage_mean": 0.9842105263157894,
+      "answer_cost_mean": 0.68,
+      "query_count_mean": 2.066666666666667,
+      "descriptive_replay_count": 90,
+      "project_count": 1
+    },
+    {
+      "policy": "criticality_greedy",
+      "budget": 4,
+      "direct_weighted_coverage_mean": 1.0,
+      "answer_cost_mean": 0.6933333333333334,
+      "query_count_mean": 2.1333333333333333,
+      "descriptive_replay_count": 90,
+      "project_count": 1
+    },
+    {
+      "policy": "marginal_lookahead_no_relations",
+      "budget": 0,
+      "direct_weighted_coverage_mean": 0.0,
+      "answer_cost_mean": 0,
+      "query_count_mean": 0,
+      "descriptive_replay_count": 90,
+      "project_count": 1
+    },
+    {
+      "policy": "marginal_lookahead_no_relations",
+      "budget": 1,
+      "direct_weighted_coverage_mean": 0.5750079221041109,
+      "answer_cost_mean": 0.2511111111111111,
+      "query_count_mean": 1,
+      "descriptive_replay_count": 90,
+      "project_count": 1
+    },
+    {
+      "policy": "marginal_lookahead_no_relations",
+      "budget": 2,
+      "direct_weighted_coverage_mean": 0.8793377120963328,
+      "answer_cost_mean": 0.52,
+      "query_count_mean": 1.7333333333333334,
+      "descriptive_replay_count": 90,
+      "project_count": 1
+    },
+    {
+      "policy": "marginal_lookahead_no_relations",
+      "budget": 3,
+      "direct_weighted_coverage_mean": 0.9842105263157894,
+      "answer_cost_mean": 0.66,
+      "query_count_mean": 2.066666666666667,
+      "descriptive_replay_count": 90,
+      "project_count": 1
+    },
+    {
+      "policy": "marginal_lookahead_no_relations",
+      "budget": 4,
+      "direct_weighted_coverage_mean": 1.0,
+      "answer_cost_mean": 0.6933333333333334,
+      "query_count_mean": 2.1333333333333333,
+      "descriptive_replay_count": 90,
+      "project_count": 1
+    }
+  ],
+  "sequence_comparisons": [
+    {
+      "other": "typed_relational_myopic",
+      "sequence_identical": 58,
+      "descriptive_pairs": 90
+    },
+    {
+      "other": "criticality_greedy",
+      "sequence_identical": 40,
+      "descriptive_pairs": 90
+    },
+    {
+      "other": "marginal_lookahead_no_relations",
+      "sequence_identical": 90,
+      "descriptive_pairs": 90
+    }
+  ],
+  "python": "3.12.7"
+}

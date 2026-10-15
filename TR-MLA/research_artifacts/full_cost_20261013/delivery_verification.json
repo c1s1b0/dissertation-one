@@ -1,0 +1,23 @@
+{
+  "status": "passed",
+  "figure_visual_check": "no clipped labels or obscured data",
+  "all_narrative_claims_checked": true,
+  "summary_counts": {
+    "episodes": 4320,
+    "spec_rows": 5760,
+    "means": 96,
+    "comparisons": 720
+  },
+  "question_count_all_8_m50_m70": true,
+  "within_cost_18_significant": true,
+  "lambda_02_endpoint_18_significant": true,
+  "between_main_endpoint_and_cost_36_significant": true,
+  "holm_family_sizes": [
+    96,
+    96,
+    96,
+    144,
+    144,
+    144
+  ]
+}

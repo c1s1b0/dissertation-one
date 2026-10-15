@@ -1,0 +1,23 @@
+{
+  "input_hashes": {
+    "parent_summary": {
+      "path": "E:\\多智能体\\paper1_experiment\\research_artifacts\\reviewer_supplement_20261009\\diagnostics\\parent_ablation\\variant_summary.csv",
+      "sha256": "a3276acff1d34c9e0512d2e452b39bc58300e64f3e7e304d3e33c477fc36afc5"
+    },
+    "noise_summary": {
+      "path": "E:\\多智能体\\paper1_experiment\\research_artifacts\\reviewer_supplement_20261009\\diagnostics\\noise_replay\\summary.csv",
+      "sha256": "7f48e7a64c2b5b40f219bac3925c07aec183f8b7be5e4b54c2ffc1fe2c760ff7"
+    },
+    "efficiency_raw": {
+      "path": "E:\\多智能体\\paper1_experiment\\research_artifacts\\reviewer_supplement_20261009\\efficiency\\raw_replicates.csv",
+      "sha256": "b4cba23d90b0ce0ba95f6fcfc7d40176a028fd4fd80b45164022f2d5af6ad43d"
+    }
+  },
+  "script_sha256": "8b3e3bf9bde48ec75b2461358c67e251239c9cae014432f8fb35684dc147517d",
+  "figure_names": [
+    "reviewer_continuous_parent_adaptation",
+    "reviewer_noise_and_efficiency"
+  ],
+  "no_error_bars": "仅展示原CSV支持的均值/实际重复median，不绘制未估计CI",
+  "efficiency_aggregation": "每policy/候选规模，3规格×3重复的9个原decision窗口耗时取median；SAT calls同法"
+}

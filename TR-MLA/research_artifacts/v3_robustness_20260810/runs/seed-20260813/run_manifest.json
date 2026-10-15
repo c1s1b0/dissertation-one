@@ -1,0 +1,28 @@
+{
+  "analysis_label": "independent_robustness_exploratory",
+  "artifact_hashes": {
+    "development_manifest": "b446165c7d94573ac8a943e7e768c592c949cb780b698a459e4dbf1e91c0193d",
+    "freeze_manifest": "0dddfb73857b9e5d1fe28ea569153cf6f2fda6c2dfada87bec6152f10d473e9a",
+    "outcome": "cdb84a386a1c0587cfae35c3d6540f96540e1ef34237e4ed57dba8c40aa0d412",
+    "records": "975f250cf9cf9c6b497734b905d63b08527bac952586c813ca8c1d7135da8c4b",
+    "release_manifest": "6f66daa390073928fb436d72fddb966f6a8609a4d84df3913a8b0afcc3c439cd",
+    "selection": "736fb5145b018d6225c89d3d9cbe490291f800d569bfef8bc44b1db45f1b3bde"
+  },
+  "budget": 8,
+  "policy_names": [
+    "random",
+    "fixed_questionnaire",
+    "criticality_greedy",
+    "uncertainty_afa",
+    "constraint_range_only",
+    "ccla_one_step",
+    "v2_style_two_step_unconditioned",
+    "marginal_lookahead_no_relations",
+    "typed_relational_myopic",
+    "tr_mla"
+  ],
+  "record_count": 1800,
+  "seed": 20260813,
+  "selected_lambda": 0.0,
+  "status": "succeeded"
+}

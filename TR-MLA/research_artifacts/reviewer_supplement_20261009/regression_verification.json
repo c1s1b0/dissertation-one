@@ -1,0 +1,25 @@
+{
+  "status": "passed",
+  "full_suite": {
+    "count": 330,
+    "seconds": 934.84,
+    "command": "python -X utf8 -m pytest --basetemp .tmp/reviewer-full-20261009 -p no:cacheprovider",
+    "exit_code": 0
+  },
+  "relocated_reviewer_suite": {
+    "count": 32,
+    "deselected": 298,
+    "seconds": 2.95,
+    "command": "python -X utf8 -m pytest tests -k reviewer --basetemp .reviewer-portable-tests -p no:cacheprovider",
+    "exit_code": 0
+  },
+  "protected_inputs_after_tests": "all hash matches",
+  "review_response_count": 23,
+  "response_counts": [
+    6,
+    11,
+    6
+  ],
+  "summary_outputs": "hash matches",
+  "portable_record_replay": 2484
+}

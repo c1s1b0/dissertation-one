@@ -1,0 +1,15 @@
+{
+  "analysis_label": "post_review_exploratory_finite_budget_diagnostic",
+  "motivation": "frozen TR scorer ignores remaining budget in two-step term",
+  "raw_tr_mla_preserved": true,
+  "rule": "retain original seven-query prefix; final query relational-myopic; lambda=0; B=8",
+  "seeds": [
+    20261011,
+    20261013,
+    20261017
+  ],
+  "source_hashes": {
+    "scripts\\diagnose_reviewer_terminal.py": "9716b0eab79140f519546d2dc827c19553c0aae84f90ef0135fe948337422d69",
+    "src\\paper1_active_req\\experiment\\reviewer_terminal.py": "2383d8c7c91518e1d0f6c5762295901b5b5ead1e4ba214219344f062f4460279"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "analysis_date": "2026-10-14",
+  "seed": 20261013,
+  "bootstrap_draws": 10000,
+  "files": {
+    "research_artifacts\\benchmarks\\formal-20260816\\catalog.jsonl": "584edc0bdf8b83fa5b9c2e1120ac7e25dd2cd887d307f6ab40041e339e5d26bc",
+    "research_artifacts\\benchmarks\\formal-20260816\\tasks\\A_test.jsonl": "103e8e576f396f8eb47e1c0a64ce831afd935b7917d186d299bf89eb32a6709e",
+    "research_artifacts\\benchmarks\\formal-20260816\\tasks\\B_test.jsonl": "05c07fcc08f72540448a7d1d39498dc010732fd8851889104334377fc269cc04",
+    "research_artifacts\\formal_runs_v2\\test\\results.jsonl": "d8ee0434c9b47dbe3c1e6da9a022bce9a0797e4317cc6477f642d190441e31d1",
+    "research_artifacts\\formal_llm_runs\\main-v5-postaudit-test-20260817\\results.jsonl": "3b761e9232af96008aead9395e3239c998ef15d5a08465c4c330ea406bbec2c9",
+    "research_artifacts\\formal_llm_runs\\main-v5-postaudit-ablation-test-20260817\\results.jsonl": "ceba91a3ca0bcfc9dd2000c5c422be293a6b58f16c1f0cf390925143cd6d7a00",
+    "research_artifacts/reconstruction-20261013/matched_replay.jsonl": "686fb41dd33d405f6af72986dd5de7ed5ab3af29814d8e9dea8c458e7e70483c",
+    "research_artifacts/cmc-audit-input-20261014/p_attempts_sanitized.json": "d8efa0eb1dd34694e50480a81906dda8436fbd8ae8c65ab1d4a96bd680f49e56",
+    "research_artifacts/cmc-audit-input-20261014/provenance.json": "d101147eac4daaa063d7d661c8d5ae147a1ed2f59795bfc5ddfcc8e4518bf76b"
+  },
+  "policy": "Retrospective Support extension; 16 matched Holm tests; no noninferiority or population generalization claim; no ground-truth witnesses used in ranking.",
+  "live_model_calls": 0
+}

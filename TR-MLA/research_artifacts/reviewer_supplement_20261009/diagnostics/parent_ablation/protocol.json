@@ -1,0 +1,93 @@
+{
+  "analysis_label": "post_review_exploratory_added_after_initial_diagnostics",
+  "motivation": "原几何关系省略工程规则中的行程或侧间隙父变量，诊断表达不足",
+  "seeds": [
+    20261011,
+    20261013,
+    20261017
+  ],
+  "train_n_per_seed": 180,
+  "test_n_per_seed": 60,
+  "variants": {
+    "single_parent": "冻结原配置",
+    "multiple_parent": {
+      "available_length_mm": [
+        "workpiece_length_mm",
+        "travel_distance_mm"
+      ],
+      "available_width_mm": [
+        "workpiece_width_mm",
+        "side_clearance_mm"
+      ]
+    }
+  },
+  "public_state": "两变体使用相同union父字段，target和其他字段置空",
+  "fit": "原最小二乘及训练残差经验分位数，无校准或阈值优化",
+  "confidence_threshold": 0.95,
+  "engineering_tolerances": {
+    "available_length_mm": 10.0,
+    "available_width_mm": 10.0
+  },
+  "prediction": "冻结可靠解析代表值：距95%区间中点最近的分位分支",
+  "interval_quantiles": [
+    0.025,
+    0.975
+  ],
+  "bootstrap_repetitions": 10000,
+  "bootstrap_seed": 20261009,
+  "paired_statistic": "单父绝对误差减多父绝对误差，规格级配对均值；正值表示多父较低",
+  "wilcoxon": "双侧，对60个规格级绝对误差差值检验",
+  "multiplicity_family": "三seed×两target共六对统一Holm",
+  "input_hashes": {
+    "schema": {
+      "path": "E:\\多智能体\\paper1_experiment\\configs\\fields.yaml",
+      "sha256": "ac3e541b05ada04e8a9c75f046f3d96311307152d12f509809ad025356d17e36"
+    },
+    "relations": {
+      "path": "E:\\多智能体\\paper1_experiment\\configs\\v3_relations.yaml",
+      "sha256": "fcbb0079758192c006b34fe589e48523bf95af536e80ece82d2ce0d2ff371c93"
+    },
+    "20261011_train": {
+      "path": "E:\\多智能体\\paper1_experiment\\research_artifacts\\reviewer_supplement_20261009\\datasets\\seed-20261011\\train_complete_specs.jsonl",
+      "sha256": "34584bf055683cd9137521411c79b0f9d808c81c20be75c5c48dca2d16d08d3b"
+    },
+    "20261011_test": {
+      "path": "E:\\多智能体\\paper1_experiment\\research_artifacts\\reviewer_supplement_20261009\\datasets\\seed-20261011\\test_complete_specs.jsonl",
+      "sha256": "25f36df1fd0cb313fbf0af46fda98ec3bceda913e89b62c6ae2ccaea1d5c8d6d"
+    },
+    "20261011_manifest": {
+      "path": "E:\\多智能体\\paper1_experiment\\research_artifacts\\reviewer_supplement_20261009\\datasets\\seed-20261011\\manifest.json",
+      "sha256": "3c022a15aa4bfcc947ff4b556e3dd8be21b37473af1effa0a573bdee7f28e901"
+    },
+    "20261013_train": {
+      "path": "E:\\多智能体\\paper1_experiment\\research_artifacts\\reviewer_supplement_20261009\\datasets\\seed-20261013\\train_complete_specs.jsonl",
+      "sha256": "f6d7bd2deaa361c5e0f7f6e239d685486c31e3f0c7b92f4f38ce306ec694489d"
+    },
+    "20261013_test": {
+      "path": "E:\\多智能体\\paper1_experiment\\research_artifacts\\reviewer_supplement_20261009\\datasets\\seed-20261013\\test_complete_specs.jsonl",
+      "sha256": "754831f15c04775c6191f3acc720414867ef89a52eb61270561fe250adb6ee42"
+    },
+    "20261013_manifest": {
+      "path": "E:\\多智能体\\paper1_experiment\\research_artifacts\\reviewer_supplement_20261009\\datasets\\seed-20261013\\manifest.json",
+      "sha256": "28f1f36c56abc33018b86b8f5392db0af82aa96fad21670aabd0bccfec101632"
+    },
+    "20261017_train": {
+      "path": "E:\\多智能体\\paper1_experiment\\research_artifacts\\reviewer_supplement_20261009\\datasets\\seed-20261017\\train_complete_specs.jsonl",
+      "sha256": "0b0b00c643df22c0f0eaeec189c7357567ebf8bb87b1d55584b85fe02fb1fc69"
+    },
+    "20261017_test": {
+      "path": "E:\\多智能体\\paper1_experiment\\research_artifacts\\reviewer_supplement_20261009\\datasets\\seed-20261017\\test_complete_specs.jsonl",
+      "sha256": "cc78dada8ba5846aba397d1c37157bbc61463118b4ef41860356de193973723c"
+    },
+    "20261017_manifest": {
+      "path": "E:\\多智能体\\paper1_experiment\\research_artifacts\\reviewer_supplement_20261009\\datasets\\seed-20261017\\manifest.json",
+      "sha256": "d0cbd5275b9874bac9ee7f613ad55d6ca315ee8a6c11118bce69c46c038272a3"
+    }
+  },
+  "source_hashes": {
+    "src\\paper1_active_req\\experiment\\reviewer_parent_ablation.py": "c8b64ba179d4c336f2e7e317145289bb1b694f2ee8d22cfe358b2575c4e291c7",
+    "src\\paper1_active_req\\relations\\model.py": "506e9fe199a9b4c29711a34ecb9566cd88afd6b3f83c5ac3da1a785fe91876ed",
+    "src\\paper1_active_req\\relations\\continuous.py": "03d19f3c6eb6b15f41aa36fcc97e829a058f7e064bd64dae6b31cd720c6cfd28",
+    "src\\paper1_active_req\\solver\\rules.py": "2773dbbcda9b773a9d5b03f29493e35a75fbf8d45c06802d84d83f127f7e7383"
+  }
+}

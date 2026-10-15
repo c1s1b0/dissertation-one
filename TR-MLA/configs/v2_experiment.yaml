@@ -1,0 +1,7 @@
+seed: 20260805
+budget: 8
+lambda_cost_candidates: [0.0, 0.05, 0.1, 0.2]
+lambda_solver_candidates: [0.0, 0.01, 0.05]
+selection_split: validation
+selection_rule: max_crr_at_8_then_auc_then_min_answer_cost_then_lambda_lexicographic
+primary_comparisons: [criticality_greedy, ccla_one_step]

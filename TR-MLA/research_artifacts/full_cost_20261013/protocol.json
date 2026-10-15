@@ -1,0 +1,111 @@
+{
+  "binding": {
+    "input_hashes": {
+      "dataset:datasets/seed-20261011/manifest.json": "3c022a15aa4bfcc947ff4b556e3dd8be21b37473af1effa0a573bdee7f28e901",
+      "dataset:datasets/seed-20261011/test_complete_specs.jsonl": "25f36df1fd0cb313fbf0af46fda98ec3bceda913e89b62c6ae2ccaea1d5c8d6d",
+      "dataset:datasets/seed-20261011/test_tasks.jsonl": "ff9d1ba1e47e921438157cb0f63ffa34c1f81124df4f40264afb83670aadf33b",
+      "dataset:datasets/seed-20261011/train_complete_specs.jsonl": "34584bf055683cd9137521411c79b0f9d808c81c20be75c5c48dca2d16d08d3b",
+      "dataset:datasets/seed-20261011/train_tasks.jsonl": "6cd0fb7f77fedeb882ceac8e940b5575163e9a4baede9e4ea13a135e2a25eaba",
+      "dataset:datasets/seed-20261011/validation_complete_specs.jsonl": "215cb039e82c7a9bf1537dd87490f0d736a11b48d72f6bec9ae98369bb3ad498",
+      "dataset:datasets/seed-20261011/validation_tasks.jsonl": "05e0e6f2eb25f29c38967434f8d03cc21eef4e517f9d66d15446a61204c78941",
+      "dataset:datasets/seed-20261013/manifest.json": "28f1f36c56abc33018b86b8f5392db0af82aa96fad21670aabd0bccfec101632",
+      "dataset:datasets/seed-20261013/test_complete_specs.jsonl": "754831f15c04775c6191f3acc720414867ef89a52eb61270561fe250adb6ee42",
+      "dataset:datasets/seed-20261013/test_tasks.jsonl": "2d4b165eae9ec318b33ccad963519d7954ea211fa18e861b44af2426dd56bae3",
+      "dataset:datasets/seed-20261013/train_complete_specs.jsonl": "f6d7bd2deaa361c5e0f7f6e239d685486c31e3f0c7b92f4f38ce306ec694489d",
+      "dataset:datasets/seed-20261013/train_tasks.jsonl": "9ce4bd686e0ac5021435addf35c334a93f9aa5993df4049ae3bd94b6c92b7b42",
+      "dataset:datasets/seed-20261013/validation_complete_specs.jsonl": "c2cae5530ad6b25da37befa04422e8169fb6495e92a0ab151b614b7770276193",
+      "dataset:datasets/seed-20261013/validation_tasks.jsonl": "7e1b489d1d7c61fa3f0d57f8865aac94850873fc54a854892faba5bfd1ccd73d",
+      "dataset:datasets/seed-20261017/manifest.json": "d0cbd5275b9874bac9ee7f613ad55d6ca315ee8a6c11118bce69c46c038272a3",
+      "dataset:datasets/seed-20261017/test_complete_specs.jsonl": "cc78dada8ba5846aba397d1c37157bbc61463118b4ef41860356de193973723c",
+      "dataset:datasets/seed-20261017/test_tasks.jsonl": "ae8fae49cc0bb7431e64f31566cd36be63a5a933c78e04ca94b06f7ff70dccac",
+      "dataset:datasets/seed-20261017/train_complete_specs.jsonl": "0b0b00c643df22c0f0eaeec189c7357567ebf8bb87b1d55584b85fe02fb1fc69",
+      "dataset:datasets/seed-20261017/train_tasks.jsonl": "3a3cf3f435d0474e0ece6084043c137f0ecbed776c3477ce2d060e037c9c8cc6",
+      "dataset:datasets/seed-20261017/validation_complete_specs.jsonl": "b254f0862c7d68de395714502e0247afe8c7137f37efdfeaa413cb33e3fd4aed",
+      "dataset:datasets/seed-20261017/validation_tasks.jsonl": "541cb34d66fdc9efe4bb71c77598d28ce8b10bc4361cb83e3aab5dd79de72247",
+      "formal_episodes": "3d219cca3159c1c42790c58c385ceb2e7a8170a085d762b1c0760c7a20dbcba5",
+      "formal_freeze": "a7670575c8b98aeda1911feb575a3f4668d7284b4cc207c715f2ae1a567c2c32",
+      "full_runner": "23e6f7d9242fd7baa908764ea0b816890c255ece5c748d09cf10980dd7771ad0",
+      "legacy_source:src/paper1_active_req/domain/models.py": "b2a7f53bff878972304a612a5855cb71a457ce63b4fd1121dbec7dc49fea8627",
+      "legacy_source:src/paper1_active_req/domain/schema.py": "3c7657ab1440b654db8d91ff45265dcf56d63c8b8165b60f027eccc1c3e8afc3",
+      "legacy_source:src/paper1_active_req/evaluation/v3_metrics.py": "f5186a59fbb4f7bc938d4938ee9c95a3741826e3e2db1fb14ddded703f5cbc3d",
+      "legacy_source:src/paper1_active_req/evaluation/v3_protocol.py": "aed97416a21f26cd53d0995a0eff1318de08a57ba3af778bdbb4e5e5b5db4e1f",
+      "legacy_source:src/paper1_active_req/evaluation/v3_statistics.py": "02e80d5ff0f619cd4a0ec7f0ab1550cf620221e3adcf9cf2f14b5bf8df9b6282",
+      "legacy_source:src/paper1_active_req/experiment/episode.py": "8a09d4eae7af08059851b8954ca472beaf7254c2e6d0f6c18bf610d3e849c9bd",
+      "legacy_source:src/paper1_active_req/experiment/v3_episode.py": "512fbf4350e708f3c93e46d9835c24b69d019797b6135d85f707a7afe12c6aca",
+      "legacy_source:src/paper1_active_req/experiment/v3_paths.py": "60ab19310cea7462d6a000c5c43d90129d9657cac1d89592396a52d58c7ed177",
+      "legacy_source:src/paper1_active_req/experiment/v3_runner.py": "2c24a7b135302006d5ced4159afb26499fc868ac5cdcfe82c630224170fb2849",
+      "legacy_source:src/paper1_active_req/generator/complete_specs.py": "5d261cee1decd7ba27e087bf0ad9328c9c457313f17fdfbcdfd2a5712a06f48a",
+      "legacy_source:src/paper1_active_req/generator/v3_relational_specs.py": "a92f6d868981a47d7a654ea785c2fd7274a612595bcefe2ff0ea343944cd317c",
+      "legacy_source:src/paper1_active_req/oracle/simulated.py": "da3989c48e917ef59f285fc9a2d504c26c7550d72bf743db79d77ae4eba6f6e9",
+      "legacy_source:src/paper1_active_req/policies/base.py": "d68524630c2a5bd6adc7a5c2ec01fe508fabf600fc996f91eff115357f21cd5f",
+      "legacy_source:src/paper1_active_req/policies/baselines.py": "d981331f775fc466baba670cb298c18169f88caab2739c3a0b1ee323a7d3911a",
+      "legacy_source:src/paper1_active_req/policies/lookahead.py": "e1aa04cd873cbd78185c04d34fbed71c51412b64b9d2f5abfcccad953af87717",
+      "legacy_source:src/paper1_active_req/policies/marginal_lookahead.py": "52d8e89813191b7225f2fde9eb1bbc74b2f523a7ee0b4945e4531b1652b6a18e",
+      "legacy_source:src/paper1_active_req/relations/config.py": "64c84819b0f94bdb633e19b7869b49c5af54bbc0bb7b67ab5fc2d99fe4248e1b",
+      "legacy_source:src/paper1_active_req/relations/continuous.py": "03d19f3c6eb6b15f41aa36fcc97e829a058f7e064bd64dae6b31cd720c6cfd28",
+      "legacy_source:src/paper1_active_req/relations/discrete.py": "f1623d27183bd7d19fc14dc30727fde4a92cbfb65f1fc5e05822dc2f57d80c5d",
+      "legacy_source:src/paper1_active_req/relations/model.py": "506e9fe199a9b4c29711a34ecb9566cd88afd6b3f83c5ac3da1a785fe91876ed",
+      "legacy_source:src/paper1_active_req/relations/posterior.py": "1f004255dc1a7c8ae9faf4c0e717377ad7b7fb906a5932e92d04a7ce1a6cbaac",
+      "legacy_source:src/paper1_active_req/relations/resources/v3_discrete_schema.yaml": "5c3dcd03ea952e1956c245bd4d0bbf79df66cb78369163ea7b2aada4e3594c17",
+      "legacy_source:src/paper1_active_req/solver/engine.py": "0b88f0f5241e00cdf1676f892f80ef5a16696343792012a7ddda3174d091d6e6",
+      "legacy_source:src/paper1_active_req/solver/rules.py": "2773dbbcda9b773a9d5b03f29493e35a75fbf8d45c06802d84d83f127f7e7383",
+      "metrics_source": "3d315f4ce3d17d8995f93d95e001b6fc13dd89a3d18e74ed4425643fd2b21418",
+      "old_outcome": "fdab2056e757934ca58fbae448ccfd5043dae2cad5aac281d43c81828d5d3113",
+      "old_protocol": "91f856b647d83d68e3d743501663eb9b3e68d7f80858a2684d4d16a4532a8f7c",
+      "old_records": "1badf11eb4c5b6751c39b916e788fb742bd53ceaf8f03c129eef1e443d19f696",
+      "relation_config": "fcbb0079758192c006b34fe589e48523bf95af536e80ece82d2ce0d2ff371c93",
+      "runner_source": "311a91f25b91c811046feab6cb37b5914201466d33190c049bc48257bb53f028",
+      "schema": "ac3e541b05ada04e8a9c75f046f3d96311307152d12f509809ad025356d17e36"
+    },
+    "settings": {
+      "analysis": "post-review exploratory; all fixed grid cells; no optimal lambda selection",
+      "between_method_holm_family": "per seed: 4 scopes x 4 lambdas x 6 metrics = 96",
+      "bootstrap_replicates": 10000,
+      "bootstrap_seed": "dataset seed; sequential deterministic scope/policy/lambda/metric order",
+      "budget": 8,
+      "cost_units": "synthetic schema answer cost, not money",
+      "expected": 4320,
+      "expected_new": 2916,
+      "expected_reused": 1404,
+      "failures": "retained; incomplete or failed grid prohibits complete statistics",
+      "lambda_grid": [
+        0.0,
+        0.05,
+        0.1,
+        0.2
+      ],
+      "missing_rates": [
+        0.3,
+        0.5,
+        0.7
+      ],
+      "n_specs_per_seed": 60,
+      "paired_metrics": [
+        "dcrr_at_8",
+        "rcrr_at_8",
+        "dcrr_auc",
+        "rcrr_auc",
+        "recovery_increment",
+        "answer_cost"
+      ],
+      "policies": [
+        "typed_relational_myopic",
+        "tr_mla"
+      ],
+      "scopes": [
+        "m30",
+        "m50",
+        "m70",
+        "m50_m70_mean"
+      ],
+      "seeds": [
+        20261011,
+        20261013,
+        20261017
+      ],
+      "tests": "two-sided Wilcoxon; zero differences p=1; percentile paired bootstrap; no cross-seed pooling",
+      "within_method_holm_family": "per seed: 4 scopes x 2 policies x 3 nonzero lambdas x 6 metrics = 144"
+    }
+  },
+  "protocol_hash": "9211adcb0eacfc779a46302ac0c821a5a5d44047d9a56a177ff7ab1dc0dc19e4"
+}

@@ -1,0 +1,378 @@
+{
+  "seed": 20261011,
+  "case_id": "shuttle_travel",
+  "denominator": 3.8,
+  "budget_prefix_invariance_verified": true,
+  "policies": [
+    {
+      "policy": "tr_mla",
+      "steps": [
+        {
+          "step": 1,
+          "selected": "workpiece_mass_kg",
+          "value": 30.0,
+          "operator": "<=",
+          "weighted_coverage": 0.2631578947368421,
+          "candidate_scores": [
+            {
+              "field_id": "load_capacity_kg",
+              "total": 0.5,
+              "first_gain": 0.23684210526315788,
+              "second_gain": 0.2631578947368421,
+              "cost": 0.7142857142857143
+            },
+            {
+              "field_id": "positioning_accuracy_mm",
+              "total": 0.5263157894736842,
+              "first_gain": 0.2631578947368421,
+              "second_gain": 0.2631578947368421,
+              "cost": 0.5714285714285715
+            },
+            {
+              "field_id": "workpiece_length_mm",
+              "total": 0.5,
+              "first_gain": 0.2368421052631579,
+              "second_gain": 0.2631578947368421,
+              "cost": 0.28571428571428575
+            },
+            {
+              "field_id": "workpiece_mass_kg",
+              "total": 0.5263157894736843,
+              "first_gain": 0.26315789473684215,
+              "second_gain": 0.26315789473684215,
+              "cost": 0.28571428571428575
+            }
+          ]
+        },
+        {
+          "step": 2,
+          "selected": "workpiece_length_mm",
+          "value": 600.0,
+          "operator": "=",
+          "weighted_coverage": 0.5,
+          "candidate_scores": [
+            {
+              "field_id": "load_capacity_kg",
+              "total": 0.5,
+              "first_gain": 0.23684210526315788,
+              "second_gain": 0.26315789473684215,
+              "cost": 0.7142857142857143
+            },
+            {
+              "field_id": "positioning_accuracy_mm",
+              "total": 0.5,
+              "first_gain": 0.2631578947368421,
+              "second_gain": 0.23684210526315796,
+              "cost": 0.5714285714285715
+            },
+            {
+              "field_id": "workpiece_length_mm",
+              "total": 0.5,
+              "first_gain": 0.2368421052631579,
+              "second_gain": 0.26315789473684215,
+              "cost": 0.28571428571428575
+            }
+          ]
+        },
+        {
+          "step": 3,
+          "selected": "positioning_accuracy_mm",
+          "value": 3.0,
+          "operator": "abs_error<=",
+          "weighted_coverage": 0.7631578947368421,
+          "candidate_scores": [
+            {
+              "field_id": "load_capacity_kg",
+              "total": 0.5,
+              "first_gain": 0.23684210526315785,
+              "second_gain": 0.26315789473684215,
+              "cost": 0.7142857142857143
+            },
+            {
+              "field_id": "positioning_accuracy_mm",
+              "total": 0.5,
+              "first_gain": 0.26315789473684215,
+              "second_gain": 0.23684210526315788,
+              "cost": 0.5714285714285715
+            }
+          ]
+        },
+        {
+          "step": 4,
+          "selected": "load_capacity_kg",
+          "value": 35.0,
+          "operator": "rated",
+          "weighted_coverage": 1.0,
+          "candidate_scores": [
+            {
+              "field_id": "load_capacity_kg",
+              "total": 0.23684210526315785,
+              "first_gain": 0.23684210526315785,
+              "second_gain": 0.0,
+              "cost": 0.7142857142857143
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "policy": "typed_relational_myopic",
+      "steps": [
+        {
+          "step": 1,
+          "selected": "workpiece_mass_kg",
+          "value": 30.0,
+          "operator": "<=",
+          "weighted_coverage": 0.2631578947368421,
+          "candidate_scores": [
+            {
+              "field_id": "load_capacity_kg",
+              "total": 0.2368421052631579,
+              "first_gain": 0.2368421052631579,
+              "second_gain": 0.0,
+              "cost": 0.7142857142857143
+            },
+            {
+              "field_id": "positioning_accuracy_mm",
+              "total": 0.2631578947368421,
+              "first_gain": 0.2631578947368421,
+              "second_gain": 0.0,
+              "cost": 0.5714285714285715
+            },
+            {
+              "field_id": "workpiece_length_mm",
+              "total": 0.2368421052631579,
+              "first_gain": 0.2368421052631579,
+              "second_gain": 0.0,
+              "cost": 0.28571428571428575
+            },
+            {
+              "field_id": "workpiece_mass_kg",
+              "total": 0.2631578947368421,
+              "first_gain": 0.2631578947368421,
+              "second_gain": 0.0,
+              "cost": 0.28571428571428575
+            }
+          ]
+        },
+        {
+          "step": 2,
+          "selected": "positioning_accuracy_mm",
+          "value": 3.0,
+          "operator": "abs_error<=",
+          "weighted_coverage": 0.5263157894736842,
+          "candidate_scores": [
+            {
+              "field_id": "load_capacity_kg",
+              "total": 0.2368421052631579,
+              "first_gain": 0.2368421052631579,
+              "second_gain": 0.0,
+              "cost": 0.7142857142857143
+            },
+            {
+              "field_id": "positioning_accuracy_mm",
+              "total": 0.2631578947368421,
+              "first_gain": 0.2631578947368421,
+              "second_gain": 0.0,
+              "cost": 0.5714285714285715
+            },
+            {
+              "field_id": "workpiece_length_mm",
+              "total": 0.2368421052631579,
+              "first_gain": 0.2368421052631579,
+              "second_gain": 0.0,
+              "cost": 0.28571428571428575
+            }
+          ]
+        },
+        {
+          "step": 3,
+          "selected": "load_capacity_kg",
+          "value": 35.0,
+          "operator": "rated",
+          "weighted_coverage": 0.7631578947368421,
+          "candidate_scores": [
+            {
+              "field_id": "load_capacity_kg",
+              "total": 0.23684210526315796,
+              "first_gain": 0.23684210526315796,
+              "second_gain": 0.0,
+              "cost": 0.7142857142857143
+            },
+            {
+              "field_id": "workpiece_length_mm",
+              "total": 0.23684210526315794,
+              "first_gain": 0.23684210526315794,
+              "second_gain": 0.0,
+              "cost": 0.28571428571428575
+            }
+          ]
+        },
+        {
+          "step": 4,
+          "selected": "workpiece_length_mm",
+          "value": 600.0,
+          "operator": "=",
+          "weighted_coverage": 1.0,
+          "candidate_scores": [
+            {
+              "field_id": "workpiece_length_mm",
+              "total": 0.23684210526315785,
+              "first_gain": 0.23684210526315785,
+              "second_gain": 0.0,
+              "cost": 0.28571428571428575
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "policy": "criticality_greedy",
+      "steps": [
+        {
+          "step": 1,
+          "selected": "positioning_accuracy_mm",
+          "value": 3.0,
+          "operator": "abs_error<=",
+          "weighted_coverage": 0.2631578947368421,
+          "candidate_scores": []
+        },
+        {
+          "step": 2,
+          "selected": "workpiece_mass_kg",
+          "value": 30.0,
+          "operator": "<=",
+          "weighted_coverage": 0.5263157894736842,
+          "candidate_scores": []
+        },
+        {
+          "step": 3,
+          "selected": "load_capacity_kg",
+          "value": 35.0,
+          "operator": "rated",
+          "weighted_coverage": 0.7631578947368421,
+          "candidate_scores": []
+        },
+        {
+          "step": 4,
+          "selected": "workpiece_length_mm",
+          "value": 600.0,
+          "operator": "=",
+          "weighted_coverage": 1.0,
+          "candidate_scores": []
+        }
+      ]
+    },
+    {
+      "policy": "marginal_lookahead_no_relations",
+      "steps": [
+        {
+          "step": 1,
+          "selected": "workpiece_mass_kg",
+          "value": 30.0,
+          "operator": "<=",
+          "weighted_coverage": 0.2631578947368421,
+          "candidate_scores": [
+            {
+              "field_id": "load_capacity_kg",
+              "total": 0.5,
+              "first_gain": 0.23684210526315788,
+              "second_gain": 0.2631578947368421,
+              "cost": 0.7142857142857143
+            },
+            {
+              "field_id": "positioning_accuracy_mm",
+              "total": 0.5263157894736842,
+              "first_gain": 0.2631578947368421,
+              "second_gain": 0.2631578947368421,
+              "cost": 0.5714285714285715
+            },
+            {
+              "field_id": "workpiece_length_mm",
+              "total": 0.5,
+              "first_gain": 0.2368421052631579,
+              "second_gain": 0.2631578947368421,
+              "cost": 0.28571428571428575
+            },
+            {
+              "field_id": "workpiece_mass_kg",
+              "total": 0.5263157894736843,
+              "first_gain": 0.26315789473684215,
+              "second_gain": 0.26315789473684215,
+              "cost": 0.28571428571428575
+            }
+          ]
+        },
+        {
+          "step": 2,
+          "selected": "workpiece_length_mm",
+          "value": 600.0,
+          "operator": "=",
+          "weighted_coverage": 0.5,
+          "candidate_scores": [
+            {
+              "field_id": "load_capacity_kg",
+              "total": 0.5,
+              "first_gain": 0.23684210526315788,
+              "second_gain": 0.26315789473684215,
+              "cost": 0.7142857142857143
+            },
+            {
+              "field_id": "positioning_accuracy_mm",
+              "total": 0.5,
+              "first_gain": 0.2631578947368421,
+              "second_gain": 0.23684210526315796,
+              "cost": 0.5714285714285715
+            },
+            {
+              "field_id": "workpiece_length_mm",
+              "total": 0.5,
+              "first_gain": 0.2368421052631579,
+              "second_gain": 0.26315789473684215,
+              "cost": 0.28571428571428575
+            }
+          ]
+        },
+        {
+          "step": 3,
+          "selected": "positioning_accuracy_mm",
+          "value": 3.0,
+          "operator": "abs_error<=",
+          "weighted_coverage": 0.7631578947368421,
+          "candidate_scores": [
+            {
+              "field_id": "load_capacity_kg",
+              "total": 0.5,
+              "first_gain": 0.23684210526315785,
+              "second_gain": 0.26315789473684215,
+              "cost": 0.7142857142857143
+            },
+            {
+              "field_id": "positioning_accuracy_mm",
+              "total": 0.5,
+              "first_gain": 0.26315789473684215,
+              "second_gain": 0.23684210526315788,
+              "cost": 0.5714285714285715
+            }
+          ]
+        },
+        {
+          "step": 4,
+          "selected": "load_capacity_kg",
+          "value": 35.0,
+          "operator": "rated",
+          "weighted_coverage": 1.0,
+          "candidate_scores": [
+            {
+              "field_id": "load_capacity_kg",
+              "total": 0.23684210526315785,
+              "first_gain": 0.23684210526315785,
+              "second_gain": 0.0,
+              "cost": 0.7142857142857143
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

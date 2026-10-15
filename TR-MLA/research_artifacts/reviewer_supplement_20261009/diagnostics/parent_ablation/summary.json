@@ -1,0 +1,286 @@
+{
+  "prediction_count": 720,
+  "comparisons": [
+    {
+      "seed": 20261011,
+      "target": "available_length_mm",
+      "n_specs": 60,
+      "mean_absolute_error_improvement": 1230.014988842443,
+      "bootstrap_ci95": [
+        1044.3383193152715,
+        1414.694102651234
+      ],
+      "bootstrap_repetitions": 10000,
+      "bootstrap_seed": 20261009,
+      "wilcoxon_statistic": 2.0,
+      "wilcoxon_p": 1.8030386309636688e-11,
+      "holm_p": 1.0818231785782013e-10
+    },
+    {
+      "seed": 20261011,
+      "target": "available_width_mm",
+      "n_specs": 60,
+      "mean_absolute_error_improvement": -0.26101641138002,
+      "bootstrap_ci95": [
+        -11.011824379900727,
+        10.51499673689828
+      ],
+      "bootstrap_repetitions": 10000,
+      "bootstrap_seed": 20261009,
+      "wilcoxon_statistic": 914.0,
+      "wilcoxon_p": 0.9941263436743275,
+      "holm_p": 1.0
+    },
+    {
+      "seed": 20261013,
+      "target": "available_length_mm",
+      "n_specs": 60,
+      "mean_absolute_error_improvement": 984.7296834359075,
+      "bootstrap_ci95": [
+        791.0509741549726,
+        1186.6999945417085
+      ],
+      "bootstrap_repetitions": 10000,
+      "bootstrap_seed": 20261009,
+      "wilcoxon_statistic": 23.0,
+      "wilcoxon_p": 5.149440426925989e-11,
+      "holm_p": 2.0597761707703955e-10
+    },
+    {
+      "seed": 20261013,
+      "target": "available_width_mm",
+      "n_specs": 60,
+      "mean_absolute_error_improvement": 6.188916761416198,
+      "bootstrap_ci95": [
+        -2.7267240597187468,
+        15.023942742085751
+      ],
+      "bootstrap_repetitions": 10000,
+      "bootstrap_seed": 20261009,
+      "wilcoxon_statistic": 731.0,
+      "wilcoxon_p": 0.17556577014041042,
+      "holm_p": 0.5266973104212312
+    },
+    {
+      "seed": 20261017,
+      "target": "available_length_mm",
+      "n_specs": 60,
+      "mean_absolute_error_improvement": 1182.6272054999295,
+      "bootstrap_ci95": [
+        987.6878234164411,
+        1389.5202035347565
+      ],
+      "bootstrap_repetitions": 10000,
+      "bootstrap_seed": 20261009,
+      "wilcoxon_statistic": 3.0,
+      "wilcoxon_p": 1.8964365613380834e-11,
+      "holm_p": 1.0818231785782013e-10
+    },
+    {
+      "seed": 20261017,
+      "target": "available_width_mm",
+      "n_specs": 60,
+      "mean_absolute_error_improvement": 1.7886456018824504,
+      "bootstrap_ci95": [
+        -8.777331806682696,
+        12.339324848264575
+      ],
+      "bootstrap_repetitions": 10000,
+      "bootstrap_seed": 20261009,
+      "wilcoxon_statistic": 858.0,
+      "wilcoxon_p": 0.674769380127215,
+      "holm_p": 1.0
+    }
+  ],
+  "variant_summary": [
+    {
+      "seed": 20261011,
+      "target": "available_length_mm",
+      "variant": "single_parent",
+      "n_specs": 60,
+      "parent_count": 1,
+      "parameter_count": 2,
+      "mae": 1359.7675927149385,
+      "rmse": 1548.6763366366165,
+      "coverage95": 0.9166666666666666,
+      "mean_width_over_tolerance": 445.7089110171776,
+      "reliable_rate": 0.0,
+      "engineering_correct_rate": 0.0,
+      "exact_correct_rate": 0.0
+    },
+    {
+      "seed": 20261011,
+      "target": "available_length_mm",
+      "variant": "multiple_parent",
+      "n_specs": 60,
+      "parent_count": 2,
+      "parameter_count": 3,
+      "mae": 129.75260387249543,
+      "rmse": 152.57118816404406,
+      "coverage95": 0.85,
+      "mean_width_over_tolerance": 45.667089237837835,
+      "reliable_rate": 0.0,
+      "engineering_correct_rate": 0.05,
+      "exact_correct_rate": 0.0
+    },
+    {
+      "seed": 20261011,
+      "target": "available_width_mm",
+      "variant": "single_parent",
+      "n_specs": 60,
+      "parent_count": 1,
+      "parameter_count": 2,
+      "mae": 97.29093607105126,
+      "rmse": 121.63629994179037,
+      "coverage95": 0.9166666666666666,
+      "mean_width_over_tolerance": 35.744413124034196,
+      "reliable_rate": 0.0,
+      "engineering_correct_rate": 0.05,
+      "exact_correct_rate": 0.0
+    },
+    {
+      "seed": 20261011,
+      "target": "available_width_mm",
+      "variant": "multiple_parent",
+      "n_specs": 60,
+      "parent_count": 2,
+      "parameter_count": 3,
+      "mae": 97.55195248243129,
+      "rmse": 118.65537229444116,
+      "coverage95": 0.8833333333333333,
+      "mean_width_over_tolerance": 27.7726520514498,
+      "reliable_rate": 0.0,
+      "engineering_correct_rate": 0.05,
+      "exact_correct_rate": 0.0
+    },
+    {
+      "seed": 20261013,
+      "target": "available_length_mm",
+      "variant": "single_parent",
+      "n_specs": 60,
+      "parent_count": 1,
+      "parameter_count": 2,
+      "mae": 1112.5431093911907,
+      "rmse": 1362.0566481764624,
+      "coverage95": 0.95,
+      "mean_width_over_tolerance": 468.39601321158625,
+      "reliable_rate": 0.0,
+      "engineering_correct_rate": 0.0,
+      "exact_correct_rate": 0.0
+    },
+    {
+      "seed": 20261013,
+      "target": "available_length_mm",
+      "variant": "multiple_parent",
+      "n_specs": 60,
+      "parent_count": 2,
+      "parameter_count": 3,
+      "mae": 127.81342595528334,
+      "rmse": 146.93175067862467,
+      "coverage95": 0.95,
+      "mean_width_over_tolerance": 45.85771058495454,
+      "reliable_rate": 0.0,
+      "engineering_correct_rate": 0.05,
+      "exact_correct_rate": 0.0
+    },
+    {
+      "seed": 20261013,
+      "target": "available_width_mm",
+      "variant": "single_parent",
+      "n_specs": 60,
+      "parent_count": 1,
+      "parameter_count": 2,
+      "mae": 91.15026161276202,
+      "rmse": 109.5519908573081,
+      "coverage95": 0.9166666666666666,
+      "mean_width_over_tolerance": 34.1990950719422,
+      "reliable_rate": 0.0,
+      "engineering_correct_rate": 0.08333333333333333,
+      "exact_correct_rate": 0.0
+    },
+    {
+      "seed": 20261013,
+      "target": "available_width_mm",
+      "variant": "multiple_parent",
+      "n_specs": 60,
+      "parent_count": 2,
+      "parameter_count": 3,
+      "mae": 84.96134485134583,
+      "rmse": 98.15538388668834,
+      "coverage95": 0.9,
+      "mean_width_over_tolerance": 28.848113663224716,
+      "reliable_rate": 0.0,
+      "engineering_correct_rate": 0.06666666666666667,
+      "exact_correct_rate": 0.0
+    },
+    {
+      "seed": 20261017,
+      "target": "available_length_mm",
+      "variant": "single_parent",
+      "n_specs": 60,
+      "parent_count": 1,
+      "parameter_count": 2,
+      "mae": 1311.6338836601249,
+      "rmse": 1535.8795343244662,
+      "coverage95": 0.9,
+      "mean_width_over_tolerance": 444.4962597194232,
+      "reliable_rate": 0.0,
+      "engineering_correct_rate": 0.0,
+      "exact_correct_rate": 0.0
+    },
+    {
+      "seed": 20261017,
+      "target": "available_length_mm",
+      "variant": "multiple_parent",
+      "n_specs": 60,
+      "parent_count": 2,
+      "parameter_count": 3,
+      "mae": 129.00667816019558,
+      "rmse": 147.32177235113812,
+      "coverage95": 0.95,
+      "mean_width_over_tolerance": 47.75805702477363,
+      "reliable_rate": 0.0,
+      "engineering_correct_rate": 0.03333333333333333,
+      "exact_correct_rate": 0.0
+    },
+    {
+      "seed": 20261017,
+      "target": "available_width_mm",
+      "variant": "single_parent",
+      "n_specs": 60,
+      "parent_count": 1,
+      "parameter_count": 2,
+      "mae": 80.41904533604381,
+      "rmse": 97.2381944264626,
+      "coverage95": 1.0,
+      "mean_width_over_tolerance": 37.742216890545464,
+      "reliable_rate": 0.0,
+      "engineering_correct_rate": 0.08333333333333333,
+      "exact_correct_rate": 0.0
+    },
+    {
+      "seed": 20261017,
+      "target": "available_width_mm",
+      "variant": "multiple_parent",
+      "n_specs": 60,
+      "parent_count": 2,
+      "parameter_count": 3,
+      "mae": 78.63039973416133,
+      "rmse": 94.6484288095076,
+      "coverage95": 0.9166666666666666,
+      "mean_width_over_tolerance": 28.750993610353326,
+      "reliable_rate": 0.0,
+      "engineering_correct_rate": 0.03333333333333333,
+      "exact_correct_rate": 0.0
+    }
+  ],
+  "analysis_label": "post_review_exploratory_added_after_initial_diagnostics",
+  "protocol_sha256": "ae0b4139c6efa2ae9961a91c455e811f103bfeb8064af6d7ba8ccbf98fb25b3e",
+  "limitations": [
+    "局部两几何关系父变量适配，不是架构重制或工业验证",
+    "未改冻结配置、策略或已有TR-MLA结果",
+    "MAE下降不等于满足工程容差或达到可靠解析门槛",
+    "这是追加的审稿后探索性诊断，不是原预注册实验",
+    "三seed结果分开呈现，不拼接为独立样本总体"
+  ]
+}

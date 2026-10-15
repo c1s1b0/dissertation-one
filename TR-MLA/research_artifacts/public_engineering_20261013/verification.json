@@ -1,0 +1,19 @@
+{
+  "protocol_hash": "cea5a94bbcd4cdb30029fd3b2cca8f20ee6422b1b3fb0f0dbe88e0e7efc83295",
+  "source_quotes_verified": true,
+  "scalar_values_in_original_domains": true,
+  "unknown_fields_excluded": true,
+  "hidden_values_removed": true,
+  "domain_only_rules_empty": true,
+  "metrics_recomputed_from_disk": true,
+  "core_input_hashes_unchanged": true,
+  "output_hashes": {
+    "episodes.jsonl": "196210d71bd5fb8d7d1a290c192122edce22a8faaf9964c93bbc4e94598e8ea6",
+    "steps.jsonl": "faaaa1259232466597f3fbd22d7e819223254dbaa39f03f51cc1e456017e797b",
+    "budget_snapshots.json": "12ca85d59243a2833b057f86119404ab1b407ab74da14b66f94467c0a23f9791",
+    "budget_snapshots.csv": "9578ffa738ca6db7a258b38a26612c59ee31cc3c5c18cd6d2ccfcd732977e5cf",
+    "steps.csv": "eb88d2ac19853328f446cb7a73642476ea321865475178043df1716258258dc8",
+    "summary.csv": "66a9bf7cb4fa0ab8ef2c45372282bfd2cb706d6aa6859119fc7546029c26240e",
+    "outcome.json": "72233387433bc9898cdf028325811e1495c58aa5a5325c0feadc331fe885531d"
+  }
+}

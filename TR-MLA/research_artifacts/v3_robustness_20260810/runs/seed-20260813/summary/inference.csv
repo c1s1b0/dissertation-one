@@ -1,0 +1,2 @@
+analysis_label,policy_name,tr_mla_record_count,zero_filled_episode_precision_mean,episode_with_inference_count,episode_with_inference_proportion,inferred_total,inferred_correct,micro_precision,continuous_reliable_inference_count,metric_rule
+independent_robustness_exploratory,tr_mla,180,0.7888888888888889,142,0.7888888888888889,189,189,1.0,0,abs_tol=1e-9 for continuous/integer; equality otherwise

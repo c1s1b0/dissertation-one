@@ -1,0 +1,33 @@
+[build-system]
+requires = ["setuptools>=75", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "paper1-active-req"
+version = "0.1.0"
+description = "约束状态感知的机械设计主动需求获取实验"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+  "pydantic>=2.12,<3",
+  "PyYAML>=6.0,<7",
+  "z3-solver>=4.13,<5",
+  "numpy>=1.26,<3",
+  "pandas>=2.3,<3",
+  "scipy>=1.14,<2",
+  "matplotlib>=3.9,<4",
+]
+
+[project.optional-dependencies]
+dev = ["pytest>=8.3,<9"]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-data]
+paper1_active_req = ["relations/resources/*.yaml"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-ra"
+filterwarnings = ["error"]

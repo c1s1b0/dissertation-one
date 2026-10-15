@@ -1,0 +1,20 @@
+{
+  "analysis_label": "independent_robustness_exploratory",
+  "execution_mode": "resumed_from_frozen_release",
+  "policy_names": [
+    "random",
+    "fixed_questionnaire",
+    "criticality_greedy",
+    "uncertainty_afa",
+    "constraint_range_only",
+    "ccla_one_step",
+    "v2_style_two_step_unconditioned",
+    "marginal_lookahead_no_relations",
+    "typed_relational_myopic",
+    "tr_mla"
+  ],
+  "record_count": 1800,
+  "records_hash": "975f250cf9cf9c6b497734b905d63b08527bac952586c813ca8c1d7135da8c4b",
+  "seed": 20260813,
+  "status": "succeeded"
+}

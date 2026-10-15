@@ -1,0 +1,22 @@
+{
+  "status": "passed",
+  "records": 4320,
+  "reused": 1404,
+  "new": 2916,
+  "steps": 32049,
+  "metric_values": 133920,
+  "records_hash": "001219d78503253146803f403c3a7174465a93aeeea65f32a9e0ae1c3df8bde5",
+  "source_hash": "2fa3c674905a8a043a71da64227f3754370221b532445832c54086defe67d242",
+  "protocol_hash": "9211adcb0eacfc779a46302ac0c821a5a5d44047d9a56a177ff7ab1dc0dc19e4",
+  "checks": [
+    "full grid coverage",
+    "frozen sources and inputs",
+    "reused original episode and metrics equality",
+    "schema and task and policy binding",
+    "step eligibility and sequence",
+    "oracle truth",
+    "initial and successor SAT",
+    "final-state replay",
+    "all original reviewer metrics"
+  ]
+}

@@ -1,0 +1,156 @@
+fields:
+  - field_id: workpiece_mass_kg
+    kind: continuous
+    unit: kg
+    lower: 1
+    upper: 100
+    criticality: 1.0
+    answer_cost: 0.2
+  - field_id: workpiece_length_mm
+    kind: continuous
+    unit: mm
+    lower: 50
+    upper: 1500
+    criticality: 0.9
+    answer_cost: 0.2
+  - field_id: workpiece_width_mm
+    kind: continuous
+    unit: mm
+    lower: 50
+    upper: 1000
+    criticality: 1.0
+    answer_cost: 0.2
+  - field_id: workpiece_height_mm
+    kind: continuous
+    unit: mm
+    lower: 10
+    upper: 800
+    criticality: 0.8
+    answer_cost: 0.2
+  - field_id: target_throughput_per_hour
+    kind: continuous
+    unit: item/h
+    lower: 30
+    upper: 1200
+    criticality: 1.0
+    answer_cost: 0.4
+  - field_id: cycle_time_s
+    kind: continuous
+    unit: s
+    lower: 3
+    upper: 120
+    criticality: 1.0
+    answer_cost: 0.3
+  - field_id: travel_distance_mm
+    kind: continuous
+    unit: mm
+    lower: 100
+    upper: 5000
+    criticality: 0.9
+    answer_cost: 0.3
+  - field_id: transfer_time_s
+    kind: continuous
+    unit: s
+    lower: 0.5
+    upper: 80
+    criticality: 0.8
+    answer_cost: 0.5
+  - field_id: conveyor_speed_mm_s
+    kind: continuous
+    unit: mm/s
+    lower: 20
+    upper: 3000
+    criticality: 0.8
+    answer_cost: 0.5
+  - field_id: positioning_accuracy_mm
+    kind: continuous
+    unit: mm
+    lower: 0.05
+    upper: 10
+    criticality: 1.0
+    answer_cost: 0.4
+  - field_id: repeatability_mm
+    kind: continuous
+    unit: mm
+    lower: 0.02
+    upper: 10
+    criticality: 0.9
+    answer_cost: 0.5
+  - field_id: available_length_mm
+    kind: continuous
+    unit: mm
+    lower: 300
+    upper: 8000
+    criticality: 0.9
+    answer_cost: 0.3
+  - field_id: available_width_mm
+    kind: continuous
+    unit: mm
+    lower: 200
+    upper: 3000
+    criticality: 1.0
+    answer_cost: 0.3
+  - field_id: available_height_mm
+    kind: continuous
+    unit: mm
+    lower: 300
+    upper: 3000
+    criticality: 0.7
+    answer_cost: 0.3
+  - field_id: working_height_mm
+    kind: continuous
+    unit: mm
+    lower: 650
+    upper: 1200
+    criticality: 0.6
+    answer_cost: 0.3
+  - field_id: side_clearance_mm
+    kind: continuous
+    unit: mm
+    lower: 10
+    upper: 300
+    criticality: 0.6
+    answer_cost: 0.6
+  - field_id: load_capacity_kg
+    kind: continuous
+    unit: kg
+    lower: 1
+    upper: 500
+    criticality: 0.9
+    answer_cost: 0.5
+  - field_id: safety_factor
+    kind: continuous
+    lower: 1.2
+    upper: 4.0
+    criticality: 0.8
+    answer_cost: 0.7
+  - field_id: upstream_output_interface
+    kind: categorical
+    categories: [belt, roller, pallet]
+    criticality: 0.9
+    answer_cost: 0.3
+  - field_id: station_input_interface
+    kind: categorical
+    categories: [belt, roller, pallet]
+    criticality: 1.0
+    answer_cost: 0.3
+  - field_id: station_output_interface
+    kind: categorical
+    categories: [belt, roller, pallet]
+    criticality: 1.0
+    answer_cost: 0.3
+  - field_id: downstream_input_interface
+    kind: categorical
+    categories: [belt, roller, pallet]
+    criticality: 0.9
+    answer_cost: 0.3
+  - field_id: workpiece_fragile
+    kind: boolean
+    criticality: 0.7
+    answer_cost: 0.2
+  - field_id: power_supply
+    kind: categorical
+    categories: [220vac, 380vac, 24vdc]
+    criticality: 0.5
+    answer_cost: 0.2
+    queryable: false

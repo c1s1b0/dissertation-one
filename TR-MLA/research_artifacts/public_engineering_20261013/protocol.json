@@ -1,0 +1,718 @@
+{
+  "protocol_hash": "cea5a94bbcd4cdb30029fd3b2cca8f20ee6422b1b3fb0f0dbe88e0e7efc83295",
+  "protocol": {
+    "version": 1,
+    "label": "公开需求参数回放／来源约束的迁移诊断",
+    "source_url": "https://www.chinapost.com.cn/cn/report/2607/2069-1.htm",
+    "source_date": "2026-07-08",
+    "project_count": 1,
+    "subsystem_count": 2,
+    "cases": [
+      {
+        "project_id": "postal_qingdao_20260708",
+        "case_id": "shuttle_travel",
+        "label": "穿梭车行走子系统",
+        "claims": [
+          {
+            "field_id": "workpiece_length_mm",
+            "value": 600.0,
+            "unit": "mm",
+            "operator": "=",
+            "semantic_role": "要求箱体长度包络的上下界相同",
+            "scope": "立体库处理的单箱",
+            "evidence": [
+              {
+                "start": 99,
+                "end": 99,
+                "quote": "最大尺寸：600×500×350mm，最小尺寸：600×400×170mm"
+              }
+            ],
+            "inheritance": "二、立体库基本要求向处理料箱的本子系统继承",
+            "claim_id": "shuttle_travel:workpiece_length_mm"
+          },
+          {
+            "field_id": "workpiece_mass_kg",
+            "value": 30.0,
+            "unit": "kg",
+            "operator": "<=",
+            "semantic_role": "单箱质量需求上限参数，不是实测质量",
+            "scope": "立体库处理的单箱",
+            "evidence": [
+              {
+                "start": 100,
+                "end": 100,
+                "quote": "料箱重量：≤30Kg"
+              }
+            ],
+            "inheritance": "二、立体库基本要求向处理料箱的本子系统继承",
+            "claim_id": "shuttle_travel:workpiece_mass_kg"
+          },
+          {
+            "field_id": "load_capacity_kg",
+            "value": 35.0,
+            "unit": "kg",
+            "operator": "rated",
+            "semantic_role": "额定载货质量要求",
+            "scope": "穿梭车额定载货",
+            "evidence": [
+              {
+                "start": 367,
+                "end": 368,
+                "quote": "额定载货质量\n35kg"
+              }
+            ],
+            "inheritance": null,
+            "claim_id": "shuttle_travel:load_capacity_kg"
+          },
+          {
+            "field_id": "positioning_accuracy_mm",
+            "value": 3.0,
+            "unit": "mm",
+            "operator": "abs_error<=",
+            "semantic_role": "绝对定位误差容限参数，不是实测定位误差",
+            "scope": "穿梭车行走轴",
+            "evidence": [
+              {
+                "start": 373,
+                "end": 381,
+                "quote": "定位精度\n±3mm"
+              }
+            ],
+            "inheritance": null,
+            "claim_id": "shuttle_travel:positioning_accuracy_mm"
+          }
+        ]
+      },
+      {
+        "project_id": "postal_qingdao_20260708",
+        "case_id": "cargo_lift",
+        "label": "货物提升机子系统",
+        "claims": [
+          {
+            "field_id": "workpiece_length_mm",
+            "value": 600.0,
+            "unit": "mm",
+            "operator": "=",
+            "semantic_role": "要求箱体长度包络的上下界相同",
+            "scope": "立体库处理的单箱",
+            "evidence": [
+              {
+                "start": 99,
+                "end": 99,
+                "quote": "最大尺寸：600×500×350mm，最小尺寸：600×400×170mm"
+              }
+            ],
+            "inheritance": "二、立体库基本要求向处理料箱的本子系统继承",
+            "claim_id": "cargo_lift:workpiece_length_mm"
+          },
+          {
+            "field_id": "workpiece_mass_kg",
+            "value": 30.0,
+            "unit": "kg",
+            "operator": "<=",
+            "semantic_role": "单箱质量需求上限参数，不是实测质量",
+            "scope": "立体库处理的单箱",
+            "evidence": [
+              {
+                "start": 100,
+                "end": 100,
+                "quote": "料箱重量：≤30Kg"
+              }
+            ],
+            "inheritance": "二、立体库基本要求向处理料箱的本子系统继承",
+            "claim_id": "cargo_lift:workpiece_mass_kg"
+          },
+          {
+            "field_id": "load_capacity_kg",
+            "value": 70.0,
+            "unit": "kg",
+            "operator": "rated",
+            "semantic_role": "双箱位合计额定荷载要求",
+            "scope": "双箱位总额定载荷",
+            "evidence": [
+              {
+                "start": 450,
+                "end": 451,
+                "quote": "额定荷载能力\n70kg（双箱位）"
+              },
+              {
+                "start": 131,
+                "end": 131,
+                "quote": "荷载：双箱位，2*35kg"
+              }
+            ],
+            "inheritance": null,
+            "claim_id": "cargo_lift:load_capacity_kg"
+          },
+          {
+            "field_id": "positioning_accuracy_mm",
+            "value": 2.0,
+            "unit": "mm",
+            "operator": "abs_error<=",
+            "semantic_role": "绝对定位误差容限参数，不是实测定位误差",
+            "scope": "货物提升机升降轴",
+            "evidence": [
+              {
+                "start": 456,
+                "end": 457,
+                "quote": "定位精度\n±2mm"
+              }
+            ],
+            "inheritance": null,
+            "claim_id": "cargo_lift:positioning_accuracy_mm"
+          }
+        ]
+      }
+    ],
+    "training_seeds": [
+      20261011,
+      20261013,
+      20261017
+    ],
+    "policies": [
+      "tr_mla",
+      "typed_relational_myopic",
+      "criticality_greedy",
+      "marginal_lookahead_no_relations"
+    ],
+    "lambda_cost": 0.0,
+    "lambda_origin": "沿用reviewer_supplement_20261009的primary_lambda，无本来源调参",
+    "budgets": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "mask_plan": {
+      "shuttle_travel": [
+        [
+          "load_capacity_kg"
+        ],
+        [
+          "positioning_accuracy_mm"
+        ],
+        [
+          "workpiece_length_mm"
+        ],
+        [
+          "workpiece_mass_kg"
+        ],
+        [
+          "load_capacity_kg",
+          "positioning_accuracy_mm"
+        ],
+        [
+          "load_capacity_kg",
+          "workpiece_length_mm"
+        ],
+        [
+          "load_capacity_kg",
+          "workpiece_mass_kg"
+        ],
+        [
+          "positioning_accuracy_mm",
+          "workpiece_length_mm"
+        ],
+        [
+          "positioning_accuracy_mm",
+          "workpiece_mass_kg"
+        ],
+        [
+          "workpiece_length_mm",
+          "workpiece_mass_kg"
+        ],
+        [
+          "load_capacity_kg",
+          "positioning_accuracy_mm",
+          "workpiece_length_mm"
+        ],
+        [
+          "load_capacity_kg",
+          "positioning_accuracy_mm",
+          "workpiece_mass_kg"
+        ],
+        [
+          "load_capacity_kg",
+          "workpiece_length_mm",
+          "workpiece_mass_kg"
+        ],
+        [
+          "positioning_accuracy_mm",
+          "workpiece_length_mm",
+          "workpiece_mass_kg"
+        ],
+        [
+          "load_capacity_kg",
+          "positioning_accuracy_mm",
+          "workpiece_length_mm",
+          "workpiece_mass_kg"
+        ]
+      ],
+      "cargo_lift": [
+        [
+          "load_capacity_kg"
+        ],
+        [
+          "positioning_accuracy_mm"
+        ],
+        [
+          "workpiece_length_mm"
+        ],
+        [
+          "workpiece_mass_kg"
+        ],
+        [
+          "load_capacity_kg",
+          "positioning_accuracy_mm"
+        ],
+        [
+          "load_capacity_kg",
+          "workpiece_length_mm"
+        ],
+        [
+          "load_capacity_kg",
+          "workpiece_mass_kg"
+        ],
+        [
+          "positioning_accuracy_mm",
+          "workpiece_length_mm"
+        ],
+        [
+          "positioning_accuracy_mm",
+          "workpiece_mass_kg"
+        ],
+        [
+          "workpiece_length_mm",
+          "workpiece_mass_kg"
+        ],
+        [
+          "load_capacity_kg",
+          "positioning_accuracy_mm",
+          "workpiece_length_mm"
+        ],
+        [
+          "load_capacity_kg",
+          "positioning_accuracy_mm",
+          "workpiece_mass_kg"
+        ],
+        [
+          "load_capacity_kg",
+          "workpiece_length_mm",
+          "workpiece_mass_kg"
+        ],
+        [
+          "positioning_accuracy_mm",
+          "workpiece_length_mm",
+          "workpiece_mass_kg"
+        ],
+        [
+          "load_capacity_kg",
+          "positioning_accuracy_mm",
+          "workpiece_length_mm",
+          "workpiece_mass_kg"
+        ]
+      ]
+    },
+    "schema": {
+      "workpiece_mass_kg": {
+        "field_id": "workpiece_mass_kg",
+        "kind": "continuous",
+        "unit": "kg",
+        "lower": 1.0,
+        "upper": 100.0,
+        "categories": [],
+        "criticality": 1.0,
+        "answer_cost": 0.2,
+        "queryable": true
+      },
+      "workpiece_length_mm": {
+        "field_id": "workpiece_length_mm",
+        "kind": "continuous",
+        "unit": "mm",
+        "lower": 50.0,
+        "upper": 1500.0,
+        "categories": [],
+        "criticality": 0.9,
+        "answer_cost": 0.2,
+        "queryable": true
+      },
+      "workpiece_width_mm": {
+        "field_id": "workpiece_width_mm",
+        "kind": "continuous",
+        "unit": "mm",
+        "lower": 50.0,
+        "upper": 1000.0,
+        "categories": [],
+        "criticality": 1.0,
+        "answer_cost": 0.2,
+        "queryable": true
+      },
+      "workpiece_height_mm": {
+        "field_id": "workpiece_height_mm",
+        "kind": "continuous",
+        "unit": "mm",
+        "lower": 10.0,
+        "upper": 800.0,
+        "categories": [],
+        "criticality": 0.8,
+        "answer_cost": 0.2,
+        "queryable": true
+      },
+      "target_throughput_per_hour": {
+        "field_id": "target_throughput_per_hour",
+        "kind": "continuous",
+        "unit": "item/h",
+        "lower": 30.0,
+        "upper": 1200.0,
+        "categories": [],
+        "criticality": 1.0,
+        "answer_cost": 0.4,
+        "queryable": true
+      },
+      "cycle_time_s": {
+        "field_id": "cycle_time_s",
+        "kind": "continuous",
+        "unit": "s",
+        "lower": 3.0,
+        "upper": 120.0,
+        "categories": [],
+        "criticality": 1.0,
+        "answer_cost": 0.3,
+        "queryable": true
+      },
+      "travel_distance_mm": {
+        "field_id": "travel_distance_mm",
+        "kind": "continuous",
+        "unit": "mm",
+        "lower": 100.0,
+        "upper": 5000.0,
+        "categories": [],
+        "criticality": 0.9,
+        "answer_cost": 0.3,
+        "queryable": true
+      },
+      "transfer_time_s": {
+        "field_id": "transfer_time_s",
+        "kind": "continuous",
+        "unit": "s",
+        "lower": 0.5,
+        "upper": 80.0,
+        "categories": [],
+        "criticality": 0.8,
+        "answer_cost": 0.5,
+        "queryable": true
+      },
+      "conveyor_speed_mm_s": {
+        "field_id": "conveyor_speed_mm_s",
+        "kind": "continuous",
+        "unit": "mm/s",
+        "lower": 20.0,
+        "upper": 3000.0,
+        "categories": [],
+        "criticality": 0.8,
+        "answer_cost": 0.5,
+        "queryable": true
+      },
+      "positioning_accuracy_mm": {
+        "field_id": "positioning_accuracy_mm",
+        "kind": "continuous",
+        "unit": "mm",
+        "lower": 0.05,
+        "upper": 10.0,
+        "categories": [],
+        "criticality": 1.0,
+        "answer_cost": 0.4,
+        "queryable": true
+      },
+      "repeatability_mm": {
+        "field_id": "repeatability_mm",
+        "kind": "continuous",
+        "unit": "mm",
+        "lower": 0.02,
+        "upper": 10.0,
+        "categories": [],
+        "criticality": 0.9,
+        "answer_cost": 0.5,
+        "queryable": true
+      },
+      "available_length_mm": {
+        "field_id": "available_length_mm",
+        "kind": "continuous",
+        "unit": "mm",
+        "lower": 300.0,
+        "upper": 8000.0,
+        "categories": [],
+        "criticality": 0.9,
+        "answer_cost": 0.3,
+        "queryable": true
+      },
+      "available_width_mm": {
+        "field_id": "available_width_mm",
+        "kind": "continuous",
+        "unit": "mm",
+        "lower": 200.0,
+        "upper": 3000.0,
+        "categories": [],
+        "criticality": 1.0,
+        "answer_cost": 0.3,
+        "queryable": true
+      },
+      "available_height_mm": {
+        "field_id": "available_height_mm",
+        "kind": "continuous",
+        "unit": "mm",
+        "lower": 300.0,
+        "upper": 3000.0,
+        "categories": [],
+        "criticality": 0.7,
+        "answer_cost": 0.3,
+        "queryable": true
+      },
+      "working_height_mm": {
+        "field_id": "working_height_mm",
+        "kind": "continuous",
+        "unit": "mm",
+        "lower": 650.0,
+        "upper": 1200.0,
+        "categories": [],
+        "criticality": 0.6,
+        "answer_cost": 0.3,
+        "queryable": true
+      },
+      "side_clearance_mm": {
+        "field_id": "side_clearance_mm",
+        "kind": "continuous",
+        "unit": "mm",
+        "lower": 10.0,
+        "upper": 300.0,
+        "categories": [],
+        "criticality": 0.6,
+        "answer_cost": 0.6,
+        "queryable": true
+      },
+      "load_capacity_kg": {
+        "field_id": "load_capacity_kg",
+        "kind": "continuous",
+        "unit": "kg",
+        "lower": 1.0,
+        "upper": 500.0,
+        "categories": [],
+        "criticality": 0.9,
+        "answer_cost": 0.5,
+        "queryable": true
+      },
+      "safety_factor": {
+        "field_id": "safety_factor",
+        "kind": "continuous",
+        "unit": null,
+        "lower": 1.2,
+        "upper": 4.0,
+        "categories": [],
+        "criticality": 0.8,
+        "answer_cost": 0.7,
+        "queryable": true
+      },
+      "upstream_output_interface": {
+        "field_id": "upstream_output_interface",
+        "kind": "categorical",
+        "unit": null,
+        "lower": null,
+        "upper": null,
+        "categories": [
+          "belt",
+          "roller",
+          "pallet"
+        ],
+        "criticality": 0.9,
+        "answer_cost": 0.3,
+        "queryable": true
+      },
+      "station_input_interface": {
+        "field_id": "station_input_interface",
+        "kind": "categorical",
+        "unit": null,
+        "lower": null,
+        "upper": null,
+        "categories": [
+          "belt",
+          "roller",
+          "pallet"
+        ],
+        "criticality": 1.0,
+        "answer_cost": 0.3,
+        "queryable": true
+      },
+      "station_output_interface": {
+        "field_id": "station_output_interface",
+        "kind": "categorical",
+        "unit": null,
+        "lower": null,
+        "upper": null,
+        "categories": [
+          "belt",
+          "roller",
+          "pallet"
+        ],
+        "criticality": 1.0,
+        "answer_cost": 0.3,
+        "queryable": true
+      },
+      "downstream_input_interface": {
+        "field_id": "downstream_input_interface",
+        "kind": "categorical",
+        "unit": null,
+        "lower": null,
+        "upper": null,
+        "categories": [
+          "belt",
+          "roller",
+          "pallet"
+        ],
+        "criticality": 0.9,
+        "answer_cost": 0.3,
+        "queryable": true
+      },
+      "workpiece_fragile": {
+        "field_id": "workpiece_fragile",
+        "kind": "boolean",
+        "unit": null,
+        "lower": null,
+        "upper": null,
+        "categories": [],
+        "criticality": 0.7,
+        "answer_cost": 0.2,
+        "queryable": true
+      },
+      "power_supply": {
+        "field_id": "power_supply",
+        "kind": "categorical",
+        "unit": null,
+        "lower": null,
+        "upper": null,
+        "categories": [
+          "220vac",
+          "380vac",
+          "24vdc"
+        ],
+        "criticality": 0.5,
+        "answer_cost": 0.2,
+        "queryable": false
+      }
+    },
+    "weights_costs": "全部沿用benchmark固定设定，非真实工程师权重或访谈成本",
+    "engine": "仅原schema域约束，18条benchmark工程规则均不加载；这些范围是计算支持域而非源文档工程要求",
+    "missing_behavior": "非可用标量一律unknown_to_user；不从合成数据或跨设备补值；仅4个需求参数可询问",
+    "prefix_plan": "每条完整序列选到min(4,hidden_count)，输出预算0..4的前缀；原四selector不读取context.budget；超出hidden_count保持终态",
+    "semantic_adaptation": "value表示原文要求的标量参数或阈值，而不是实际工况值；比较符和作用域保留于外部来源记录；冻结原合成prior仅作探索性迁移",
+    "metrics": [
+      "direct_weighted_coverage: 初始隐藏字段中已询问且来源回答正确的criticality权重比例",
+      "answer_cost: 所询字段原benchmark成本之和",
+      "selected_sequence: 字段选择顺序",
+      "used_relation_factor_ids: 选择分数实际用到的关系因子"
+    ],
+    "relation_coverage": "0条完整且适用于可评分字段的来源父子链；不得把此回放解释为真实关系收益验证",
+    "excluded": [
+      {
+        "fields": [
+          "workpiece_width_mm",
+          "workpiece_height_mm"
+        ],
+        "reason": "原文宽[400,500]、高[170,350]为区间；无原策略区间支持，禁止取中点或端点充当值"
+      },
+      {
+        "fields": [
+          "conveyor_speed_mm_s",
+          "travel_distance_mm",
+          "target_throughput_per_hour"
+        ],
+        "reason": "升降或shuttle行走速度非输送机；最大高度非实际行程；系统或最大效率非单机目标需求"
+      },
+      {
+        "fields": [
+          "repeatability_mm",
+          "safety_factor",
+          "workpiece_fragile",
+          "available_length_mm",
+          "available_width_mm",
+          "available_height_mm",
+          "side_clearance_mm",
+          "cycle_time_s",
+          "transfer_time_s"
+        ],
+        "reason": "来源缺少相同作用域和含义的可用标量答案"
+      },
+      {
+        "fields": [
+          "interfaces",
+          "power_supply"
+        ],
+        "reason": "驱动带非货物接口，PLC电源非整机电源；不推断"
+      }
+    ],
+    "inference": "报告描述性枚举均值；不计算显著性或将mask/seed当独立项目；不并入合成测试汇总",
+    "input_hashes": {
+      "src\\paper1_active_req\\__init__.py": "91447944015cec709e8aa7655f7e9d64e1e4508e7023a57fe3746911c0fc6fed",
+      "src\\paper1_active_req\\domain\\__init__.py": "7bff98cd3a749c2a96f31f507ac6a5b5791cdf1dbbeb7bed544c003aa0cada56",
+      "src\\paper1_active_req\\domain\\models.py": "b2a7f53bff878972304a612a5855cb71a457ce63b4fd1121dbec7dc49fea8627",
+      "src\\paper1_active_req\\domain\\schema.py": "3c7657ab1440b654db8d91ff45265dcf56d63c8b8165b60f027eccc1c3e8afc3",
+      "src\\paper1_active_req\\evaluation\\__init__.py": "3fc272323ba4555fb62baad3f6e07d3a2b588fc55913f81095b2d3c57ffe5c75",
+      "src\\paper1_active_req\\evaluation\\metrics.py": "eab7ff4266084f4e68e18517b2bf2ee221118b394468a992f301e8e3ecd90265",
+      "src\\paper1_active_req\\evaluation\\reviewer_metrics.py": "3d315f4ce3d17d8995f93d95e001b6fc13dd89a3d18e74ed4425643fd2b21418",
+      "src\\paper1_active_req\\evaluation\\statistics.py": "4f80c4321034c3361988820e78032384db6d8ed746fee59d5021e390b00c4865",
+      "src\\paper1_active_req\\evaluation\\v2_metrics.py": "c5f341ed8c1e270852e73d634a940766e7ee6396c2ac9f2622815dc07afec3a3",
+      "src\\paper1_active_req\\evaluation\\v3_metrics.py": "f5186a59fbb4f7bc938d4938ee9c95a3741826e3e2db1fb14ddded703f5cbc3d",
+      "src\\paper1_active_req\\evaluation\\v3_protocol.py": "aed97416a21f26cd53d0995a0eff1318de08a57ba3af778bdbb4e5e5b5db4e1f",
+      "src\\paper1_active_req\\evaluation\\v3_statistics.py": "02e80d5ff0f619cd4a0ec7f0ab1550cf620221e3adcf9cf2f14b5bf8df9b6282",
+      "src\\paper1_active_req\\experiment\\__init__.py": "8796ad249dd86689adc34a8657b5e1ac9bc78d6b2c09834a4117ea2a06a97701",
+      "src\\paper1_active_req\\experiment\\episode.py": "8a09d4eae7af08059851b8954ca472beaf7254c2e6d0f6c18bf610d3e849c9bd",
+      "src\\paper1_active_req\\experiment\\reviewer_diagnostics.py": "5b41503fdf017eef82bab641b2762c9519fc3ff534229a6d6e8210d154505cdb",
+      "src\\paper1_active_req\\experiment\\reviewer_efficiency.py": "c3d630d951bed5a7ba6a39832d88327b6d3f609b2a42986c19bf69422b11e086",
+      "src\\paper1_active_req\\experiment\\reviewer_noise_replay.py": "d5fa09165e9c1c26fc4d322e021219daa44e7b5e53abc56acf877a788de0044a",
+      "src\\paper1_active_req\\experiment\\reviewer_parent_ablation.py": "c8b64ba179d4c336f2e7e317145289bb1b694f2ee8d22cfe358b2575c4e291c7",
+      "src\\paper1_active_req\\experiment\\reviewer_runner.py": "311a91f25b91c811046feab6cb37b5914201466d33190c049bc48257bb53f028",
+      "src\\paper1_active_req\\experiment\\reviewer_terminal.py": "2383d8c7c91518e1d0f6c5762295901b5b5ead1e4ba214219344f062f4460279",
+      "src\\paper1_active_req\\experiment\\runner.py": "17cd914041bc44a02f909157d4e26e71baaca629dad55f323a6dd6ac7a1bd413",
+      "src\\paper1_active_req\\experiment\\tuning.py": "b6dc40c345f2a3d30517ea6d3495f30c359b4931aaf60e78c6445e745259df53",
+      "src\\paper1_active_req\\experiment\\v2_runner.py": "d18ad68e36b8f9908386fccd52f0a8c8e8fdab9af7e82f65049f513fe0c2a809",
+      "src\\paper1_active_req\\experiment\\v3_episode.py": "512fbf4350e708f3c93e46d9835c24b69d019797b6135d85f707a7afe12c6aca",
+      "src\\paper1_active_req\\experiment\\v3_paths.py": "60ab19310cea7462d6a000c5c43d90129d9657cac1d89592396a52d58c7ed177",
+      "src\\paper1_active_req\\experiment\\v3_robustness.py": "088b4ec89a25d2cb64b90160a1e4afb2c687c4cd3e0e9c58a8b4226fa54648d3",
+      "src\\paper1_active_req\\experiment\\v3_runner.py": "2c24a7b135302006d5ced4159afb26499fc868ac5cdcfe82c630224170fb2849",
+      "src\\paper1_active_req\\external_cases\\__init__.py": "59891b76eead8904ef4fb09bcb3ed5276fe02fbe157e986f3c74a9140661d2ac",
+      "src\\paper1_active_req\\external_cases\\audit.py": "c4d2c90a392d815dd02f5fea886a40c9b164a44d9a61d62c45d3922c42cd565d",
+      "src\\paper1_active_req\\generator\\__init__.py": "d34e8c14b5fb27da7073501ebe06e1a320e48bbf868cf03ae724637362330bcf",
+      "src\\paper1_active_req\\generator\\complete_specs.py": "5d261cee1decd7ba27e087bf0ad9328c9c457313f17fdfbcdfd2a5712a06f48a",
+      "src\\paper1_active_req\\generator\\perturbations.py": "1e219562d6ae7fb0cabe88cc6979acbea2dee0085a761a95b71ff388a68eadcb",
+      "src\\paper1_active_req\\generator\\v2_pivotal_specs.py": "c805489798a7fa5ce3e904a5ddef884547c12074ed1060d557003de6331c0598",
+      "src\\paper1_active_req\\generator\\v3_relational_specs.py": "a92f6d868981a47d7a654ea785c2fd7274a612595bcefe2ff0ea343944cd317c",
+      "src\\paper1_active_req\\oracle\\__init__.py": "455826fb850154df16cfd83e10a796f477c4a9e2d989e64fd9df5c6aecb70116",
+      "src\\paper1_active_req\\oracle\\simulated.py": "da3989c48e917ef59f285fc9a2d504c26c7550d72bf743db79d77ae4eba6f6e9",
+      "src\\paper1_active_req\\policies\\__init__.py": "d34b2bb80b75c1a3032e502f9f4ac1acf9b78b4f793db1a9e7e2a3a3563c841c",
+      "src\\paper1_active_req\\policies\\base.py": "d68524630c2a5bd6adc7a5c2ec01fe508fabf600fc996f91eff115357f21cd5f",
+      "src\\paper1_active_req\\policies\\baselines.py": "d981331f775fc466baba670cb298c18169f88caab2739c3a0b1ee323a7d3911a",
+      "src\\paper1_active_req\\policies\\constraint_state.py": "38d2073150e12aa6bd9eae654b7e53f770dcfe2c0bc8a39d2094311e53f9b06b",
+      "src\\paper1_active_req\\policies\\lookahead.py": "e1aa04cd873cbd78185c04d34fbed71c51412b64b9d2f5abfcccad953af87717",
+      "src\\paper1_active_req\\policies\\marginal_lookahead.py": "52d8e89813191b7225f2fde9eb1bbc74b2f523a7ee0b4945e4531b1652b6a18e",
+      "src\\paper1_active_req\\relations\\__init__.py": "9071d75c00b6e88b37af1b737962d57c15dec6df0fd9dd7409d108c6755b7165",
+      "src\\paper1_active_req\\relations\\config.py": "64c84819b0f94bdb633e19b7869b49c5af54bbc0bb7b67ab5fc2d99fe4248e1b",
+      "src\\paper1_active_req\\relations\\continuous.py": "03d19f3c6eb6b15f41aa36fcc97e829a058f7e064bd64dae6b31cd720c6cfd28",
+      "src\\paper1_active_req\\relations\\discrete.py": "f1623d27183bd7d19fc14dc30727fde4a92cbfb65f1fc5e05822dc2f57d80c5d",
+      "src\\paper1_active_req\\relations\\model.py": "506e9fe199a9b4c29711a34ecb9566cd88afd6b3f83c5ac3da1a785fe91876ed",
+      "src\\paper1_active_req\\relations\\posterior.py": "1f004255dc1a7c8ae9faf4c0e717377ad7b7fb906a5932e92d04a7ce1a6cbaac",
+      "src\\paper1_active_req\\solver\\__init__.py": "c19b9a6b0260d8309ab9bed5c0c1edb8e39ed9863d3202b07ef8cf48b86c5437",
+      "src\\paper1_active_req\\solver\\engine.py": "0b88f0f5241e00cdf1676f892f80ef5a16696343792012a7ddda3174d091d6e6",
+      "src\\paper1_active_req\\solver\\rules.py": "2773dbbcda9b773a9d5b03f29493e35a75fbf8d45c06802d84d83f127f7e7383",
+      "configs\\fields.yaml": "ac3e541b05ada04e8a9c75f046f3d96311307152d12f509809ad025356d17e36",
+      "configs\\v3_relations.yaml": "fcbb0079758192c006b34fe589e48523bf95af536e80ece82d2ce0d2ff371c93",
+      "scripts\\run_public_engineering_20261013.py": "2cbbf0d9a306a86b2d64de6f6b6876d52b11f5af4dca09ce7559510526567b3f",
+      "research_artifacts\\public_engineering_20261013\\sources\\postal.txt": "53a41e3633cfc0ac905ae1f799252572e3398c757f20259913fac4a87c6de6c7",
+      "research_artifacts\\public_engineering_20261013\\sources\\postal.html": "bc4d189a6c1b4392a7fd445dd1c48b74d20e0401172395593abf8b6a04cf0c99",
+      "research_artifacts\\public_engineering_20261013\\sources\\manifest.json": "27011832a0eb15377ab3b072a82cd8bf8cc7d84f9574f88d02cc6a3941f88954",
+      "research_artifacts\\public_engineering_20261013\\tests\\test_public_replay.py": "de2ec8df12a6c619ec2bccf5f0ca9a4dff4ba3e3aeb0941adcc23c8796e0bebf",
+      "research_artifacts\\reviewer_supplement_20261009\\datasets\\seed-20261011\\train_complete_specs.jsonl": "34584bf055683cd9137521411c79b0f9d808c81c20be75c5c48dca2d16d08d3b",
+      "research_artifacts\\reviewer_supplement_20261009\\datasets\\seed-20261013\\train_complete_specs.jsonl": "f6d7bd2deaa361c5e0f7f6e239d685486c31e3f0c7b92f4f38ce306ec694489d",
+      "research_artifacts\\reviewer_supplement_20261009\\datasets\\seed-20261017\\train_complete_specs.jsonl": "0b0b00c643df22c0f0eaeec189c7357567ebf8bb87b1d55584b85fe02fb1fc69"
+    }
+  }
+}

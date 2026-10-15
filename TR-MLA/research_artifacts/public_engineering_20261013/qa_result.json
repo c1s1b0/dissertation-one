@@ -1,0 +1,9 @@
+{
+  "status": "passed",
+  "pytest_tests": 7,
+  "pytest_seconds": 10.38,
+  "all_budget_prefixes_independently_replayed": true,
+  "core_modified": false,
+  "latex_fragment_compiled_separately": false,
+  "note": "英文片段交由主任务整合编译；原始数据与脚本哈希见protocol及verification。"
+}

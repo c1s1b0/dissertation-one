@@ -1,0 +1,326 @@
+[
+  {
+    "seed": 20261011,
+    "target": "available_length_mm",
+    "variant": "single_parent",
+    "parent_ids": [
+      "workpiece_length_mm"
+    ],
+    "coefficients_intercept_then_parents": [
+      2475.9691910043725,
+      0.8631900271905016
+    ],
+    "residual_interval_quantiles": [
+      -1861.9795930097955,
+      2595.109517161981
+    ],
+    "residual_branch_quantiles": [
+      -1642.164651211903,
+      -65.70733048078978,
+      1795.0187445747638
+    ],
+    "branch_probabilities": [
+      0.3442622950819672,
+      0.3825136612021858,
+      0.273224043715847
+    ]
+  },
+  {
+    "seed": 20261011,
+    "target": "available_length_mm",
+    "variant": "multiple_parent",
+    "parent_ids": [
+      "workpiece_length_mm",
+      "travel_distance_mm"
+    ],
+    "coefficients_intercept_then_parents": [
+      327.4448636887842,
+      0.9850088277212015,
+      1.0131910460877012
+    ],
+    "residual_interval_quantiles": [
+      -223.46480393075342,
+      233.2060884476251
+    ],
+    "residual_branch_quantiles": [
+      -171.84476790764842,
+      -4.832815181285355,
+      192.34275975964096
+    ],
+    "branch_probabilities": [
+      0.3005464480874317,
+      0.44808743169398907,
+      0.25136612021857924
+    ]
+  },
+  {
+    "seed": 20261011,
+    "target": "available_width_mm",
+    "variant": "single_parent",
+    "parent_ids": [
+      "workpiece_width_mm"
+    ],
+    "coefficients_intercept_then_parents": [
+      291.8314097634372,
+      0.9577610440434469
+    ],
+    "residual_interval_quantiles": [
+      -149.51737168663664,
+      207.9267595537054
+    ],
+    "residual_branch_quantiles": [
+      -115.6718986396124,
+      -31.254165644520413,
+      147.53976481308888
+    ],
+    "branch_probabilities": [
+      0.30601092896174864,
+      0.3989071038251366,
+      0.29508196721311475
+    ]
+  },
+  {
+    "seed": 20261011,
+    "target": "available_width_mm",
+    "variant": "multiple_parent",
+    "parent_ids": [
+      "workpiece_width_mm",
+      "side_clearance_mm"
+    ],
+    "coefficients_intercept_then_parents": [
+      91.86876393128439,
+      0.9931279858299429,
+      2.163142573187221
+    ],
+    "residual_interval_quantiles": [
+      -96.7483035317766,
+      180.97821698272136
+    ],
+    "residual_branch_quantiles": [
+      -94.49354332358476,
+      -27.08465640648768,
+      155.84074545615903
+    ],
+    "branch_probabilities": [
+      0.41530054644808745,
+      0.3005464480874317,
+      0.28415300546448086
+    ]
+  },
+  {
+    "seed": 20261013,
+    "target": "available_length_mm",
+    "variant": "single_parent",
+    "parent_ids": [
+      "workpiece_length_mm"
+    ],
+    "coefficients_intercept_then_parents": [
+      2351.564081780169,
+      0.8118231375163407
+    ],
+    "residual_interval_quantiles": [
+      -1823.6243364851018,
+      2860.335795630761
+    ],
+    "residual_branch_quantiles": [
+      -1614.3728435764435,
+      -256.7109874553512,
+      2115.284851078594
+    ],
+    "branch_probabilities": [
+      0.3005464480874317,
+      0.44808743169398907,
+      0.25136612021857924
+    ]
+  },
+  {
+    "seed": 20261013,
+    "target": "available_length_mm",
+    "variant": "multiple_parent",
+    "parent_ids": [
+      "workpiece_length_mm",
+      "travel_distance_mm"
+    ],
+    "coefficients_intercept_then_parents": [
+      332.4802887978847,
+      0.9943311457205251,
+      1.0062796053420118
+    ],
+    "residual_interval_quantiles": [
+      -225.44770272238057,
+      233.12940312716498
+    ],
+    "residual_branch_quantiles": [
+      -181.9759900054011,
+      1.856953773740429,
+      202.3863393113294
+    ],
+    "branch_probabilities": [
+      0.33879781420765026,
+      0.36065573770491804,
+      0.3005464480874317
+    ]
+  },
+  {
+    "seed": 20261013,
+    "target": "available_width_mm",
+    "variant": "single_parent",
+    "parent_ids": [
+      "workpiece_width_mm"
+    ],
+    "coefficients_intercept_then_parents": [
+      312.92818102379704,
+      0.9285750034679204
+    ],
+    "residual_interval_quantiles": [
+      -146.52221262204984,
+      195.4687380973722
+    ],
+    "residual_branch_quantiles": [
+      -121.63118803718403,
+      -29.992800797655946,
+      145.31310773296516
+    ],
+    "branch_probabilities": [
+      0.2896174863387978,
+      0.3770491803278688,
+      0.3333333333333333
+    ]
+  },
+  {
+    "seed": 20261013,
+    "target": "available_width_mm",
+    "variant": "multiple_parent",
+    "parent_ids": [
+      "workpiece_width_mm",
+      "side_clearance_mm"
+    ],
+    "coefficients_intercept_then_parents": [
+      143.83790013244771,
+      0.9347437798788725,
+      1.96661188086295
+    ],
+    "residual_interval_quantiles": [
+      -110.68169640626343,
+      177.7994402259837
+    ],
+    "residual_branch_quantiles": [
+      -103.56791958223614,
+      -20.79830956986541,
+      144.58624343755037
+    ],
+    "branch_probabilities": [
+      0.4098360655737705,
+      0.29508196721311475,
+      0.29508196721311475
+    ]
+  },
+  {
+    "seed": 20261017,
+    "target": "available_length_mm",
+    "variant": "single_parent",
+    "parent_ids": [
+      "workpiece_length_mm"
+    ],
+    "coefficients_intercept_then_parents": [
+      2097.119614221792,
+      1.2591802598969595
+    ],
+    "residual_interval_quantiles": [
+      -1765.7592970717046,
+      2679.2033001225263
+    ],
+    "residual_branch_quantiles": [
+      -1518.1458610285706,
+      -262.5702960440419,
+      2064.0282726867813
+    ],
+    "branch_probabilities": [
+      0.33879781420765026,
+      0.366120218579235,
+      0.29508196721311475
+    ]
+  },
+  {
+    "seed": 20261017,
+    "target": "available_length_mm",
+    "variant": "multiple_parent",
+    "parent_ids": [
+      "workpiece_length_mm",
+      "travel_distance_mm"
+    ],
+    "coefficients_intercept_then_parents": [
+      348.0701783890447,
+      0.9872892285111572,
+      1.0062402315895222
+    ],
+    "residual_interval_quantiles": [
+      -242.01689199346637,
+      235.56367825426983
+    ],
+    "residual_branch_quantiles": [
+      -208.31145370030558,
+      2.3678856692203,
+      204.7542655892744
+    ],
+    "branch_probabilities": [
+      0.3114754098360656,
+      0.3770491803278688,
+      0.3114754098360656
+    ]
+  },
+  {
+    "seed": 20261017,
+    "target": "available_width_mm",
+    "variant": "single_parent",
+    "parent_ids": [
+      "workpiece_width_mm"
+    ],
+    "coefficients_intercept_then_parents": [
+      285.0306915816712,
+      0.962027305110391
+    ],
+    "residual_interval_quantiles": [
+      -151.22445852395856,
+      226.19771038149608
+    ],
+    "residual_branch_quantiles": [
+      -124.68879265975552,
+      -24.699281679116552,
+      146.2334523338146
+    ],
+    "branch_probabilities": [
+      0.2677595628415301,
+      0.453551912568306,
+      0.2786885245901639
+    ]
+  },
+  {
+    "seed": 20261017,
+    "target": "available_width_mm",
+    "variant": "multiple_parent",
+    "parent_ids": [
+      "workpiece_width_mm",
+      "side_clearance_mm"
+    ],
+    "coefficients_intercept_then_parents": [
+      126.12028213754763,
+      0.9383136875307581,
+      2.0432113646306513
+    ],
+    "residual_interval_quantiles": [
+      -99.43479058416234,
+      188.07514551937092
+    ],
+    "residual_branch_quantiles": [
+      -91.12527321070658,
+      -34.3347884598752,
+      149.44991540477648
+    ],
+    "branch_probabilities": [
+      0.41530054644808745,
+      0.3114754098360656,
+      0.273224043715847
+    ]
+  }
+]

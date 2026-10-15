@@ -1,0 +1,18 @@
+fields:
+  - field_id: upstream_output_interface
+    kind: categorical
+    categories: [belt, roller, pallet]
+  - field_id: station_input_interface
+    kind: categorical
+    categories: [belt, roller, pallet]
+  - field_id: station_output_interface
+    kind: categorical
+    categories: [belt, roller, pallet]
+  - field_id: downstream_input_interface
+    kind: categorical
+    categories: [belt, roller, pallet]
+  - field_id: workpiece_fragile
+    kind: boolean
+  - field_id: power_supply
+    kind: categorical
+    categories: [220vac, 380vac, 24vdc]

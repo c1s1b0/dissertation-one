@@ -1,0 +1,38 @@
+[
+  {
+    "scene": "A",
+    "task_type": "configuration",
+    "mean_pair_checks": 2412.8,
+    "mean_selection_ms": 4.888079660013318,
+    "mean_solver_ms": 0.07836267507324617,
+    "mean_search_nodes": 6.306666666666667,
+    "mean_pool_size": 27.606666666666666
+  },
+  {
+    "scene": "A",
+    "task_type": "repair",
+    "mean_pair_checks": 2448.2,
+    "mean_selection_ms": 4.867987001004319,
+    "mean_solver_ms": 0.06836600446452697,
+    "mean_search_nodes": 4.546666666666667,
+    "mean_pool_size": 30.17
+  },
+  {
+    "scene": "B",
+    "task_type": "configuration",
+    "mean_pair_checks": 2686.4,
+    "mean_selection_ms": 4.464029332157224,
+    "mean_solver_ms": 0.21821100652838746,
+    "mean_search_nodes": 31.346666666666668,
+    "mean_pool_size": 17.92
+  },
+  {
+    "scene": "B",
+    "task_type": "repair",
+    "mean_pair_checks": 2685.2,
+    "mean_selection_ms": 4.508918661158532,
+    "mean_solver_ms": 0.17525399724642435,
+    "mean_search_nodes": 24.366666666666667,
+    "mean_pool_size": 24.006666666666668
+  }
+]

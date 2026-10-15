@@ -1,0 +1,19 @@
+{
+  "source_relative_path": "research_artifacts/formal_llm_runs/main-v5-postaudit-test-20260817/llm_audit.jsonl",
+  "source_sha256": "704ba2e01255b6a24e09dbdb0d406fbd556fa2474de8686c7cb66d67b69c73e4",
+  "export_fields": [
+    "source_row",
+    "task_id",
+    "repeat",
+    "stage",
+    "task_attempt",
+    "attempt",
+    "retry_index",
+    "status",
+    "http_status",
+    "error_type",
+    "latency_ms",
+    "usage"
+  ],
+  "policy": "Whitelist only; no endpoint, request ID, timestamps, provider identity, prompts or response contents. Historical provider token counters are not billing evidence."
+}

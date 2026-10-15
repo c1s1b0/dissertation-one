@@ -1,0 +1,222 @@
+{
+  "checks": [
+    {
+      "task_id": "v3-test-interface_compatibility-001__m30",
+      "policy": "criticality_greedy",
+      "action_count": 7,
+      "parity": true
+    },
+    {
+      "task_id": "v3-test-interface_compatibility-001__m30",
+      "policy": "marginal_lookahead_no_relations",
+      "action_count": 6,
+      "parity": true
+    },
+    {
+      "task_id": "v3-test-interface_compatibility-001__m30",
+      "policy": "typed_relational_myopic",
+      "action_count": 5,
+      "parity": true
+    },
+    {
+      "task_id": "v3-test-interface_compatibility-001__m30",
+      "policy": "tr_mla",
+      "action_count": 5,
+      "parity": true
+    },
+    {
+      "task_id": "v3-test-interface_compatibility-001__m50",
+      "policy": "criticality_greedy",
+      "action_count": 8,
+      "parity": true
+    },
+    {
+      "task_id": "v3-test-interface_compatibility-001__m50",
+      "policy": "marginal_lookahead_no_relations",
+      "action_count": 8,
+      "parity": true
+    },
+    {
+      "task_id": "v3-test-interface_compatibility-001__m50",
+      "policy": "typed_relational_myopic",
+      "action_count": 8,
+      "parity": true
+    },
+    {
+      "task_id": "v3-test-interface_compatibility-001__m50",
+      "policy": "tr_mla",
+      "action_count": 8,
+      "parity": true
+    },
+    {
+      "task_id": "v3-test-interface_compatibility-001__m70",
+      "policy": "criticality_greedy",
+      "action_count": 8,
+      "parity": true
+    },
+    {
+      "task_id": "v3-test-interface_compatibility-001__m70",
+      "policy": "marginal_lookahead_no_relations",
+      "action_count": 8,
+      "parity": true
+    },
+    {
+      "task_id": "v3-test-interface_compatibility-001__m70",
+      "policy": "typed_relational_myopic",
+      "action_count": 8,
+      "parity": true
+    },
+    {
+      "task_id": "v3-test-interface_compatibility-001__m70",
+      "policy": "tr_mla",
+      "action_count": 8,
+      "parity": true
+    },
+    {
+      "task_id": "v3-test-continuous_clearance-001__m30",
+      "policy": "criticality_greedy",
+      "action_count": 7,
+      "parity": true
+    },
+    {
+      "task_id": "v3-test-continuous_clearance-001__m30",
+      "policy": "marginal_lookahead_no_relations",
+      "action_count": 7,
+      "parity": true
+    },
+    {
+      "task_id": "v3-test-continuous_clearance-001__m30",
+      "policy": "typed_relational_myopic",
+      "action_count": 6,
+      "parity": true
+    },
+    {
+      "task_id": "v3-test-continuous_clearance-001__m30",
+      "policy": "tr_mla",
+      "action_count": 6,
+      "parity": true
+    },
+    {
+      "task_id": "v3-test-continuous_clearance-001__m50",
+      "policy": "criticality_greedy",
+      "action_count": 8,
+      "parity": true
+    },
+    {
+      "task_id": "v3-test-continuous_clearance-001__m50",
+      "policy": "marginal_lookahead_no_relations",
+      "action_count": 8,
+      "parity": true
+    },
+    {
+      "task_id": "v3-test-continuous_clearance-001__m50",
+      "policy": "typed_relational_myopic",
+      "action_count": 8,
+      "parity": true
+    },
+    {
+      "task_id": "v3-test-continuous_clearance-001__m50",
+      "policy": "tr_mla",
+      "action_count": 8,
+      "parity": true
+    },
+    {
+      "task_id": "v3-test-continuous_clearance-001__m70",
+      "policy": "criticality_greedy",
+      "action_count": 8,
+      "parity": true
+    },
+    {
+      "task_id": "v3-test-continuous_clearance-001__m70",
+      "policy": "marginal_lookahead_no_relations",
+      "action_count": 8,
+      "parity": true
+    },
+    {
+      "task_id": "v3-test-continuous_clearance-001__m70",
+      "policy": "typed_relational_myopic",
+      "action_count": 8,
+      "parity": true
+    },
+    {
+      "task_id": "v3-test-continuous_clearance-001__m70",
+      "policy": "tr_mla",
+      "action_count": 8,
+      "parity": true
+    },
+    {
+      "task_id": "v3-test-conditional_tolerance-001__m30",
+      "policy": "criticality_greedy",
+      "action_count": 7,
+      "parity": true
+    },
+    {
+      "task_id": "v3-test-conditional_tolerance-001__m30",
+      "policy": "marginal_lookahead_no_relations",
+      "action_count": 7,
+      "parity": true
+    },
+    {
+      "task_id": "v3-test-conditional_tolerance-001__m30",
+      "policy": "typed_relational_myopic",
+      "action_count": 7,
+      "parity": true
+    },
+    {
+      "task_id": "v3-test-conditional_tolerance-001__m30",
+      "policy": "tr_mla",
+      "action_count": 7,
+      "parity": true
+    },
+    {
+      "task_id": "v3-test-conditional_tolerance-001__m50",
+      "policy": "criticality_greedy",
+      "action_count": 8,
+      "parity": true
+    },
+    {
+      "task_id": "v3-test-conditional_tolerance-001__m50",
+      "policy": "marginal_lookahead_no_relations",
+      "action_count": 8,
+      "parity": true
+    },
+    {
+      "task_id": "v3-test-conditional_tolerance-001__m50",
+      "policy": "typed_relational_myopic",
+      "action_count": 8,
+      "parity": true
+    },
+    {
+      "task_id": "v3-test-conditional_tolerance-001__m50",
+      "policy": "tr_mla",
+      "action_count": 8,
+      "parity": true
+    },
+    {
+      "task_id": "v3-test-conditional_tolerance-001__m70",
+      "policy": "criticality_greedy",
+      "action_count": 8,
+      "parity": true
+    },
+    {
+      "task_id": "v3-test-conditional_tolerance-001__m70",
+      "policy": "marginal_lookahead_no_relations",
+      "action_count": 8,
+      "parity": true
+    },
+    {
+      "task_id": "v3-test-conditional_tolerance-001__m70",
+      "policy": "typed_relational_myopic",
+      "action_count": 8,
+      "parity": true
+    },
+    {
+      "task_id": "v3-test-conditional_tolerance-001__m70",
+      "policy": "tr_mla",
+      "action_count": 8,
+      "parity": true
+    }
+  ],
+  "formal_hash": "3d219cca3159c1c42790c58c385ceb2e7a8170a085d762b1c0760c7a20dbcba5",
+  "status": "passed"
+}

@@ -1,0 +1,13 @@
+﻿seed,policy_name,inference_total,inference_exact_correct,inference_tolerance_correct,inference_continuous_total,inference_continuous_exact_correct,inference_continuous_tolerance_correct,pooled_inference_precision,pooled_tolerance_precision,n_tasks,n_specs
+20261011,criticality_greedy,1.0,1.0,1.0,0.0,0.0,0.0,1.0,1.0,180,60
+20261011,marginal_lookahead_no_relations,1.0,1.0,1.0,0.0,0.0,0.0,1.0,1.0,180,60
+20261011,tr_mla,196.0,196.0,196.0,0.0,0.0,0.0,1.0,1.0,180,60
+20261011,typed_relational_myopic,198.0,198.0,198.0,0.0,0.0,0.0,1.0,1.0,180,60
+20261013,criticality_greedy,4.0,4.0,4.0,0.0,0.0,0.0,1.0,1.0,180,60
+20261013,marginal_lookahead_no_relations,4.0,4.0,4.0,0.0,0.0,0.0,1.0,1.0,180,60
+20261013,tr_mla,191.0,191.0,191.0,0.0,0.0,0.0,1.0,1.0,180,60
+20261013,typed_relational_myopic,193.0,193.0,193.0,0.0,0.0,0.0,1.0,1.0,180,60
+20261017,criticality_greedy,6.0,6.0,6.0,0.0,0.0,0.0,1.0,1.0,180,60
+20261017,marginal_lookahead_no_relations,4.0,4.0,4.0,0.0,0.0,0.0,1.0,1.0,180,60
+20261017,tr_mla,185.0,185.0,185.0,0.0,0.0,0.0,1.0,1.0,180,60
+20261017,typed_relational_myopic,188.0,188.0,188.0,0.0,0.0,0.0,1.0,1.0,180,60

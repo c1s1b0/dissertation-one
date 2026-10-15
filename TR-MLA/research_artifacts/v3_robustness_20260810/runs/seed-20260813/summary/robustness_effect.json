@@ -1,0 +1,48 @@
+{
+  "analysis_label": "independent_robustness_exploratory",
+  "formal_pooling": "prohibited",
+  "high_pressure_m70_pivot": {
+    "analysis_label": "independent_robustness_exploratory",
+    "bootstrap_replicates": 10000,
+    "bootstrap_seed": 20260814,
+    "ci_high": 0.1069028094167767,
+    "ci_low": 0.08067255545036457,
+    "comparison": "tr_mla_minus_criticality_greedy",
+    "mean_difference": 0.09372079157634781,
+    "metric": "crr_at_8",
+    "n": 45,
+    "p_value": 9.360337878594453e-09,
+    "rank_biserial": 0.9939393939393939,
+    "scope": "m70_pivot_true",
+    "wilcoxon_statistic": 3.0
+  },
+  "inference": {
+    "analysis_label": "independent_robustness_exploratory",
+    "continuous_reliable_inference_count": 0,
+    "episode_with_inference_count": 142,
+    "episode_with_inference_proportion": 0.7888888888888889,
+    "inferred_correct": 189,
+    "inferred_total": 189,
+    "metric_rule": "abs_tol=1e-9 for continuous/integer; equality otherwise",
+    "micro_precision": 1.0,
+    "policy_name": "tr_mla",
+    "tr_mla_record_count": 180,
+    "zero_filled_episode_precision_mean": 0.7888888888888889
+  },
+  "primary": {
+    "analysis_label": "independent_robustness_exploratory",
+    "bootstrap_replicates": 10000,
+    "bootstrap_seed": 20260813,
+    "ci_high": 0.07609351146853108,
+    "ci_low": 0.054176941297972465,
+    "comparison": "tr_mla_minus_criticality_greedy",
+    "mean_difference": 0.06531226584774709,
+    "metric": "crr_at_8",
+    "n": 60,
+    "p_value": 1.2421965423752267e-10,
+    "rank_biserial": 0.9551912568306011,
+    "scope": "m50_m70_within_spec_mean",
+    "wilcoxon_statistic": 41.0
+  },
+  "seed": 20260813
+}

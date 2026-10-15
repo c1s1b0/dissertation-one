@@ -1,0 +1,36 @@
+{
+  "analysis_label": "审稿后探索性历史重评价",
+  "input_and_source_sha256": {
+    "configs\\fields.yaml": "ac3e541b05ada04e8a9c75f046f3d96311307152d12f509809ad025356d17e36",
+    "configs\\v3_relations.yaml": "fcbb0079758192c006b34fe589e48523bf95af536e80ece82d2ce0d2ff371c93",
+    "scripts\\audit_reviewer_metrics.py": "83cd290771a278b0b13d221e344e8ab5f94c440e561097a5e822c27c3279d8f1",
+    "src\\paper1_active_req\\evaluation\\reviewer_metrics.py": "3d315f4ce3d17d8995f93d95e001b6fc13dd89a3d18e74ed4425643fd2b21418",
+    "src\\paper1_active_req\\evaluation\\v3_metrics.py": "f5186a59fbb4f7bc938d4938ee9c95a3741826e3e2db1fb14ddded703f5cbc3d",
+    "src\\paper1_active_req\\evaluation\\v3_protocol.py": "aed97416a21f26cd53d0995a0eff1318de08a57ba3af778bdbb4e5e5b5db4e1f",
+    "src\\paper1_active_req\\relations\\model.py": "506e9fe199a9b4c29711a34ecb9566cd88afd6b3f83c5ac3da1a785fe91876ed",
+    "data\\generated\\v3\\train_complete_specs.jsonl": "7c0cbb1c20e91a07fc4dc4934f05f8bb36d6fe67552ba1d3fd7c2e5dde7bc223",
+    "data\\generated\\v3\\test_tasks.jsonl": "497dc6cdf1b32121041f2788210dfa63666a309cc3dc29898e5d225152683f15",
+    "results\\v3\\formal\\episodes.jsonl": "3d219cca3159c1c42790c58c385ceb2e7a8170a085d762b1c0760c7a20dbcba5",
+    "research_artifacts\\v3_robustness_20260810\\runs\\seed-20260813\\development\\train_complete_specs.jsonl": "066e9886220260131e84af280f82633cbdab76e32fb9947a7dc5964c7512af0c",
+    "research_artifacts\\v3_robustness_20260810\\runs\\seed-20260813\\release\\test_tasks.jsonl": "c7a1558d5740bed235d297b2f95cc4d7743c9c52f77260ca6c7ea5eea9919495",
+    "research_artifacts\\v3_robustness_20260810\\runs\\seed-20260813\\records\\episodes.jsonl": "975f250cf9cf9c6b497734b905d63b08527bac952586c813ca8c1d7135da8c4b"
+  },
+  "inputs_unchanged": true,
+  "record_count": 3600,
+  "exclusions": 0,
+  "model_fit_split": "train_only",
+  "common_model": "每个种子同一TypedRelationalModel(use_relations=True)",
+  "exact_abs_tolerance": 1e-09,
+  "engineering_tolerances": {
+    "available_length_mm": 10.0,
+    "available_width_mm": 10.0,
+    "available_height_mm": 10.0,
+    "transfer_time_s": 0.5,
+    "positioning_accuracy_mm": 0.05
+  },
+  "inference_scope": "预算8冻结关键集；排除直接正确字段",
+  "pairing": "规格内m50/m70平均，TR-MLA与全部9个历史基线；每种子6指标×9基线同族Holm",
+  "bootstrap_replicates": 10000,
+  "bootstrap_seed": "对应历史种子，顺序固定",
+  "old_metrics_policy": "所有原metrics以raw_前缀原样保留，不覆盖历史工件"
+}
