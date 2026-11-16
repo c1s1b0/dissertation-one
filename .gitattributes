@@ -1,0 +1,3 @@
+# Preserve the original bytes of frozen experimental assets.
+/.gitattributes text eol=lf
+TR-MLA/** -text

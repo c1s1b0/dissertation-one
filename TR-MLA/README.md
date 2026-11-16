@@ -2,6 +2,12 @@
 
 本仓库提供 Typed Relational Marginal Lookahead（TR-MLA）的研究代码、合成基准、实验轨迹与评估工具。研究对象是在有限查询预算下获取缺失的机械设计需求。
 
+## 版本说明（2026-11-16）
+
+本包对应 CMES-91309 第二轮修订（2026-10-29）的实验材料。第二轮修订调整了评价结果的呈现和论证，没有新增实验或更改冻结算法、配置和原始记录。修订后的主证据为三种子 DCRR/共同模型 RCRR（`research_artifacts/reviewer_supplement_20261009/summary/`）；历史策略专属 CRR 不与共同评价结果混用。终末查询诊断（`research_artifacts/reviewer_supplement_20261009/terminal_diagnostic/`）复用前七问、只在第八问选择关系贪心，恢复率接近完整关系贪心策略，但回答成本增加。这不代表发布代码的默认策略已改为预算感知，也不证明两步前瞻总体占优。
+
+如果以此包更新 GitHub，请将 `TR-MLA/` 放在仓库根目录并在根 `.gitattributes` 中保留 `TR-MLA/** -text`。该规则避免 Git 转换冻结文件的换行；如已有属性规则，合并该行并让它对该目录生效。上传后用目标提交的新检出运行 `TR-MLA/scripts/verify_release_files.py`，再按下文运行便携核验。历史协议中的绝对路径仅用于记录原实验，不应改写其中的字节。
+
 ## 内容
 
 | 路径 | 内容 |
